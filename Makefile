@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/03/25 15:54:06 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/03/25 16:25:35 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -66,12 +66,10 @@ SUFFIX			=
 #									#
 #####################################
 
-all:					mandatory bonus
-${NAME}:				mandatory
-
-mandatory:				${EXECUTABLES}
-bonus:					
-			${SILENT} make ${addsuffix _bonus, ${EXECUTABLES}} DATA_SIZE=16 SUFFIX=_bonus SUB_DIR=bonus/ 
+all:					mandatory #bonus#
+mandatory:				${OBJECTS_DIR} ${NAME}
+bonus:					${OBJECTS_DIR}
+			${SILENT} make ${addsuffix _bonus, ${NAME}} SUFFIX=_bonus SUB_DIR=bonus/ 
 re:						fclean all
 
 #####################################
@@ -82,13 +80,13 @@ re:						fclean all
 
 ${OBJECTS_DIR}%.o:	${SOURCES_DIR}${SUB_DIR}%.c
 			${SILENT} echo  "\033[K\rCreating \"${@F:.c=.o}\".\c"
-			${SILENT} ${CC} ${FLAGS} -c $< -o ${OBJECTS_FOLDER}${@F:.c=.o}
+			${SILENT} ${CC} ${CC_FLAGS} -c $< -o ${OBJECTS_DIR}${@F:.c=.o}
 			${SILENT} sleep ${SLEEP_TIME}
 
 ${LIBRARIES}:		
 			${SILENT} make -C $(@D)
 
-${EXECUTABLES}:			${OBJECTS_DIR} ${OBJECTS} ${LIBRARIES}
+${NAME}${SUFFIX}:			${OBJECTS} ${LIBRARIES}
 			${SILENT} echo "\r\"$@\" executable created\033[K"
 			${SILENT} ${CC} $^ -o $@
 			${SILENT} sleep ${SLEEP_TIME}
