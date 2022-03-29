@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/03/25 16:25:35 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/03/29 10:29:48 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,7 +47,7 @@ EXECUTABLES		=	${NAME} #Modify if other executables needed#
 #####################################
 
 CC				=	gcc
-CC_FLAGS		=	-Wall -Werror -Wextra -Iincludes 
+# CC_FLAGS		=	-Wall -Werror -Wextra -Iincludes 
 RM				=	rm -f
 SLEEP_TIME		=	0.3
 SILENT			=	@
