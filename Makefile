@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/03/29 10:29:48 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/03/29 14:07:55 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,8 +35,8 @@ LIB_DIR			=	libraries/
 #									#
 #####################################
 
-SOURCES			=	${NAME}.c#Files to compile#
-OBJECTS 		=	${OBJECTS_DIR}${SOURCES:.c=.o}
+SOURCES			=	push_swap_utils.c push_swap.c 
+OBJECTS 		=	${addprefix ${OBJECTS_DIR}, ${SOURCES:.c=.o}}
 LIBRARIES		=	#Libraries needed#
 EXECUTABLES		=	${NAME} #Modify if other executables needed#
 
@@ -47,7 +47,7 @@ EXECUTABLES		=	${NAME} #Modify if other executables needed#
 #####################################
 
 CC				=	gcc
-# CC_FLAGS		=	-Wall -Werror -Wextra -Iincludes 
+CC_FLAGS		=	-Iincludes
 RM				=	rm -f
 SLEEP_TIME		=	0.3
 SILENT			=	@
@@ -86,9 +86,9 @@ ${OBJECTS_DIR}%.o:	${SOURCES_DIR}${SUB_DIR}%.c
 ${LIBRARIES}:		
 			${SILENT} make -C $(@D)
 
-${NAME}${SUFFIX}:			${OBJECTS} ${LIBRARIES}
+${NAME}${SUFFIX}:		${OBJECTS} ${LIBRARIES}
 			${SILENT} echo "\r\"$@\" executable created\033[K"
-			${SILENT} ${CC} $^ -o $@
+			${SILENT} ${CC} $? -o $@
 			${SILENT} sleep ${SLEEP_TIME}
 
 #####################################

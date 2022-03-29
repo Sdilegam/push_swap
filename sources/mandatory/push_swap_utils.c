@@ -1,27 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap_utils                                    :+:      :+:    :+:   */
+/*   push_swap_utils.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/29 10:02:50 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/03/29 10:15:20 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/03/29 15:48:18 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-t_bool is_digit(char chara)
+t_bool	is_digit(char chara)
 {
-	if ('0' <= chara  && chara <= '9')
+	if ('0' <= chara && chara <= '9')
 		return (TRUE);
 	return (FALSE);
 }
 
-t_bool is_space(char chara)
+t_bool	is_space(char chara)
 {
-	if (chara != ' ')
+	if (chara == ' ')
+		return (TRUE);
+	return (FALSE);
+}
+
+t_bool	is_sign(char chara)
+{
+	if (chara == '-' || chara == '+')
 		return (TRUE);
 	return (FALSE);
 }
