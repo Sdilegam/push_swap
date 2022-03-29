@@ -18,7 +18,7 @@ void	error(void)
 	exit(1);
 }
 
-int parameters_handler(char *string)
+int	parameters_handler(char *string)
 {
 	long	number;
 	int		index;
