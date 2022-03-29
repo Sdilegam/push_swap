@@ -47,7 +47,7 @@ EXECUTABLES		=	${NAME} #Modify if other executables needed#
 #####################################
 
 CC				=	gcc
-CC_FLAGS		=	-Iincludes
+CC_FLAGS		=	-g -Iincludes
 RM				=	rm -f
 SLEEP_TIME		=	0.3
 SILENT			=	@

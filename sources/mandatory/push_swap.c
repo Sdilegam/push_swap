@@ -18,7 +18,7 @@ void	error(void)
 	exit(1);
 }
 
-int	parameters_handler(char *string)
+int parameters_handler(char *string)
 {
 	long	number;
 	int		index;
@@ -43,30 +43,29 @@ int	parameters_handler(char *string)
 	if (negative == TRUE)
 		number *= -1;
 	if (number > MAX_INT || number < MIN_INT)
-		error();
+		error ();
 	return (number);
 }
 
 void	are_parameters_ok(int argc, char *argv[])
 {
-	int	index;
+	int	number;
+	int	digit;
 
-	index = -1;
+	digit = -1;
+	number = 0;
 	if (argc < 2)
-	{
 		error();
-	}
-	while (*argv)
+	while (argv[++number])
 	{	
-		while (**argv)
+		while (argv[number][++digit])
 		{
-			if (is_digit(**argv) == FALSE && is_space(**argv) == FALSE)
+			if (is_digit(argv[number][digit]) == FALSE)
 			{
 				error();
 			}
-			(*argv)++;
 		}
-		argv++;
+		digit = -1;
 	}
 }
 
@@ -78,10 +77,13 @@ int	main(int argc, char *argv[])
 	index = 0;
 	are_parameters_ok(argc, argv);
 	stacks[0].length = argc - 1;
+	stacks[1].length = argc - 1;
 	stacks[0].stack = malloc (stacks[0].length);
+	stacks[1].stack = malloc (stacks[1].length);
 	while (++index != argc)
 	{
 		stacks[0].stack[index - 1] = parameters_handler(argv[index]);
+		stacks[1].stack[index - 1] = 0;
 	}
 	index = 0;
 	while (++index != argc)
