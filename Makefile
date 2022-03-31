@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/03/29 14:07:55 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/03/30 09:34:35 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,7 @@ LIB_DIR			=	libraries/
 #									#
 #####################################
 
-SOURCES			=	push_swap_utils.c push_swap.c 
+SOURCES			=	push_swap_utils.c push_swap.c  push_swap_moves.c
 OBJECTS 		=	${addprefix ${OBJECTS_DIR}, ${SOURCES:.c=.o}}
 LIBRARIES		=	#Libraries needed#
 EXECUTABLES		=	${NAME} #Modify if other executables needed#

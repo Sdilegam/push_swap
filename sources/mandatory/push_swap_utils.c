@@ -6,11 +6,32 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/29 10:02:50 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/03/29 18:20:20 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/03/30 11:40:50 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+
+void	print_stack(t_stack *stacks)
+{
+	int	index;
+
+	index = -1;
+	printf("A(%d): [", stacks->length);
+	while (++index < stacks->length)
+	{
+		printf("%d ", stacks->stack[index]);
+	}
+	index = -1;
+	stacks++;
+	printf("]\nB(%d): [", stacks->length);
+	while (++index < stacks->length)
+	{
+		printf("%d ", stacks->stack[index]);
+	}
+	printf("].\n");
+	stacks--;
+}
 
 t_bool	is_digit(char chara)
 {

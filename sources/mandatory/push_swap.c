@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 16:00:13 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/03/29 15:49:08 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/03/30 11:52:07 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,19 +77,25 @@ int	main(int argc, char *argv[])
 	index = 0;
 	are_parameters_ok(argc, argv);
 	stacks[0].length = argc - 1;
-	stacks[1].length = argc - 1;
-	stacks[0].stack = malloc (stacks[0].length);
-	stacks[1].stack = malloc (stacks[1].length);
+	stacks[1].length = 0;
+	stacks[0].stack = calloc(stacks[0].length, sizeof(int));
+	stacks[1].stack = calloc(stacks[1].length, sizeof(int));
 	while (++index != argc)
 	{
 		stacks[0].stack[index - 1] = parameters_handler(argv[index]);
-		stacks[1].stack[index - 1] = 0;
 	}
 	index = 0;
-	while (++index != argc)
+	print_stack(stacks);
+	while (stacks[0].length > 0)
 	{
-		printf ("%d\n", stacks[0].stack[index - 1]);
+		push(stacks, 1);
+		print_stack(stacks);
 	}
-	free (stacks[0].stack);
+	while (stacks[1].length > 0)
+	{
+		push(stacks, 0);
+		print_stack(stacks);
+	}
+	
 	return (0);
 }

@@ -9,12 +9,11 @@
         "type": "cppdbg",
         "request": "launch",
         "program": "${workspaceFolder}/push_swap",
-        "args": [1 2 3       4],
+        "args": [0 1 4 5 6 9 10],
         "cwd":".",
         "stopAtEntry": false,
         "launchCompleteCommand": "exec-run",
-        "MIMode": "gdb",
-        "miDebuggerPath": "gdb",
+        "MIMode": "lldb",
         "preLaunchTask" : "Build"
         
     }
