@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 16:00:13 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/03/30 11:52:07 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/03/31 16:33:58 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,13 +89,13 @@ int	main(int argc, char *argv[])
 	while (stacks[0].length > 0)
 	{
 		push(stacks, 1);
-		print_stack(stacks);
 	}
+	print_stack(stacks);
 	while (stacks[1].length > 0)
 	{
 		push(stacks, 0);
-		print_stack(stacks);
 	}
-	
+	print_stack(stacks);
+	print_stack(arrange_stack(stacks));
 	return (0);
 }

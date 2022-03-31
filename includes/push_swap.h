@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/29 10:10:20 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/03/30 10:42:20 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/03/31 16:31:10 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,8 @@ t_bool	is_space(char chara);
 void	rotate(t_stack *stacks, int id);
 void	reverse_rotate(t_stack *stacks, int id);
 void	swap(t_stack *stacks, int id);
-void	print_stack(t_stack *stacks);
 void	push(t_stack *stacks, int id);
+
+void	print_stack(t_stack *stacks);
+t_stack	arrange_stack(t_stack *stacks);
 #endif
