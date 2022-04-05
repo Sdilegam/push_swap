@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 16:00:13 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/03/31 16:33:58 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/04/05 21:57:43 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,7 @@ int	main(int argc, char *argv[])
 {
 	struct s_stack	stacks[2];
 	int				index;
+	
 
 	index = 0;
 	are_parameters_ok(argc, argv);
@@ -81,21 +82,16 @@ int	main(int argc, char *argv[])
 	stacks[0].stack = calloc(stacks[0].length, sizeof(int));
 	stacks[1].stack = calloc(stacks[1].length, sizeof(int));
 	while (++index != argc)
-	{
 		stacks[0].stack[index - 1] = parameters_handler(argv[index]);
-	}
 	index = 0;
 	print_stack(stacks);
 	while (stacks[0].length > 0)
-	{
 		push(stacks, 1);
-	}
 	print_stack(stacks);
 	while (stacks[1].length > 0)
-	{
 		push(stacks, 0);
-	}
 	print_stack(stacks);
-	print_stack(arrange_stack(stacks));
+	stacks[0] = arrange_stack(stacks);
+	print_stack(stacks);
 	return (0);
 }
