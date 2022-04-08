@@ -5,45 +5,59 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/03/31 08:18:19 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/04/05 22:04:39 by sdi-lega         ###   ########.fr       */
+/*   Created: 2022/04/08 13:51:11 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/04/08 15:55:43 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	copy(int **stack_to, int *stack_from, int length)
+t_bool	in_stack(int element, t_stack stack)
 {
 	int	index;
 
 	index = -1;
-	while (++index < length)
-		(*stack_to)[index] = stack_from[index];
+	while (++index < stack.length)
+		if (element == stack.stack[index])
+			return (index + 1);
+	return (0);
 }
 
-t_stack	arrange_stack(t_stack *stacks)
+int	sort(t_stack *stacks, t_stack landmark)
 {
-	t_stack	sort_a;
-	int		index;
-	int		temp;
+	int	index;
+	int	index2;
+	int	reverse_index;
+	int	etalon;
 
+	reverse_index = 1;
 	index = -1;
-	sort_a.length = stacks->length;
-	sort_a.stack = malloc (stacks->length);
-	copy(&(sort_a.stack), stacks->stack, stacks->length);
-	sort_a.length = stacks->length;
-	while (++index < stacks->length - 1)
+	index2 = -1;
+	while (++index < landmark.length)
 	{
-		if (sort_a.stack[index] > sort_a.stack[index + 1])
+		etalon = in_stack(landmark.stack[index], stacks[0]);
+		if (etalon)
 		{
-			while (index >= 0 && sort_a.stack[index] > sort_a.stack[index + 1])
+			while (index2 < etalon)
 			{
-				temp = sort_a.stack[index];
-				sort_a.stack[index] = sort_a.stack[index + 1];
-				sort_a.stack[index + 1] = temp;
-				index --;
+				while (stacks->stack[0] == landmark.stack[landmark.length - reverse_index])
+				{
+					push(stacks, 1);
+					printf("pb\n");
+					rotate(stacks, 1);
+					printf("rb\n");
+					index2 ++;
+					reverse_index ++;
+				}
+				if (index2 < etalon)
+				{
+					rotate(stacks, 0);
+					printf("ra\n");
+					index2 ++;
+				}
 			}
+			index2 = -1;
 		}
 	}
-	return (sort_a);
+	return (0);
 }

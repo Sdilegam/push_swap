@@ -1,0 +1,120 @@
+import random as rand
+
+def s(a) :
+    if len(a) >= 2 :
+        tmp = a[1]
+        a[1] = a[0]
+        a[0] = tmp
+    return a
+
+def p(a,b) :
+    if len(a) > 0 :
+        tmp = []
+        for i in range(len(b)+1):
+            if i == 0:
+                tmp.append(a[0])
+            else :
+                tmp.append(b[i-1])
+        for i in range(len(a)-1):
+            a[i]=a[i+1]
+        a.pop(len(a)-1)
+    return a, tmp
+        
+def r(a):
+    tmp = a[0] 
+    for i in range(len(a)-1):
+        a[i] = a[i+1]
+    a[len(a)-1] = tmp
+    return a
+
+def rr(a):
+    tmp = a[len(a)-1]
+    tmp1 = a[0]
+    for i in range(0,len(a)-1):
+        tmp2 = a[i+1]
+        a[i+1] = tmp1
+        tmp1 = tmp2
+    a[0] = tmp
+    return a
+
+def	show(a, b):
+	print(f"a: {a}")
+	print(f"b: {b}\n")
+
+if __name__ == "__main__":
+
+	a = rand.sample(range(100), 100)
+		
+	sorted_a = a.copy()
+	sorted_a.sort()
+	sorted_tkt = sorted_a.copy()
+
+	b = []
+	count, j, i = 0, 0, 0
+	
+	for i in range(len(sorted_a)):
+		if sorted_a[i] in a:
+			if (len(a) - a.index(sorted_a[i]) >  a.index(sorted_a[i])) :
+				temp4 = a.index(sorted_a[i])
+				while j < temp4:
+					while a[0] == sorted_tkt[-1]:
+						count += 2
+						a, b = p(a,b)
+						print(f"pb")
+						b = r(b)
+						print(f"rb")
+						sorted_tkt.pop()
+						j += 1
+					if j < temp4:
+						count += 1
+						a = r(a)
+						print(f"ra")
+						j += 1
+				j = 0
+			else :
+				temp4 = len(a) - a.index(sorted_a[i])
+				while j < temp4:
+					if a[0] == sorted_tkt[-1]:
+						count += 2
+						a, b = p(a,b)
+						print(f"pb")
+						b = r(b)
+						print(f"rb")
+						sorted_tkt.pop()
+					if j < temp4:
+						count += 1
+						a = rr(a)
+						print(f"rra")
+						j += 1
+				j = 0
+
+		# check = a.copy()
+		# check.sort()
+		# if a == check :
+		# 	break
+		
+			count += 1
+			a, b = p(a,b)
+			print(f"pb")
+		
+
+		# print(f"count: {count}")
+		# print(f"sorted_a = {sorted_a}")
+
+	if b[0] != sorted_a[-1]:
+		if (len(b) - b.index(sorted_a[-1]) >  b.index(sorted_a[-1])):
+			for k in range(b.index(sorted_a[-1])):
+				b = r(b)
+		else:
+			for k in range(len(b) - b.index(sorted_a[-1])):
+				rr(b)
+
+	for i in range(len(b)):
+		count += 1
+		b, a = p(b,a)
+		print(f"pa")
+		
+	print(f"count: {count}")
+	# print(f"sorted_a = {sorted_a}")
+	# print(f"a: {a}")
+	print(f"a: {sorted_a == a}")

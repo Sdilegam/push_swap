@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 16:00:13 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/04/05 21:57:43 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/04/08 14:41:23 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	error(void)
 {
-	write(2, "Error\ni", 6);
+	write(2, "Error\n", 6);
 	exit(1);
 }
 
@@ -69,29 +69,40 @@ void	are_parameters_ok(int argc, char *argv[])
 	}
 }
 
+t_stack	*stacks_init(int length, char **parameters)
+{
+	t_stack	*stacks;
+	int		index;
+
+	index = 0;
+	stacks = malloc(2 * sizeof(t_stack));
+	if (!stacks)
+		exit (1);
+	stacks[0].length = length;
+	stacks[0].stack = malloc(stacks[0].length * sizeof(int));
+	if (!stacks[0].stack)
+		exit (1);
+	while (++index != length + 1)
+		stacks[0].stack[index - 1] = parameters_handler(parameters[index]);
+	stacks[1].length = 0;
+	stacks[1].stack = calloc(stacks[1].length, sizeof(int));
+	if (!stacks[1].stack)
+		exit (1);
+	return (stacks);
+}
+
 int	main(int argc, char *argv[])
 {
-	struct s_stack	stacks[2];
-	int				index;
-	
+	t_stack	*stacks;
+	t_stack	sorted_stack;
+	int		index;
 
 	index = 0;
 	are_parameters_ok(argc, argv);
-	stacks[0].length = argc - 1;
-	stacks[1].length = 0;
-	stacks[0].stack = calloc(stacks[0].length, sizeof(int));
-	stacks[1].stack = calloc(stacks[1].length, sizeof(int));
-	while (++index != argc)
-		stacks[0].stack[index - 1] = parameters_handler(argv[index]);
-	index = 0;
+	stacks = stacks_init(argc - 1, argv);
+	sorted_stack = arrange_stack(stacks);
 	print_stack(stacks);
-	while (stacks[0].length > 0)
-		push(stacks, 1);
-	print_stack(stacks);
-	while (stacks[1].length > 0)
-		push(stacks, 0);
-	print_stack(stacks);
-	stacks[0] = arrange_stack(stacks);
+	sort(stacks, sorted_stack);
 	print_stack(stacks);
 	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 09:11:44 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/03/30 11:52:25 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/04/05 22:59:24 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	rotate(t_stack *stacks, int id)
 	int	index;
 
 	temp = stacks[id].stack[0];
-	index = - 1;
+	index = -1;
 	printf("r%c\n", 'a' + id);
 	while (++index < stacks[id].length - 1)
 		stacks[id].stack[index] = stacks[id].stack[index + 1];

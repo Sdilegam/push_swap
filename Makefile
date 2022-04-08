@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/04/05 21:51:30 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/04/08 14:17:14 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,7 @@ LIB_DIR			=	libraries/
 #									#
 #####################################
 
-SOURCES			=	push_swap_utils.c push_swap.c  push_swap_moves.c sort.c
+SOURCES			=	push_swap_utils.c push_swap.c  push_swap_moves.c sort.c landmark.c
 OBJECTS 		=	${addprefix ${OBJECTS_DIR}, ${SOURCES:.c=.o}}
 LIBRARIES		=	#Libraries needed#
 EXECUTABLES		=	${NAME} #Modify if other executables needed#
@@ -47,10 +47,10 @@ EXECUTABLES		=	${NAME} #Modify if other executables needed#
 #####################################
 
 CC				=	gcc
-CC_FLAGS		=	-g -Iincludes
+CC_FLAGS		=	-g -Iincludes -Wall -Wextra -Werror
 RM				=	rm -f
 SLEEP_TIME		=	0.3
-SILENT			=	@
+SILENT			=	
 SUFFIX			=	
 
 
@@ -88,7 +88,7 @@ ${LIBRARIES}:
 
 ${NAME}${SUFFIX}:		${OBJECTS} ${LIBRARIES}
 			${SILENT} echo "\r\"$@\" executable created\033[K"
-			${SILENT} ${CC} $? -o $@
+			${SILENT} ${CC} ${CC_FLAGS} $? -o $@
 			${SILENT} sleep ${SLEEP_TIME}
 
 #####################################

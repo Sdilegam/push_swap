@@ -14,8 +14,10 @@
         "stopAtEntry": false,
         "launchCompleteCommand": "exec-run",
         "MIMode": "lldb",
-        "preLaunchTask" : "Build"
-        
+        "preLaunchTask" : "Build",
+		// "avoidWindowsConsoleRedirection": true,
+		"externalConsole": true,
+		"filterStdout": false
     }
 
     ]
