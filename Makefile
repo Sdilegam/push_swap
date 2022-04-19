@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/04/08 14:17:14 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/04/11 10:34:33 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,8 +27,7 @@ NAME			=	push_swap
 SOURCES_DIR		=	sources/
 SUB_DIR			=	mandatory/
 OBJECTS_DIR		=	${SOURCES_DIR}${SUB_DIR}objects/
-LIB_DIR			=	libraries/
-
+LIB_DIR			=	libraries
 #####################################
 #									#
 #			Sources & objects		#
