@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/04/25 18:15:57 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/04/25 18:47:06 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,13 +24,14 @@ NAME				=	push_swap
 #									#
 #####################################
 
+
 #Common#
 COMN_DIR			=	sources/common/
-COMN_OBJ_DIR		=	${COMMON_DIR}objects/
+COMN_OBJ_DIR		=	${COMN_DIR}objects/
 
 #Mandatory#
 MANDA_DIR			=	sources/mandatory/
-MANDA_OBJ_DIR		=	${MANDATORY_DIR}objects/
+MANDA_OBJ_DIR		=	${MANDA_DIR}objects/
 
 #Bonus#
 BONUS_DIR			=	sources/bonus/
@@ -49,13 +50,13 @@ LIB_DIR		=	libraries/
 COMN_SRCS			=	push_swap_moves.c\
 						\
 
-COMN_OBJS			=	${addprefix ${COMN_OBJ_DIR}, ${COMN_SOURCES:.c=.o}}
+COMN_OBJS			=	${addprefix ${COMN_OBJ_DIR}, ${COMN_SRCS:.c=.o}}
 COMN_LIBS			=	#Libs for comon sources
 
 #Mandatory#
 MANDA_SRCS			=	\
 
-MANDA_OBJS			=	${addprefix ${MANDA_OBJ_DIR}, ${MANDA_SOURCES:.c=.o}}
+MANDA_OBJS			=	${addprefix ${MANDA_OBJ_DIR}, ${MANDA_SRCS:.c=.o}}
 MANDA_LIBS			=	${COMN_LIBS}#Libs for mandatory sources
 
 #Bonus#
