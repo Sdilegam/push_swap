@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 16:00:13 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/04/08 14:41:23 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/04/26 16:02:17 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,35 +16,6 @@ void	error(void)
 {
 	write(2, "Error\n", 6);
 	exit(1);
-}
-
-int	parameters_handler(char *string)
-{
-	long	number;
-	int		index;
-	t_bool	negative;
-
-	if (!string)
-		return (0);
-	negative = FALSE;
-	number = 0;
-	index = -1;
-	if (is_sign(string[++index]) == TRUE)
-	{
-		index ++;
-		negative = TRUE;
-	}
-	index --;
-	while (string[++index])
-	{
-		number *= 10;
-		number += string[index] - '0';
-	}
-	if (negative == TRUE)
-		number *= -1;
-	if (number > MAX_INT || number < MIN_INT)
-		error ();
-	return (number);
 }
 
 void	are_parameters_ok(int argc, char *argv[])

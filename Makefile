@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/04/25 18:47:06 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/04/26 15:00:17 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -48,7 +48,8 @@ LIB_DIR		=	libraries/
 
 #Common#
 COMN_SRCS			=	push_swap_moves.c\
-						\
+						push_swap_utils.c\
+						test.c\
 
 COMN_OBJS			=	${addprefix ${COMN_OBJ_DIR}, ${COMN_SRCS:.c=.o}}
 COMN_LIBS			=	#Libs for comon sources
