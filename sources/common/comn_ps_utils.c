@@ -6,11 +6,11 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/29 10:02:50 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/04/05 21:54:43 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/04/28 10:12:08 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "comn_index.h"
 
 void	print_stack(t_stack *stacks)
 {
