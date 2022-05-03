@@ -6,9 +6,11 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/26 14:58:59 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/04/26 14:59:11 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/04/28 11:00:49 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "comn_index.h"
 
 int	parameters_handler(char *string)
 {
