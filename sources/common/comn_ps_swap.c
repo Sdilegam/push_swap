@@ -1,42 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   test.c                                             :+:      :+:    :+:   */
+/*   comn_ps_swap.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/26 14:58:59 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/04/28 11:00:49 by sdi-lega         ###   ########.fr       */
+/*   Created: 2022/03/30 09:11:44 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/05/04 11:12:11 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "comn_index.h"
 
-int	parameters_handler(char *string)
+void	swap(t_stack *stacks, int id)
 {
-	long	number;
-	int		index;
-	t_bool	negative;
+	int	temp;
 
-	if (!string)
-		return (0);
-	negative = FALSE;
-	number = 0;
-	index = -1;
-	if (is_sign(string[++index]) == TRUE)
-	{
-		index ++;
-		negative = TRUE;
-	}
-	index --;
-	while (string[++index])
-	{
-		number *= 10;
-		number += string[index] - '0';
-	}
-	if (negative == TRUE)
-		number *= -1;
-	if (number > MAX_INT || number < MIN_INT)
-		error ();
-	return (number);
+	temp = stacks[id].stack[0];
+	stacks[id].stack[0] = stacks[id].stack[1];
+	stacks[id].stack[1] = temp;
+	return ;
+}
+
+void	swap_both(t_stack *stacks)
+{
+	swap(stacks, 0);
+	swap(stacks, 1);
 }

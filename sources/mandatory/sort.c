@@ -6,32 +6,12 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/08 13:51:11 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/04/11 09:33:54 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/04 11:24:47 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-t_bool	in_stack(int element, t_stack stack)
-{
-	int	index;
-
-	index = -1;
-	while (++index < stack.length)
-		if (element == stack.stack[index])
-			return (index + 1);
-	return (0);
-}
-
-int	sort(t_stack *stacks, t_stack landmark)
-{
-	int	index;
-	int	index2;
-	int	reverse_index;
-	int	etalon;
-
-	return (0);
-}
 // int	sort(t_stack *stacks, t_stack landmark)
 // {
 // 	int	index;

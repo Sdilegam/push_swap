@@ -1,44 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap.c                                        :+:      :+:    :+:   */
+/*   comn_ps_stacks_init.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/03/25 16:00:13 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/04/26 16:02:17 by sdi-lega         ###   ########.fr       */
+/*   Created: 2022/05/04 11:26:16 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/05/04 11:26:40 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
-
-void	error(void)
-{
-	write(2, "Error\n", 6);
-	exit(1);
-}
-
-void	are_parameters_ok(int argc, char *argv[])
-{
-	int	number;
-	int	digit;
-
-	digit = -1;
-	number = 0;
-	if (argc < 2)
-		error();
-	while (argv[++number])
-	{	
-		while (argv[number][++digit])
-		{
-			if (is_digit(argv[number][digit]) == FALSE)
-			{
-				error();
-			}
-		}
-		digit = -1;
-	}
-}
+#include "comn_index.h"
 
 t_stack	*stacks_init(int length, char **parameters)
 {
@@ -60,20 +32,4 @@ t_stack	*stacks_init(int length, char **parameters)
 	if (!stacks[1].stack)
 		exit (1);
 	return (stacks);
-}
-
-int	main(int argc, char *argv[])
-{
-	t_stack	*stacks;
-	t_stack	sorted_stack;
-	int		index;
-
-	index = 0;
-	are_parameters_ok(argc, argv);
-	stacks = stacks_init(argc - 1, argv);
-	sorted_stack = arrange_stack(stacks);
-	print_stack(stacks);
-	sort(stacks, sorted_stack);
-	print_stack(stacks);
-	return (0);
 }

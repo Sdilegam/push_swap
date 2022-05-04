@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/28 10:20:40 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/04/28 11:06:32 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/04 11:15:56 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,4 +22,5 @@ t_bool	is_space(char chara);
 
 t_bool	is_sign(char chara);
 
+t_bool	is_in_stack(int element, t_stack stack);
 #endif

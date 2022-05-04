@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap_utils.c                                  :+:      :+:    :+:   */
+/*   comn_ps_utils.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/29 10:02:50 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/04/28 10:12:08 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/04 11:15:48 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,4 +56,15 @@ t_bool	is_sign(char chara)
 	if (chara == '-' || chara == '+')
 		return (TRUE);
 	return (FALSE);
+}
+
+t_bool	is_in_stack(int element, t_stack stack)
+{
+	int	index;
+
+	index = -1;
+	while (++index < stack.length)
+		if (element == stack.stack[index])
+			return (index + 1);
+	return (0);
 }

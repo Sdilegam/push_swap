@@ -1,28 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   comn_ps_moves.h                                    :+:      :+:    :+:   */
+/*   manda_ps_print_swap.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/28 09:57:08 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/04 11:13:51 by sdi-lega         ###   ########.fr       */
+/*   Created: 2022/03/30 09:11:44 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/05/04 11:27:07 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef COMN_PS_MOVES_H
-# define COMN_PS_MOVES_H
-# include "comn_index.h"
+#include "manda_index.h"
 
-void	push(t_stack *stacks, int id);
+void	print_swap(t_stack *stacks, int id)
+{
+	ft_printf("s%c\n", 'a' + id);
+	swap(stacks, id);
+}
 
-void	rotate(t_stack *stacks, int id);
-void	rotate_both(t_stack *stacks);
+void	print_swap_both(t_stack *stacks)
+{
+	ft_printf("ss\n");
+	swap_both(stacks)
+}
 
-void	rev_rotate(t_stack *stacks, int id);
-void	rev_rotate_both(t_stack *stacks);
-
-void	swap(t_stack *stacks, int id);
-void	swap_both(t_stack *stacks);
-
-#endif
