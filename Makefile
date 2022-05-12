@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/04/26 15:00:17 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/05/12 08:24:39 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,15 +47,28 @@ LIB_DIR		=	libraries/
 #####################################
 
 #Common#
-COMN_SRCS			=	push_swap_moves.c\
-						push_swap_utils.c\
-						test.c\
+COMN_SRCS			=	ps_errors.c\
+						ps_handle_parameters.c\
+						ps_push.c\
+						ps_rotate.c\
+						ps_stacks_init.c\
+						ps_swap.c\
+						ps_utils.c\
+						#ps_.c\
+						ps_.c\
+						ps_.c\
+						ps_.c\
 
 COMN_OBJS			=	${addprefix ${COMN_OBJ_DIR}, ${COMN_SRCS:.c=.o}}
-COMN_LIBS			=	#Libs for comon sources
+COMN_LIBS			=	ft_printf/libftprintf.a#Libs for common sources
 
 #Mandatory#
-MANDA_SRCS			=	\
+MANDA_SRCS			=	ps_print_push.c\
+						ps_print_rotate.c\
+						ps_landmark.c\
+						ps_print_swap.c\
+						push_swap.c\
+						ps_sort_algorithm.c\
 
 MANDA_OBJS			=	${addprefix ${MANDA_OBJ_DIR}, ${MANDA_SRCS:.c=.o}}
 MANDA_LIBS			=	${COMN_LIBS}#Libs for mandatory sources
@@ -64,7 +77,7 @@ MANDA_LIBS			=	${COMN_LIBS}#Libs for mandatory sources
 BONUS_SRCS			=	\
 
 BONUS_OBJS			=	${addprefix ${BONUS_OBJ_DIR}, ${BONUS_SRCS:.c=.o}}
-BONUS_LIBS			=	${COMN_LIBS}#Libs for bonus sources
+BONUS_LIBS			=	#Libs for bonus sources
 
 ALL_LIBS			=	${COMN_LIBS} ${MANDA_LIBS} ${BONUS_LIBS}
 DEPENDS				=	${OBJECTS:.o=.d} ${BONUS_OBJECTS:.o=.d} ${COMN_OBJECTS:.o=.d}
@@ -84,7 +97,7 @@ BONUS_INCLUDE		=	-I${BONUS_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},$
 CC_FLAGS			=	${COMN_INCLUDE} -MMD -Wall -Werror -Wextra
 RM					=	rm -f
 SLEEP_TIME			=	0.2
-SILENT				=	@
+SILENT				=	
 
 ################################################################################
 #																			   #
@@ -126,8 +139,8 @@ ${BONUS_OBJ_DIR}%.o:	${addprefix ${BONUS_DIR}, %.c}
 			${SILENT} ${CC} ${CC_FLAGS} ${BONUS_INCLUDE} -c $< -o ${BONUS_OBJ_DIR}${@F:.c=.o}
 			@ sleep ${SLEEP_TIME}
 			
-#LIBS#	
-${addprefix ${LIB_DIR}, ${ALL_LIBS}}:		
+#LIBS#
+${addprefix ${LIB_DIR}, ${ALL_LIBS}}:
 			@ echo  "\rCreating \"${notdir $@}\".\033[K\c"
 			${SILENT} make -sC $(@D)
 			@ echo "\rLibrary \"${notdir $@}\" created\033[K"

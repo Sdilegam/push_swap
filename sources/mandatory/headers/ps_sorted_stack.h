@@ -1,26 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   manda_ps_print_swap.c                              :+:      :+:    :+:   */
+/*   ps_sorted_Stack.h                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/03/30 09:11:44 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/04 11:27:07 by sdi-lega         ###   ########.fr       */
+/*   Created: 2022/05/12 07:44:25 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/05/12 08:00:59 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "manda_index.h"
+#ifndef PS_SORTED_STACK_H
+# define PS_SORTED_STACK_H
 
-void	print_swap(t_stack *stacks, int id)
-{
-	ft_printf("s%c\n", 'a' + id);
-	swap(stacks, id);
-}
+void	copy_stack(int **stack_to, int *stack_from, int length);
+t_stack	arrange_stack(t_stack *stacks);
 
-void	print_swap_both(t_stack *stacks)
-{
-	ft_printf("ss\n");
-	swap_both(stacks)
-}
-
+#endif /* PS_SORTED_STACK_H */

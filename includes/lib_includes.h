@@ -1,29 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   comn_ps_swap.c                                     :+:      :+:    :+:   */
+/*   lib_includes.h                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/03/30 09:11:44 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/04 11:12:11 by sdi-lega         ###   ########.fr       */
+/*   Created: 2022/05/12 07:29:24 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/05/12 07:42:04 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "comn_index.h"
+#ifndef LIB_INCLUDES_H
+# define LIB_INCLUDES_H
 
-void	swap(t_stack *stacks, int id)
-{
-	int	temp;
+# include <unistd.h>
+# include <stdlib.h>
+# include <stdio.h>
 
-	temp = stacks[id].stack[0];
-	stacks[id].stack[0] = stacks[id].stack[1];
-	stacks[id].stack[1] = temp;
-	return ;
-}
+# include "ft_printf.h"
 
-void	swap_both(t_stack *stacks)
-{
-	swap(stacks, 0);
-	swap(stacks, 1);
-}
+#endif /* LIB_INCLUDES_H */

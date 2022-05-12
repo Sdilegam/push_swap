@@ -1,24 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   type_definition.h                                  :+:      :+:    :+:   */
+/*   ps_print_swap.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/28 09:55:27 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/12 07:54:57 by sdi-lega         ###   ########.fr       */
+/*   Created: 2022/03/30 09:11:44 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/05/12 07:42:29 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef TYPE_DEFINITION_H
-# define TYPE_DEFINITION_H
+#include "manda_index.h"
 
-typedef struct s_stack
+void	print_swap(t_stack *stacks, int id)
 {
-	int	*stack;
-	int	length;
-}	t_stack;
+	ft_printf("s%c\n", 'a' + id);
+	swap(stacks, id);
+}
 
-typedef int	t_bool;
+void	print_swap_both(t_stack *stacks)
+{
+	ft_printf("ss\n");
+	swap_both(stacks);
+}
 
-#endif

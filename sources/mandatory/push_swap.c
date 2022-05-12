@@ -1,24 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   type_definition.h                                  :+:      :+:    :+:   */
+/*   push_swap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/28 09:55:27 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/12 07:54:57 by sdi-lega         ###   ########.fr       */
+/*   Created: 2022/03/25 16:00:13 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/05/12 10:27:06 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef TYPE_DEFINITION_H
-# define TYPE_DEFINITION_H
+#include "manda_index.h"
 
-typedef struct s_stack
+int	main(int argc, char *argv[])
 {
-	int	*stack;
-	int	length;
-}	t_stack;
+	t_stack	*stacks;
+	// t_stack	sorted_stack;
+	int		index;
 
-typedef int	t_bool;
+	index = 0;
+	are_parameters_ok(argc, argv);
+	stacks = stacks_init(argc - 1, argv);
+	// sorted_stack = arrange_stack(stacks);
+	// push(stacks, 1);
 
-#endif
+	sort(stacks);
+	return (0);
+}
