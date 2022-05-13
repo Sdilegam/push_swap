@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   landmark.c                                         :+:      :+:    :+:   */
+/*   ps_sorted_stack.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 08:18:19 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/04 13:07:47 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/13 15:52:36 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "manda_index.h"
 
 void	copy_stack(int **stack_to, int *stack_from, int length)
 {

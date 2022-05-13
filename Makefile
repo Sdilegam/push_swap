@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/05/12 08:24:39 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/05/13 16:05:47 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -65,10 +65,10 @@ COMN_LIBS			=	ft_printf/libftprintf.a#Libs for common sources
 #Mandatory#
 MANDA_SRCS			=	ps_print_push.c\
 						ps_print_rotate.c\
-						ps_landmark.c\
 						ps_print_swap.c\
-						push_swap.c\
 						ps_sort_algorithm.c\
+						ps_sorted_stack.c\
+						push_swap.c\
 
 MANDA_OBJS			=	${addprefix ${MANDA_OBJ_DIR}, ${MANDA_SRCS:.c=.o}}
 MANDA_LIBS			=	${COMN_LIBS}#Libs for mandatory sources
@@ -80,7 +80,7 @@ BONUS_OBJS			=	${addprefix ${BONUS_OBJ_DIR}, ${BONUS_SRCS:.c=.o}}
 BONUS_LIBS			=	#Libs for bonus sources
 
 ALL_LIBS			=	${COMN_LIBS} ${MANDA_LIBS} ${BONUS_LIBS}
-DEPENDS				=	${OBJECTS:.o=.d} ${BONUS_OBJECTS:.o=.d} ${COMN_OBJECTS:.o=.d}
+DEPENDS				=	${MANDA_OBJS:.o=.d} ${BONUS_OBJS:.o=.d} ${COMN_OBJS:.o=.d}
 EXECUTABLES			=	${NAME} ${NAME}_bonus #Modify if other executables needed#
 
 #####################################
@@ -167,7 +167,7 @@ ${NAME}_bonus:			${BONUS_OBJECTS_DIR} ${addprefix ${LIB_DIR}, $b}}${COMN_OBJS} $
 
 clean:
 			@ echo "\rRemoving objects files (${notdir ${COMN_OBJS}} ${notdir ${MANDA_OBJS}}).\033[K\c"
-			${SILENT} ${RM} ${OBJECTS} ${COMN_OBJS} ${DEPENDS}
+			${SILENT} ${RM} ${OBJECTS} ${COMN_OBJS} ${MANDA_OBJS} ${DEPENDS}
 			@ sleep ${SLEEP_TIME}
 
 clean_bonus:
