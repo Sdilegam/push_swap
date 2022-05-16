@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/12 08:23:00 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/16 14:27:47 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/16 15:25:54 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 # define PS_SORT_ALGORITHM_H
 
 int	sort(t_stack *stacks);
+int	print_and_sort(t_stack *stacks);
 int find_best(t_stack *stacks);
+
 #endif /* PS_SORT_ALGORITHM_H */
