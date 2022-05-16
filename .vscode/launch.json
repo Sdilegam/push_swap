@@ -1,24 +1,14 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-    {
-        "name": "C++ Launch",
-        "type": "cppdbg",
-        "request": "launch",
-        "program": "${workspaceFolder}/push_swap",
-        "args": [0 1 4 5 6 9 10],
-        "cwd":".",
-        "stopAtEntry": false,
-        "launchCompleteCommand": "exec-run",
-        "MIMode": "lldb",
-        "preLaunchTask" : "Build",
-		// "avoidWindowsConsoleRedirection": true,
-		"externalConsole": true,
-		"filterStdout": false
-    }
-
-    ]
+	"configurations": [{
+		"name": "(lldb) Launch",
+		"type": "cppdbg",
+		"request": "launch",
+		"program": "${workspaceFolder}/push_swap",
+		"args": [3418 1186 285 6398 9759 2735 844 6840 957 7375 1441 1453 9832 8487 1952 919 8083 2175 6425 2760 7826 2855 8121 6734 739 7583 8097 7000 3421 7676 9391 6501 5956 9721 4067 4011 9026 8863 761 6592 3427 475 2927 953 2489 6216 5742 2176 1580 6481 5862 8826 4387 210 9615 3253 492 7198 1669 5606 5431 7517 2731 2270 5400 1758 5655 876 5482 9197 2016 9304 4779 1499 3384 2158 6853 818 9219 3926 3921 756 8034 5516 4254 8781 7684 9577 4977 2420 1410 3261 5411 132 7771 5829 5780 2609 9447 9344],
+		"stopAtEntry": false,
+		"cwd": "${workspaceFolder}",
+		"environment": [],
+		"externalConsole": false,
+		"MIMode": "lldb"
+	}]
 }

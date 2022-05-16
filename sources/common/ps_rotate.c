@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   comn_ps_rotate.c                                   :+:      :+:    :+:   */
+/*   ps_rotate.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 10:04:43 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/04 10:12:34 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/16 14:18:59 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "comn_index.h"
 
-void	rotate(t_stack *stacks, int id)
+int	rotate(t_stack *stacks, int id)
 {
 	int	temp;
 	int	index;
@@ -22,16 +22,17 @@ void	rotate(t_stack *stacks, int id)
 	while (++index < stacks[id].length - 1)
 		stacks[id].stack[index] = stacks[id].stack[index + 1];
 	stacks[id].stack[index] = temp;
-	return ;
+	return (1);
 }
 
-void	rotate_both(t_stack *stacks)
+int	rotate_both(t_stack *stacks)
 {
 	rotate(stacks, 0);
 	rotate(stacks, 1);
+	return (1);
 }
 
-void	rev_rotate(t_stack *stacks, int id)
+int_least32_t	rev_rotate(t_stack *stacks, int id)
 {
 	int	temp;
 	int	index;
@@ -41,11 +42,12 @@ void	rev_rotate(t_stack *stacks, int id)
 	while (--index > 0)
 		stacks[id].stack[index] = stacks[id].stack[index - 1];
 	stacks[id].stack[0] = temp;
-	return ;
+	return (1);
 }
 
-void	rev_rotate_both(t_stack *stacks)
+int	rev_rotate_both(t_stack *stacks)
 {
 	rev_rotate(stacks, 0);
 	rev_rotate(stacks, 1);
+	return (1);
 }

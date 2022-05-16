@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/05/13 16:05:47 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/05/16 13:00:01 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -124,19 +124,19 @@ bonus:				${NAME}_bonus
 #####################################
 
 #OBJECTS#
-${COMN_OBJ_DIR}%.o:	${addprefix ${COMN_DIR}, %.c}
+${COMN_OBJ_DIR}%.o:	${addprefix ${COMN_DIR}, %.c} 
 			@ echo  "\rCreating common \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${COMN_INCLUDE} -c $< -o ${COMN_OBJ_DIR}${@F:.c=.o}
+			${SILENT} ${CC} ${CC_FLAGS} ${COMN_INCLUDE} -c $< -o ${COMN_OBJ_DIR}${@F:.c=.o} -g
 			@ sleep ${SLEEP_TIME}
 			
 ${MANDA_OBJ_DIR}%.o:	${addprefix ${MANDA_DIR}, %.c}
 			@ echo  "\rCreating mandatory \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${MANDA_INCLUDE} -c $< -o ${MANDA_OBJ_DIR}${@F:.c=.o}
+			${SILENT} ${CC} ${CC_FLAGS} ${MANDA_INCLUDE} -c $< -o ${MANDA_OBJ_DIR}${@F:.c=.o} -g
 			@ sleep ${SLEEP_TIME}
 			
 ${BONUS_OBJ_DIR}%.o:	${addprefix ${BONUS_DIR}, %.c}
 			@ echo  "\rCreating bonus \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${BONUS_INCLUDE} -c $< -o ${BONUS_OBJ_DIR}${@F:.c=.o}
+			${SILENT} ${CC} ${CC_FLAGS} ${BONUS_INCLUDE} -c $< -o ${BONUS_OBJ_DIR}${@F:.c=.o} -g
 			@ sleep ${SLEEP_TIME}
 			
 #LIBS#
@@ -148,12 +148,12 @@ ${addprefix ${LIB_DIR}, ${ALL_LIBS}}:
 #EXECUTABLES#
 ${NAME}:				${OBJECTS_DIR} ${addprefix ${LIB_DIR}, ${MANDA_LIBS}} ${COMN_OBJS} ${MANDA_OBJS}
 			@ echo "\r\"$@\" executable created\033[K"
-			${SILENT} ${CC} ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${MANDA_LIBS}}}} ${COMN_OBJS} ${MANDA_OBJS} -o $@
+			${SILENT} ${CC} ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${MANDA_LIBS}}}} ${COMN_OBJS} ${MANDA_OBJS} -o $@ -g
 			@ sleep ${SLEEP_TIME}
 			
 ${NAME}_bonus:			${BONUS_OBJECTS_DIR} ${addprefix ${LIB_DIR}, $b}}${COMN_OBJS} ${BONUS_OBJS}
 			@ echo "\r\"$@\" executable created\033[K"
-			${SILENT} ${CC} ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${BONUS_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${BONUS_LIBS}}}} ${COMN_OBJS} ${BONUS_OBJS} -o $@
+			${SILENT} ${CC} ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${BONUS_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${BONUS_LIBS}}}} ${COMN_OBJS} ${BONUS_OBJS} -o $@ -g
 			@ sleep ${SLEEP_TIME}
 
 			

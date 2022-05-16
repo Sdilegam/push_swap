@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 16:00:13 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/12 10:27:06 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/16 14:28:02 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,6 @@ int	main(int argc, char *argv[])
 	// sorted_stack = arrange_stack(stacks);
 	// push(stacks, 1);
 
-	sort(stacks);
+	find_best(stacks);
 	return (0);
 }

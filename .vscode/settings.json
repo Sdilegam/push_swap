@@ -1,9 +1,0 @@
-{
-    "makefile.launchConfigurations": [
-        {
-            "cwd": "/home/sdi-lega/19/push_swap",
-            "binaryPath": "push_swap",
-            "binaryArgs": [12 4 5 67]
-        }
-    ]
-}

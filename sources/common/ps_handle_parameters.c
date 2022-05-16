@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   comn_ps_handle_parameters.c                        :+:      :+:    :+:   */
+/*   ps_handle_parameters.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/26 14:58:59 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/04 11:25:42 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/16 13:57:42 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,8 @@ void	are_parameters_ok(int argc, char *argv[])
 		{
 			if (is_digit(argv[number][digit]) == FALSE)
 			{
-				error();
+				if (digit != 0 && argv[number][digit] != '-')
+					error();
 			}
 		}
 		digit = -1;
