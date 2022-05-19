@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   comn_ps_stacks_init.c                              :+:      :+:    :+:   */
+/*   ps_stacks_init.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 11:26:16 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/04 11:26:40 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/19 06:45:34 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ t_stack	*stacks_init(int length, char **parameters)
 	while (++index != length + 1)
 		stacks[0].stack[index - 1] = parameters_handler(parameters[index]);
 	stacks[1].length = 0;
-	stacks[1].stack = calloc(stacks[1].length, sizeof(int));
+	stacks[1].stack = malloc(stacks[1].length * sizeof(int));
 	if (!stacks[1].stack)
 		exit (1);
 	return (stacks);

@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/08 13:51:11 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/17 18:07:33 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/19 08:12:26 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,118 +86,120 @@ int	is_sorted(t_stack stack)
 	}
 	if (smallest_index != -1)
 	{
-	if (stack.stack[index] > stack.stack[0])
-		return (0);
-	index = -1;
-	while (++index < smallest_index)
-	{
-		if (stack.stack[index] > stack.stack[index + 1])
+		if (stack.stack[index] > stack.stack[0])
 			return (0);
-	}
+		index = -1;
+		while (++index < smallest_index)
+		{
+			if (stack.stack[index] > stack.stack[index + 1])
+				return (0);
+		}
 	}
 	return (1);
 }
 
-int	sort(t_stack *o_stacks)
-{
-	int		index;
-	int		len;
-	int		steps;
-	t_stack	*stacks;
+// int	sort(t_stack *o_stacks)
+// {
+// 	int		index;
+// 	int		len;
+// 	int		steps;
+// 	t_stack	*stacks;
 
-	stacks = malloc (2 * sizeof(t_stack));
-	stacks[0].stack = malloc(o_stacks[0].length * sizeof(int));
-	stacks[1].stack = malloc(0 * sizeof(int));
-	copy_stack(&stacks[0].stack, o_stacks[0].stack, o_stacks[0].length);
-	stacks[0].length = o_stacks[0].length;
-	stacks[1].length = 0;
+// 	stacks = malloc(2 * sizeof(t_stack));
+// 	stacks[0].stack = malloc(o_stacks[0].length * sizeof(int));
+// 	stacks[1].stack = malloc(0 * sizeof(int));
+// 	// copy_stack(&stacks[0].stack, o_stacks[0].stack, o_stacks[0].length);
+// 	stacks[0].length = o_stacks[0].length;
+// 	stacks[1].length = 0;
+// 	steps = 0;
+// 	len = stacks[0].length;
+// 	stacks[0].lim.first = stacks[0].stack[0];
+// 	stacks[0].lim.last = stacks[0].stack[stacks[0].length - 1];
+// 	index = -1;
+// 	// printf("first element: %d\n", stacks[0].stack[0]);
+// 	while (!is_sorted(stacks[0]))
+// 	{
+// 		if (stacks[1].length != 0)
+// 		{
+// 			if (check_item(get_smallest(stacks[1]), stacks[0]) == 1)
+// 			{
+// 				while (get_index(stacks[1], get_smallest(stacks[1])) > 0)
+// 					steps += rotate(stacks, 1);
+// 				steps += push(stacks, 0);
+// 			}
+// 		}
+// 		if (check_item(stacks[0].stack[0], stacks[0]) == 0 && stacks[0].stack[0] != stacks[0].lim.last)
+// 		{
+// 			steps += push(stacks, 1);
+// 		}
+// 		else
+// 		{
+// 			if (get_index(stacks[1], get_smallest(stacks[1])))
+// 				steps += rotate_both(stacks);
+// 			else
+// 				steps += rotate(stacks, 0);
+// 		}
+// 	}
+// 	steps += rotate(stacks, 0);
+// 	while (stacks[1].length != 0)
+// 	{
+// 		if (stacks[1].length != 0)
+// 			if (check_item(get_smallest(stacks[1]), stacks[0]) == 1)
+// 			{
+// 				while (get_index(stacks[1], get_smallest(stacks[1])) > 0)
+// 					steps += rotate(stacks, 1);
+// 				steps += push(stacks, 0);
+// 			}
+// 		if (get_index(stacks[1], get_smallest(stacks[1])))
+// 			steps += rotate_both(stacks);
+// 		else
+// 			steps += rotate(stacks, 0);
+// 	}
+// 	while (stacks[0].stack[0] != get_smallest(stacks[0]))
+// 	{
+// 		steps += rotate(stacks, 0);
+// 	}
+// 	// print_stack(stacks);
+// 	free(stacks[0].stack);
+// 	free(stacks[1].stack);
+// 	free(stacks);
+// 	// print_stack(stacks);
+// 	return (steps);
+// }
+
+int	sort(t_stack *stacks, t_functions f)
+{
+	int	index;
+	int	len;
+	int	steps;
+
 	steps = 0;
 	len = stacks[0].length;
 	stacks[0].lim.first = stacks[0].stack[0];
 	stacks[0].lim.last = stacks[0].stack[stacks[0].length - 1];
 	index = -1;
-	// printf("first element: %d\n", stacks[0].stack[0]);
 	while (!is_sorted(stacks[0]))
 	{
 		if (stacks[1].length != 0)
 			if (check_item(get_smallest(stacks[1]), stacks[0]) == 1)
 			{
 				while (get_index(stacks[1], get_smallest(stacks[1])) > 0)
-					steps += rotate(stacks, 1);
-				steps += push(stacks, 0);
-			}
-		if (check_item(stacks[0].stack[0], stacks[0]) == 0 && stacks[0].stack[0] != stacks[0].lim.last)
-		{
-			steps += push(stacks, 1);
-		}
-		else
-		{
-			if (get_index(stacks[1], get_smallest(stacks[1])))
-				steps += rotate_both(stacks);
-			else
-				steps += rotate(stacks, 0);
-		}
-	}
-	steps += rotate(stacks, 0);
-	while (stacks[1].length != 0)
-	{
-		if (stacks[1].length != 0)
-			if (check_item(get_smallest(stacks[1]), stacks[0]) == 1)
-			{
-				while (get_index(stacks[1], get_smallest(stacks[1])) > 0)
-					steps += rotate(stacks, 1);
-				steps += push(stacks, 0);
-			}
-		if (get_index(stacks[1], get_smallest(stacks[1])))
-			steps += rotate_both(stacks);
-		else
-			steps += rotate(stacks, 0);
-	}
-	while (stacks[0].stack[0] != get_smallest(stacks[0]))
-	{
-		steps += rotate(stacks, 0);
-	}
-	// print_stack(stacks);
-	free(stacks[0].stack);
-	free(stacks[1].stack);
-	free(stacks);
-	// print_stack(stacks);
-	return (steps);
-}
-
-int	print_and_sort(t_stack *stacks)
-{
-	int		index;
-	int		len;
-	int		steps;
-
-	steps = 0;
-	len = stacks[0].length;
-	stacks[0].lim.first = stacks[0].stack[0];
-	stacks[0].lim.last = stacks[0].stack[stacks[0].length - 1];
-	index = -1;
-	while (!is_sorted(stacks[0]))
-	{
-		if (stacks[1].length != 0)
-			if (check_item(get_smallest(stacks[1]), stacks[0]) == 1)
-			{
-				while (get_index(stacks[1], get_smallest(stacks[1])) > 0)
-					print_rotate(stacks, 1);
-				print_push(stacks, 0);
+					steps += f.rotate(stacks, 1);
+				steps += f.push(stacks, 0);
 			}
 		while (check_item(stacks[0].stack[0], stacks[0]) == 0 && !is_sorted(stacks[0]))
 		{
-			print_push(stacks, 1);
+			steps += f.push(stacks, 1);
 		}
 		if (check_item(stacks[0].stack[0], stacks[0]) == 1 && !is_sorted(stacks[0]))
 		{
 			if (get_index(stacks[1], get_smallest(stacks[1])) > 0)
-				print_rotate_both(stacks);
+				steps += f.rotate_both(stacks);
 			else
-				print_rotate(stacks, 0);
+				steps += f.rotate(stacks, 0);
 		}
 	}
-	// print_stack(stacks);
+	// steps += f.stack(stacks);
 	// ft_printf("sorted\n");
 	while (stacks[1].length != 0)
 	{
@@ -208,57 +210,61 @@ int	print_and_sort(t_stack *stacks)
 				while (get_index(stacks[0], get_smallest(stacks[0])) > 0)
 				{
 					if (get_index(stacks[1], get_smallest(stacks[1])) > 0)
-						print_rotate_both(stacks);
+						steps += f.rotate_both(stacks);
 					else
-						print_rotate(stacks, 0);
+						steps += f.rotate(stacks, 0);
 				}
 				while (get_index(stacks[1], get_smallest(stacks[1])) > 0)
-					print_rotate(stacks, 1);
-				print_push(stacks, 0);
+					steps += f.rotate(stacks, 1);
+				steps += f.push(stacks, 0);
 			}
 			else
 			{
 				while (get_index(stacks[0], get_smallest(stacks[0])) < stacks->length - 1)
 				{
 					if (get_index(stacks[1], get_smallest(stacks[1])) > 0)
-						print_rotate_both(stacks);
+						steps += f.rotate_both(stacks);
 					else
-						print_rotate(stacks, 0);
+						steps += f.rotate(stacks, 0);
 				}
 				while (get_index(stacks[1], get_smallest(stacks[1])) > 0)
-					print_rotate(stacks, 1);
-				print_push(stacks, 0);
+					steps += f.rotate(stacks, 1);
+				steps += f.push(stacks, 0);
 			}
 		}
 		if (get_index(stacks[1], get_smallest(stacks[1])))
-			print_rotate_both(stacks);
+			steps += f.rotate_both(stacks);
 		else
-			print_rotate(stacks, 0);
-		// print_stack(stacks);
+			steps += f.rotate(stacks, 0);
 	}
 	while (stacks[0].stack[0] != get_smallest(stacks[0]))
 	{
-		print_rotate(stacks, 0);
-		// print_stack(stacks);
+		steps += f.rotate(stacks, 0);
 	}
-	// print_stack(stacks);
 	return (steps);
 }
 
-int find_best(t_stack *stacks)
+int	find_best(t_stack *stacks)
 {
-	int	offset;
-	int	answer;
-	int	number;
-	int	temp;
+	int			offset;
+	int			answer;
+	int			number;
+	int			temp;
+	t_stack		*n_stacks;
+	t_functions	f;
 
+	f.push = &push;
+	f.rotate = &rotate;
+	f.rev_rotate = &rev_rotate;
+	f.rotate_both = &rotate_both;
 	offset = 0;
-	number = sort(stacks);
+	n_stacks = copy_stack(stacks);
+	number = sort(n_stacks, f);
 	answer = 0;
-	while (++offset != stacks[0].length / 2)
+	while (++offset != n_stacks[0].length / 2)
 	{
-		rev_rotate (stacks, 0);
-		temp = sort(stacks);
+		rev_rotate(n_stacks, 0);
+		temp = sort(n_stacks, f);
 		if (temp + offset < number)
 		{
 			number = temp + offset;
@@ -266,18 +272,19 @@ int find_best(t_stack *stacks)
 		}
 	}
 	while (--offset >= 0)
-		rotate (stacks, 0);
-	while (++offset != stacks[0].length / 2)
+		rotate(n_stacks, 0);
+	while (++offset != n_stacks[0].length / 2)
 	{
-		rotate (stacks, 0);
-		temp = sort(stacks);
+		rotate(n_stacks, 0);
+		temp = sort(n_stacks, f);
 		if (temp + offset < number)
 		{
 			number = temp + offset;
 			answer = offset;
 		}
 	}
-	while (--offset >= 0)
-		rev_rotate (stacks, 0);
+	free(n_stacks[0].stack);
+	free(n_stacks[1].stack);
+	free(n_stacks);
 	return (answer);
 }

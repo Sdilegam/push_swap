@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 10:44:05 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/04 11:13:15 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/19 07:50:10 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,15 +15,15 @@
 
 # include "manda_index.h"
 
-void	print_push(t_stack *stacks, int id);
+int	print_push(t_stack *stacks, int id);
 
-void	print_rotate(t_stack *stacks, int id);
-void	print_rotate_both(t_stack *stacks);
+int	print_rotate(t_stack *stacks, int id);
+int	print_rotate_both(t_stack *stacks);
 
-void	print_rev_rotate(t_stack *stacks, int id);
-void	print_rev_rotate_both(t_stack *stacks);
+int	print_rev_rotate(t_stack *stacks, int id);
+int	print_rev_rotate_both(t_stack *stacks);
 
-void	print_swap(t_stack *stacks, int id);
-void	print_swap_both(t_stack *stacks);
+int	print_swap(t_stack *stacks, int id);
+int	print_swap_both(t_stack *stacks);
 
 #endif /* MANDA_PS_PRINT_MOVES_H */
