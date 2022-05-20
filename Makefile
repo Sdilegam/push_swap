@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/05/20 12:00:08 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/05/20 14:12:20 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -177,7 +177,7 @@ clean_bonus:
 
 ${addprefix clean_,${dir ${ALL_LIBS}}}:
 			@ echo "\rRemoving libraries (${patsubst clean_%,%, $@}).\033[K\c"
-			${SILENT} make clean -sC ${patsubst clean_%, libraries/%, $@}
+			${SILENT} make fclean -sC ${patsubst clean_%, libraries/%, $@}
 			@ sleep ${SLEEP_TIME}
 
 clean_exe:

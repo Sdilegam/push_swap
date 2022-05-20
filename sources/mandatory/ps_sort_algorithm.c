@@ -6,11 +6,22 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/08 13:51:11 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/20 13:38:06 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/20 15:17:49 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "manda_index.h"
+
+t_bool	get_index(t_stack stack, int item)
+{
+	int	index;
+
+	index = -1;
+	while (++index < stack.length)
+		if (stack.stack[index] == item)
+			return (index);
+	return (-1);
+}
 
 int	get_smallest(t_stack stack)
 {
@@ -23,6 +34,19 @@ int	get_smallest(t_stack stack)
 		if (stack.stack[index] < smallest)
 			smallest = stack.stack[index];
 	return (smallest);
+}
+
+int	get_biggest(t_stack stack)
+{
+	int	index;
+	int	biggest;
+
+	index = -1;
+	biggest = stack.stack[++index];
+	while (++index < stack.length)
+		if (stack.stack[index] > biggest)
+			biggest = stack.stack[index];
+	return (biggest);
 }
 
 int	check_item(int start, t_stack stack)
@@ -47,6 +71,7 @@ int	check_item(int start, t_stack stack)
 	}
 	return (1);
 }
+
 
 int	move(int steps, t_stack *stack, t_functions f)
 {
@@ -90,6 +115,15 @@ int	abs(int i)
 		return (-i);
 }
 
+t_bool	check_place(int element, t_stack stack)
+{
+	if (stack.stack[0] == get_smallest(stack))
+		if (element < stack.stack[0] || element > stack.stack[stack.length -1])
+			return (TRUE);
+	if (element < stack.stack[0] && element > stack.stack[stack.length -1])
+			return (TRUE);
+	return (FALSE);
+}
 
 int	get_next_change(t_stack *stacks)
 {
@@ -98,13 +132,13 @@ int	get_next_change(t_stack *stacks)
 	int	temp;
 
 	index = 0;
-	temp = 0;
+	temp = 3000;
 	while (index != stacks[0].length)
 	{
 		index_b = -1;
 		while (++index_b < stacks[1].length)
 		{
-			if (check_item(stacks[1].stack[index_b], stacks[0]) == 1)
+			if (check_place(stacks[1].stack[index_b], stacks[0]) == TRUE)
 			{
 				if (index < temp)
 					temp = index;
@@ -119,7 +153,7 @@ int	get_next_change(t_stack *stacks)
 		index_b = -1;
 		while (++index_b < stacks[1].length)
 		{
-			if (check_item(stacks[1].stack[index_b], stacks[0]) == 1)
+			if (check_place(stacks[1].stack[index_b], stacks[0]) == TRUE)
 			{
 				if (abs(index) < abs(temp))
 					temp = index;
@@ -130,16 +164,6 @@ int	get_next_change(t_stack *stacks)
 	return (temp);
 }
 
-t_bool	get_index(t_stack stack, int item)
-{
-	int	index;
-
-	index = -1;
-	while (++index < stack.length)
-		if (stack.stack[index] == item)
-			return (index);
-	return (-1);
-}
 
 int	is_sorted(t_stack stack)
 {
@@ -196,6 +220,8 @@ int	sort(t_stack *stacks, t_functions f)
 				steps += f.rotate(stacks, 0);
 		}
 	}
+	stacks[0].lim.first = get_smallest(stacks[0]);
+	stacks[0].lim.last = get_biggest(stacks[0]);
 	// steps += f.stack(stacks);
 	// print_stack(stacks);
 	while (stacks[1].length != 0)
