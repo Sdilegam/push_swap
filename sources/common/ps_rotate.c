@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 10:04:43 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/16 14:18:59 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/20 13:37:47 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int	rotate_both(t_stack *stacks)
 	return (1);
 }
 
-int_least32_t	rev_rotate(t_stack *stacks, int id)
+int	rev_rotate(t_stack *stacks, int id)
 {
 	int	temp;
 	int	index;
