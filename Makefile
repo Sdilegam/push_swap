@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/05/16 13:00:01 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/05/20 12:00:08 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -91,13 +91,13 @@ EXECUTABLES			=	${NAME} ${NAME}_bonus #Modify if other executables needed#
 
 CC					=	gcc
 COMN_INCLUDE		=	-Iincludes -I${COMN_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},${dir ${COMN_LIBS}}}}
-MANDA_INCLUDE		=	-I${MANDA_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}}                                                         
+MANDA_INCLUDE		=	-I${MANDA_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}}
 BONUS_INCLUDE		=	-I${BONUS_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},${dir ${BONUS_LIBS}}}}
 
 CC_FLAGS			=	${COMN_INCLUDE} -MMD -Wall -Werror -Wextra
 RM					=	rm -f
 SLEEP_TIME			=	0.2
-SILENT				=	
+SILENT				=	@
 
 ################################################################################
 #																			   #
@@ -148,12 +148,12 @@ ${addprefix ${LIB_DIR}, ${ALL_LIBS}}:
 #EXECUTABLES#
 ${NAME}:				${OBJECTS_DIR} ${addprefix ${LIB_DIR}, ${MANDA_LIBS}} ${COMN_OBJS} ${MANDA_OBJS}
 			@ echo "\r\"$@\" executable created\033[K"
-			${SILENT} ${CC} ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${MANDA_LIBS}}}} ${COMN_OBJS} ${MANDA_OBJS} -o $@ -g
+			${SILENT} ${CC} ${COMN_OBJS} ${MANDA_OBJS} -o $@ ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${MANDA_LIBS}}}}
 			@ sleep ${SLEEP_TIME}
 			
 ${NAME}_bonus:			${BONUS_OBJECTS_DIR} ${addprefix ${LIB_DIR}, $b}}${COMN_OBJS} ${BONUS_OBJS}
 			@ echo "\r\"$@\" executable created\033[K"
-			${SILENT} ${CC} ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${BONUS_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${BONUS_LIBS}}}} ${COMN_OBJS} ${BONUS_OBJS} -o $@ -g
+			${SILENT} ${CC} ${COMN_OBJS} ${BONUS_OBJS} -o $@ ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${BONUS_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${BONUS_LIBS}}}}
 			@ sleep ${SLEEP_TIME}
 
 			

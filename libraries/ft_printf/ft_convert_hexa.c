@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_convert_hexa.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sdi-lega <sdi-lega@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/06 22:14:18 by sdi-lega          #+#    #+#             */
-/*   Updated: 2021/10/26 11:27:04 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/20 11:59:47 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ t_size	ft_hex_len(unsigned long number, int radix)
 	t_size	len;
 
 	len = 1;
-	while (number / radix > 0 || number / radix < 0)
+	while (number / radix > 0 || number / radix <= 0)
 	{
 		number /= radix;
 		len ++;
