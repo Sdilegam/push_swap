@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/08 13:51:11 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/20 11:40:44 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/20 12:27:28 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -113,7 +113,7 @@ int	get_next_change(t_stack *stacks)
 	}
 	move(-index, &stacks[0], get_functions(0));
 	index = 0;
-	while (index != -stacks[0].length)
+	while (abs(--index) != stacks[0].length)
 	{
 		index_b = -1;
 		while (++index_b < stacks[1].length)
@@ -196,7 +196,7 @@ int	sort(t_stack *stacks, t_functions f)
 		}
 	}
 	// steps += f.stack(stacks);
-	// ft_printf("sorted\n");
+	// print_stack(stacks);
 	while (stacks[1].length != 0)
 	{	
 		move(get_next_change(stacks), stacks, f);
@@ -237,10 +237,10 @@ int	sort(t_stack *stacks, t_functions f)
 	// 	else
 	// 		steps += f.rotate(stacks, 0);
 	// }
-	// while (stacks[0].stack[0] != get_smallest(stacks[0]))
-	// {
-	// 	steps += f.rotate(stacks, 0);
-	// }
+	while (stacks[0].stack[0] != get_smallest(stacks[0]))
+	{
+		steps += f.rotate(stacks, 0);
+	}
 	return (steps);
 }
 

@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/12 08:23:00 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/20 12:00:24 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/20 12:27:44 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,4 +19,5 @@ int	find_best(t_stack *stacks);
 int	is_sorted(t_stack stack);
 int	check_item(int start, t_stack stack);
 t_functions	get_functions(int id);
+int	move(int steps, t_stack *stack, t_functions f);
 #endif /* PS_SORT_ALGORITHM_H */
