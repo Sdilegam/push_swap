@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/08 13:51:11 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/20 15:17:49 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/20 15:28:32 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -117,11 +117,12 @@ int	abs(int i)
 
 t_bool	check_place(int element, t_stack stack)
 {
+	
 	if (stack.stack[0] == get_smallest(stack))
 		if (element < stack.stack[0] || element > stack.stack[stack.length -1])
 			return (TRUE);
-	if (element < stack.stack[0] && element > stack.stack[stack.length -1])
-			return (TRUE);
+	if (check_item(element, stack) == TRUE)
+		return (TRUE);
 	return (FALSE);
 }
 

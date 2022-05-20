@@ -4,11 +4,11 @@
 		"type": "cppdbg",
 		"request": "launch",
 		"program": "${workspaceFolder}/push_swap",
-		"args": [970 444 -7602],
+		"args": [645 -182 -305 263],
 		"stopAtEntry": false,
 		"cwd": "${workspaceFolder}",
 		"environment": [],
-		"MIMode": "gdb",
+		"MIMode": "lldb",
 		"preLaunchTask": "Build",
 		"internalConsoleOptions": "openOnSessionStart",
 	}]
