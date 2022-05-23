@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/08 13:51:11 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/23 22:49:37 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/23 23:29:09 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -216,6 +216,7 @@ int	sort(t_stack *stacks, t_functions f)
 		}
 		if (check_item(stacks[0].stack[0], stacks[0]) == 1 && !is_sorted(stacks[0]))
 		{
+			// print_stack(stacks);
 			if (get_index(stacks[1], get_smallest(stacks[1])) > 0)
 				steps += f.rotate_both(stacks);
 			else
@@ -224,6 +225,7 @@ int	sort(t_stack *stacks, t_functions f)
 	}
 	// steps += f.stack(stacks);
 	// print_stack(stacks);
+	// f = get_functions(1);
 	while (stacks[1].length != 0)
 	{	
 		stacks[0].lim.first = get_smallest(stacks[0]);
@@ -231,9 +233,10 @@ int	sort(t_stack *stacks, t_functions f)
 		move(get_next_change(stacks), stacks, f);
 		while (check_place(stacks[1].stack[0], stacks[0]) == FALSE && get_next_change(stacks)== 0)
 		{
-			f.rotate(stacks, 1);
+			steps += f.rotate(stacks, 1);
 		}
-		f.push(stacks, 0);
+		steps += f.push(stacks, 0);
+		// print_stack(stacks);
 	}
 	// {
 	// 	if (stacks[1].length != 0)
