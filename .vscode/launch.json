@@ -8,7 +8,7 @@
 		"stopAtEntry": false,
 		"cwd": "${workspaceFolder}",
 		"environment": [],
-		"MIMode": "lldb",
+		"MIMode": "gdb",
 		"preLaunchTask": "Build",
 		"internalConsoleOptions": "openOnSessionStart",
 	}]

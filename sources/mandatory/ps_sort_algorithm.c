@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/08 13:51:11 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/20 15:28:32 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/20 16:22:06 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -196,6 +196,7 @@ int	is_sorted(t_stack stack)
 int	sort(t_stack *stacks, t_functions f)
 {
 	int	steps;
+	// int	index;
 
 	steps = 0;
 	stacks[0].lim.first = stacks[0].stack[0];
@@ -228,6 +229,10 @@ int	sort(t_stack *stacks, t_functions f)
 	while (stacks[1].length != 0)
 	{	
 		move(get_next_change(stacks), stacks, f);
+		while (check_place(stacks[1].stack[0], stacks[0]) == FALSE && get_next_change(stacks)== 0)
+		{
+			f.rotate(stacks, 1);
+		}
 		f.push(stacks, 0);
 	}
 	// {
