@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/05/20 14:12:20 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/05/24 13:57:35 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -63,11 +63,12 @@ COMN_OBJS			=	${addprefix ${COMN_OBJ_DIR}, ${COMN_SRCS:.c=.o}}
 COMN_LIBS			=	ft_printf/libftprintf.a#Libs for common sources
 
 #Mandatory#
-MANDA_SRCS			=	ps_print_push.c\
+MANDA_SRCS			=	ps_manda_utils.c\
+						ps_print_push.c\
 						ps_print_rotate.c\
 						ps_print_swap.c\
 						ps_sort_algorithm.c\
-						ps_sorted_stack.c\
+						ps_sorting_utils.c\
 						push_swap.c\
 
 MANDA_OBJS			=	${addprefix ${MANDA_OBJ_DIR}, ${MANDA_SRCS:.c=.o}}

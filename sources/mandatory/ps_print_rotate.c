@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 09:58:50 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/19 07:51:22 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/24 13:47:31 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,4 +34,24 @@ int	print_rev_rotate_both(t_stack *stacks)
 {
 	ft_printf("rrr\n");
 	return (rev_rotate_both(stacks));
+}
+
+int	move_to(int steps, t_stack *stack, t_functions f)
+{
+	int	index;
+
+	index = -1;
+	if (steps > 0)
+	{
+		while (++index < steps)
+			f.rotate(stack, 0);
+		return (steps);
+	}
+	else if (steps < 0)
+	{
+		while (++index < -steps)
+			f.rev_rotate(stack, 0);
+		return (-steps);
+	}
+	return (0);
 }
