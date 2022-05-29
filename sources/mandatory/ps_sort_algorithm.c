@@ -6,11 +6,49 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/08 13:51:11 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/25 20:56:03 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/29 11:23:50 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "manda_index.h"
+
+t_bool	check_item_in(int index, t_stack stack)
+{
+	int	i;
+	int	*list;
+	int	start;
+	int	number;
+
+	list = stack.stack;
+	i = -1;
+	number = -1;
+	start = get_index(stack, stack.lim.last);
+	while (start - ++i != index)
+	{
+		if (list[index] > list[start - i])
+			number ++;
+		if (start - i == 0)
+		{
+			start = stack.length;
+			i = 0;
+		}
+	}
+	if (number > 1)
+		return (FALSE);
+	i = -1;
+	start = get_index(stack, stack.lim.first);
+	while (start + ++i != index)
+	{
+		if (list[index] < list[start + i])
+			return (FALSE);
+		if (start + i == stack.length - 1)
+		{
+			start = 0;
+			i = -1;
+		}
+	}
+	return (TRUE);
+}
 
 int	check_item(int element, t_stack stack)
 {
@@ -85,7 +123,6 @@ int	get_next_change(t_stack *stacks)
 	int	temp;
 
 	index = 0;
-	temp = 3000;
 	while (index != stacks[0].length)
 	{
 		index_b = -1;
@@ -108,6 +145,7 @@ int	get_next_change(t_stack *stacks)
 	}
 	return (temp);
 }
+
 int	empty_b(t_stack *stacks, t_functions f)
 {
 	int	steps;
@@ -142,18 +180,18 @@ int	sort(t_stack *stacks, t_functions f)
 	while (!is_sorted(stacks[0]))
 	{
 		if (stacks[1].length != 0)
-			if (check_item(get_smallest(stacks[1]), stacks[0]) == 1)
+			if (check_item1(get_smallest(stacks[1]), stacks[0]) == TRUE)
 			{
 				while (get_index(stacks[1], get_smallest(stacks[1])) > 0)
 					steps += f.rotate(stacks, 1);
 				steps += f.push(stacks, 0);
 			}
-		while (check_item1(stacks[0].stack[0], stacks[0]) == 0 && \
+		while (check_item_in(0, stacks[0]) == 0 && \
 		!is_sorted(stacks[0]))
 		{
 			steps += f.push(stacks, 1);
 		}
-		if (check_item1(stacks[0].stack[0], stacks[0]) == 1 && \
+		if (check_item_in(0, stacks[0]) == 1 && \
 		!is_sorted(stacks[0]))
 		{
 			if (get_index(stacks[1], get_smallest(stacks[1])) > 0)
@@ -162,8 +200,8 @@ int	sort(t_stack *stacks, t_functions f)
 				steps += f.rotate(stacks, 0);
 		}
 	}
-	// print_stack(stacks);
-	// steps += empty_b(stacks, f);
+	print_stack(stacks);
+	steps += empty_b(stacks, f);
 	return (steps);
 }
 
@@ -184,7 +222,7 @@ int	find_best(t_stack *stacks)
 	n_stacks = copy_stack(stacks);
 	number = sort(n_stacks, f);
 	answer = 0;
-	while (++offset != n_stacks[0].length / 2)
+	while (++offset != stacks[0].length / 2)
 	{
 		free(n_stacks[0].stack);
 		free(n_stacks[1].stack);
@@ -200,7 +238,7 @@ int	find_best(t_stack *stacks)
 		}
 	}
 	offset = 0;
-	while (++offset != n_stacks[0].length / 2)
+	while (++offset != stacks[0].length / 2)
 	{
 		free(n_stacks[0].stack);
 		free(n_stacks[1].stack);
