@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/05/29 19:37:33 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/05/31 06:47:15 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -152,7 +152,7 @@ ${addprefix ${LIB_DIR}, ${ALL_LIBS}}:
 #EXECUTABLES#
 ${NAME}:				${OBJECTS_DIR} ${addprefix ${LIB_DIR}, ${MANDA_LIBS}} ${COMN_OBJS} ${MANDA_OBJS}
 			@ echo "\r\"$@\" executable created\033[K"
-			${SILENT} ${CC} ${COMN_OBJS} ${MANDA_OBJS} -o $@ ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${MANDA_LIBS}}}}
+			${SILENT} ${CC} ${COMN_OBJS} ${MANDA_OBJS} -o $@ ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${MANDA_LIBS}}}} -g
 			@ sleep ${SLEEP_TIME}
 			
 schecker:			${BONUS_OBJECTS_DIR} ${addprefix ${LIB_DIR}, ${BONUS_LIBS}} ${COMN_OBJS} ${BONUS_OBJS}

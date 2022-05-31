@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/28 09:55:27 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/29 18:34:02 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/31 04:52:19 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,12 @@ typedef struct s_lim
 	int	first;
 	int	last;
 }	t_lim;
+
+typedef struct s_moves
+{
+	int	a;
+	int	b;
+}	t_moves;
 
 typedef struct s_stack
 {

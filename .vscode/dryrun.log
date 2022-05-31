@@ -1,0 +1,15 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/sdi-lega/Documents/push_swap'
+echo  "\rCreating mandatory \"ps_sort_algorithm.o\" object file.\033[K\c"
+gcc -Iincludes -Isources/common/headers/ -Ilibraries/ft_printf/ -MMD -Wall -Werror -Wextra -Isources/mandatory/headers/ -Ilibraries/ft_printf/ -c sources/mandatory/ps_sort_algorithm.c -o sources/mandatory/objects/ps_sort_algorithm.o -g
+sleep 0.2
+echo "\r\"push_swap\" executable created\033[K"
+gcc sources/common/objects/ps_errors.o sources/common/objects/ps_handle_parameters.o sources/common/objects/ps_push.o sources/common/objects/ps_rotate.o sources/common/objects/ps_stacks_init.o sources/common/objects/ps_swap.o sources/common/objects/ps_utils.o sources/common/objects/ps_is_sorted.o sources/mandatory/objects/ps_manda_utils.o sources/mandatory/objects/ps_print_push.o sources/mandatory/objects/ps_print_rotate.o sources/mandatory/objects/ps_print_swap.o sources/mandatory/objects/ps_sort_algorithm.o sources/mandatory/objects/ps_sorting_utils.o sources/mandatory/objects/push_swap.o -o push_swap -Llibraries/ft_printf/ -lftprintf -g
+sleep 0.2
+make: Leaving directory '/home/sdi-lega/Documents/push_swap'
+ 
+Makefile:147: target 'libraries/ft_printf/libftprintf.a' given more than once in the same rule
+Makefile:147: target 'libraries/ft_printf/libftprintf.a' given more than once in the same rule
+Makefile:182: target 'clean_ft_printf/' given more than once in the same rule
+Makefile:182: target 'clean_ft_printf/' given more than once in the same rule
+
