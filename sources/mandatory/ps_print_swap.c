@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 09:11:44 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/19 07:51:50 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/29 18:37:00 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,9 @@ int	print_swap(t_stack *stacks, int id)
 	return (swap(stacks, id));
 }
 
-int	print_swap_both(t_stack *stacks)
+int	print_swap_both(t_stack *stacks, int id)
 {
 	ft_printf("ss\n");
-	return (swap_both(stacks));
+	return (swap_both(stacks, id));
 }
 

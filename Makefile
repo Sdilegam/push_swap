@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/05/24 13:57:35 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/05/29 19:37:33 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,8 +54,8 @@ COMN_SRCS			=	ps_errors.c\
 						ps_stacks_init.c\
 						ps_swap.c\
 						ps_utils.c\
-						#ps_.c\
-						ps_.c\
+						ps_is_sorted.c\
+						# ps_.c\
 						ps_.c\
 						ps_.c\
 
@@ -75,10 +75,13 @@ MANDA_OBJS			=	${addprefix ${MANDA_OBJ_DIR}, ${MANDA_SRCS:.c=.o}}
 MANDA_LIBS			=	${COMN_LIBS}#Libs for mandatory sources
 
 #Bonus#
-BONUS_SRCS			=	\
+BONUS_SRCS			=	push_swap_bonus.c\
+						ps_bonus_utils.c\
+						get_next_line.c\
+						get_next_line_utils.c
 
 BONUS_OBJS			=	${addprefix ${BONUS_OBJ_DIR}, ${BONUS_SRCS:.c=.o}}
-BONUS_LIBS			=	#Libs for bonus sources
+BONUS_LIBS			=	${COMN_LIBS}#Libs for bonus sources
 
 ALL_LIBS			=	${COMN_LIBS} ${MANDA_LIBS} ${BONUS_LIBS}
 DEPENDS				=	${MANDA_OBJS:.o=.d} ${BONUS_OBJS:.o=.d} ${COMN_OBJS:.o=.d}
@@ -98,7 +101,7 @@ BONUS_INCLUDE		=	-I${BONUS_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},$
 CC_FLAGS			=	${COMN_INCLUDE} -MMD -Wall -Werror -Wextra
 RM					=	rm -f
 SLEEP_TIME			=	0.2
-SILENT				=	@
+SILENT				=	
 
 ################################################################################
 #																			   #
@@ -112,11 +115,11 @@ SILENT				=	@
 #									#
 #####################################
 
-all:				mandatory #bonus
+all:				mandatory bonus
 re:					fclean all
 
 mandatory:			${NAME}
-bonus:				${NAME}_bonus
+bonus:				schecker
 
 #####################################
 #									#
@@ -152,7 +155,7 @@ ${NAME}:				${OBJECTS_DIR} ${addprefix ${LIB_DIR}, ${MANDA_LIBS}} ${COMN_OBJS} $
 			${SILENT} ${CC} ${COMN_OBJS} ${MANDA_OBJS} -o $@ ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${MANDA_LIBS}}}}
 			@ sleep ${SLEEP_TIME}
 			
-${NAME}_bonus:			${BONUS_OBJECTS_DIR} ${addprefix ${LIB_DIR}, $b}}${COMN_OBJS} ${BONUS_OBJS}
+schecker:			${BONUS_OBJECTS_DIR} ${addprefix ${LIB_DIR}, ${BONUS_LIBS}} ${COMN_OBJS} ${BONUS_OBJS}
 			@ echo "\r\"$@\" executable created\033[K"
 			${SILENT} ${CC} ${COMN_OBJS} ${BONUS_OBJS} -o $@ ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${BONUS_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${BONUS_LIBS}}}}
 			@ sleep ${SLEEP_TIME}

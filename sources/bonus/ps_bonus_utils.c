@@ -1,28 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   comn_ps_moves.h                                    :+:      :+:    :+:   */
+/*   ps_bonus_utils.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/28 09:57:08 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/29 18:30:35 by sdi-lega         ###   ########.fr       */
+/*   Created: 2022/05/29 17:52:54 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/05/29 17:53:33 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef COMN_PS_MOVES_H
-# define COMN_PS_MOVES_H
-# include "comn_index.h"
+#include "bonus_index.h"
 
-int	push(t_stack *stacks, int id);
+int	ft_strcmp(char *s1, char *s2)
+{
+	int	i;
 
-int	rotate(t_stack *stacks, int id);
-int	rotate_both(t_stack *stacks, int id);
-
-int	rev_rotate(t_stack *stacks, int id);
-int	rev_rotate_both(t_stack *stacks, int id);
-
-int	swap(t_stack *stacks, int id);
-int	swap_both(t_stack *stacks, int id);
-
-#endif
+	i = 0;
+	if (s1 == 0 || s2 == 0)
+		return (-1);
+	while (s1[i] != '\0' || s2[i] != '\0')
+	{
+		if (s1[i] != s2[i])
+			return (s1[i] - s2[i]);
+		i++;
+	}
+	return (s1[i] - s2[i]);
+}

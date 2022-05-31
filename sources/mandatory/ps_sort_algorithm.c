@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/08 13:51:11 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/29 11:23:50 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/29 19:40:18 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -195,12 +195,12 @@ int	sort(t_stack *stacks, t_functions f)
 		!is_sorted(stacks[0]))
 		{
 			if (get_index(stacks[1], get_smallest(stacks[1])) > 0)
-				steps += f.rotate_both(stacks);
+				steps += f.rotate_both(stacks, 1);
 			else
 				steps += f.rotate(stacks, 0);
 		}
 	}
-	print_stack(stacks);
+	// print_stack(stacks);
 	steps += empty_b(stacks, f);
 	return (steps);
 }

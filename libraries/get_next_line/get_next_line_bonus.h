@@ -1,23 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   preprocessor_macros.h                              :+:      :+:    :+:   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/28 10:01:47 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/29 18:09:18 by sdi-lega         ###   ########.fr       */
+/*   Created: 2021/12/22 09:45:13 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/04/19 17:37:49 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PREPROCESSOR_MACROS_H
-# define PREPROCESSOR_MACROS_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 42
+# endif
+# include <unistd.h>
+# include <stdlib.h>
 
-# define TRUE 1
-# define FALSE 0
-# define A 0
-# define B 1
-# define MAX_INT 2147483647
-# define MIN_INT -2147483648
-
+char	*get_next_line(int file_des);
+char	*ft_return(char **string);
+int		ft_strlen(char *string);
+int		ft_find_chara(char *string, int chara);
+int		ft_cat(char **static_buff, char **string);
+void	*ft_free(char **ptr);
+void	*ft_calloc(int number, int size);
 #endif

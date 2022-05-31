@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/24 13:54:17 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/24 13:55:10 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/05/29 19:36:38 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,4 @@
 
 # include "manda_index.h"
 
-t_bool	get_index(t_stack stack, int item);
-int		get_smallest(t_stack stack);
-int		get_biggest(t_stack stack);
 #endif /* PS_SORTING_UTILS_H */

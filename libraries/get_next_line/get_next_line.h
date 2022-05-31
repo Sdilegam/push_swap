@@ -1,28 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   comn_ps_moves.h                                    :+:      :+:    :+:   */
+/*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/28 09:57:08 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/29 18:30:35 by sdi-lega         ###   ########.fr       */
+/*   Created: 2021/12/22 09:45:13 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/05/29 18:51:40 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef COMN_PS_MOVES_H
-# define COMN_PS_MOVES_H
-# include "comn_index.h"
-
-int	push(t_stack *stacks, int id);
-
-int	rotate(t_stack *stacks, int id);
-int	rotate_both(t_stack *stacks, int id);
-
-int	rev_rotate(t_stack *stacks, int id);
-int	rev_rotate_both(t_stack *stacks, int id);
-
-int	swap(t_stack *stacks, int id);
-int	swap_both(t_stack *stacks, int id);
-
+#ifndef GET_NEXT_LINE_H
+# define GET_NEXT_LINE_H
+# include <unistd.h>
+# include <stdlib.h>
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 42
+# endif
+char	*get_next_line(int file_des);
+char	*ft_return(char **string);
+int		ft_strlen(const char *string);
+int		ft_find_chara(char *string, int chara);
+int		ft_cat(char **static_buff, char **string);
+char	*ft_free(char **ptr);
+void	*ft_calloc(int number, int size);
 #endif
