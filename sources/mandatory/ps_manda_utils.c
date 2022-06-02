@@ -6,18 +6,26 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 08:18:19 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/29 19:33:02 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/02 16:00:24 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "manda_index.h"
 
-t_stack	*copy_stack(t_stack *stack_from)
+void	copy_stack(int *stack_to, int *stack_from, int length)
 {
-	t_stack	*new_stack;
-	int		index;
+	int	index;
 
 	index = -1;
+	while (++index < length)
+		stack_to[index] = stack_from[index];
+}
+
+
+t_stack	*copy_stacks(t_stack *stack_from)
+{
+	t_stack	*new_stack;
+	
 	new_stack = malloc(sizeof(t_stack) * 2);
 	if (!new_stack)
 		return (NULL);
@@ -29,11 +37,8 @@ t_stack	*copy_stack(t_stack *stack_from)
 		return (NULL);
 	new_stack[0].length = stack_from[0].length;
 	new_stack[1].length = stack_from[1].length;
-	while (++index < stack_from[0].length)
-		new_stack[0].stack[index] = stack_from[0].stack[index];
-	index = -1;
-	while (++index < stack_from[1].length)
-		new_stack[1].stack[index] = stack_from[1].stack[index];
+	copy_stack(new_stack[0].stack, stack_from[0].stack, stack_from[0].length);
+	copy_stack(new_stack[1].stack, stack_from[1].stack, stack_from[1].length);
 	return (new_stack);
 }
 
@@ -51,17 +56,23 @@ t_functions	get_functions(int id)
 
 	if (id == 0)
 	{
-		f.push = &push;
 		f.rotate = &rotate;
-		f.rev_rotate = &rev_rotate;
 		f.rotate_both = &rotate_both;
+		f.rev_rotate = &rev_rotate;
+		f.rev_rotate_both = &rev_rotate_both;
+		f.swap = &swap;
+		f.swap_both = &swap_both;
+		f.push = &push;
 	}
 	else
 	{
-		f.push = &print_push;
 		f.rotate = &print_rotate;
-		f.rev_rotate = &print_rev_rotate;
 		f.rotate_both = &print_rotate_both;
+		f.rev_rotate = &print_rev_rotate;
+		f.rev_rotate_both = &print_rev_rotate_both;
+		f.swap = &print_swap;
+		f.swap_both = &print_swap_both;
+		f.push = &print_push;
 	}
 	return (f);
 }

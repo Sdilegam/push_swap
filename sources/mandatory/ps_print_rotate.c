@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 09:58:50 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/31 06:33:02 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/02 14:43:44 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,9 +40,9 @@ int	move_to(t_moves steps, t_stack *stack, t_functions f)
 {
 	int	index;
 
-	index = -1;
 	if (steps.a >= 0 && steps.b >= 0 )
 	{
+		index = -1;
 		while (++index < steps.a || index < steps.b)
 		{
 			if (index < steps.a && index < steps.b)
@@ -56,6 +56,7 @@ int	move_to(t_moves steps, t_stack *stack, t_functions f)
 	}
 	else if (steps.a <= 0 && steps.b <= 0 )
 	{
+		index = -1;
 		while (++index < -steps.a || index < -steps.b)
 		{
 			if (index < -steps.a && index < -steps.b)

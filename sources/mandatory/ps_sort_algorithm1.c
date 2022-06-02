@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ps_sort_algorithm.c                                :+:      :+:    :+:   */
+/*   ps_sort_algorithm1.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/08 13:51:11 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/31 06:42:50 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/02 15:55:38 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -279,7 +279,7 @@ int	find_best(t_stack *stacks)
 	f.rev_rotate = &rev_rotate;
 	f.rotate_both = &rotate_both;
 	offset = 0;
-	n_stacks = copy_stack(stacks);
+	n_stacks = copy_stacks(stacks);
 	number = sort(n_stacks, f);
 	// ft_printf("%d\n", number);
 	answer = 0;
@@ -288,7 +288,7 @@ int	find_best(t_stack *stacks)
 		free(n_stacks[0].stack);
 		free(n_stacks[1].stack);
 		free(n_stacks);
-		n_stacks = copy_stack(stacks);
+		n_stacks = copy_stacks(stacks);
 		index = 0;
 		while (++index < offset)
 			rev_rotate(n_stacks, 0);
@@ -308,7 +308,7 @@ int	find_best(t_stack *stacks)
 		free(n_stacks[0].stack);
 		free(n_stacks[1].stack);
 		free(n_stacks);
-		n_stacks = copy_stack(stacks);
+		n_stacks = copy_stacks(stacks);
 		index = 0;
 		while (++index < offset)
 			rotate(n_stacks, 0);

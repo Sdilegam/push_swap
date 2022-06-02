@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ps_sort_algorithm.c                                :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/08 13:51:11 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/31 07:42:20 by sdi-lega         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "manda_index.h"
 
 t_bool	check_item_in(int index, t_stack stack)
@@ -52,41 +40,58 @@ t_bool	check_item_in(int index, t_stack stack)
 
 t_bool	check_item_out(int number, int index, t_stack stack)
 {
-	int	i;
 	int	*list;
-	int	start;
 
 	list = stack.stack;
-	i = -1;
-	start = get_index(stack, stack.lim.last);
 	if ((number > stack.lim.last || number < stack.lim.first) && index == get_index(stack, stack.lim.first))
 		return (TRUE);
-	while (start - ++i != index)
+	if (index == 0)
 	{
-		if (number > list[start - i])
+		if (list[index] < number || number < list[stack.length - 1])
 			return (FALSE);
-		if (start - i == 0 && index != 0)
-		{
-			start = stack.length;
-			i = 0;
-		}
 	}
-	if (number > list[start - i])
-		return (FALSE);
-	i = -1;
-	start = get_index(stack, stack.lim.first);
-	while (start + ++i != index)
-	{
-		if (number < list[start + i])
+	else
+		if (list[index] < number || number < list[index - 1])
 			return (FALSE);
-		if (start + i == stack.length - 1)
-		{
-			start = 0;
-			i = -1;
-		}
-	}
 	return (TRUE);
 }
+// t_bool	check_item_out(int number, int index, t_stack stack)
+// {
+// 	int	i;
+// 	int	*list;
+// 	int	start;
+
+// 	list = stack.stack;
+// 	i = -1;
+// 	start = get_index(stack, stack.lim.last);
+// 	if ((number > stack.lim.last || number < stack.lim.first) && index == get_index(stack, stack.lim.first))
+// 		return (TRUE);
+// 	while (start - ++i != index)
+// 	{
+// 		if (number > list[start - i])
+// 			return (FALSE);
+// 		if (start - i == 0 && index != 0)
+// 		{
+// 			start = stack.length;
+// 			i = 0;
+// 		}
+// 	}
+// 	if (number > list[start - i])
+// 		return (FALSE);
+// 	i = -1;
+// 	start = get_index(stack, stack.lim.first);
+// 	while (start + ++i != index)
+// 	{
+// 		if (number < list[start + i])
+// 			return (FALSE);
+// 		if (start + i == stack.length - 1)
+// 		{
+// 			start = 0;
+// 			i = -1;
+// 		}
+// 	}
+// 	return (TRUE);
+// }
 
 int	check_item(int element, t_stack stack)
 {
@@ -133,24 +138,16 @@ t_moves	get_next_change(t_stack *stacks)
 	index = -1;
 	temp.a = MAX_INT;
 	temp.b = MAX_INT;
-	while (++index != stacks[0].length)
+	while (++index != stacks[0].length / 2 + 1 && (index <= temp.a || index < temp.b))
 	{
 		index_b = -1;
-		if (check_item_in(index, stacks[0]) == FALSE)
-		{
-			if (temp.a > bigger && temp.b > bigger)
-				{
-					temp.a = index;
-					temp.b = 0;
-				}
-		}
-		while (++index_b < stacks[1].length)
+		while (++index_b < stacks[1].length && (index_b <= temp.a || index_b < temp.b)) 
 			if (check_item_out(stacks[1].stack[index_b], index, stacks[0]) == TRUE)
 			{	
 				bigger = index;
 				if (index_b > index)
 					bigger = index_b;
-				if (temp.a > bigger && temp.b > bigger)
+				if (temp.a > bigger || temp.b > bigger)
 				{
 					temp.a = index;
 					temp.b = index_b;
@@ -158,24 +155,16 @@ t_moves	get_next_change(t_stack *stacks)
 			}
 	}
 	index = 0;
-	while (++index != stacks[0].length)
+	while (++index != stacks[0].length / 2 + 1 && (index <= abs(temp.a) || index < abs(temp.b)))
 	{
 		index_b = 0;
-		if (check_item_in(stacks[A].length - index, stacks[0]) == FALSE)
-		{
-			if (abs(temp.a) > bigger && abs(temp.b) > bigger)
-				{
-					temp.a = -index;
-					temp.b = 0;
-				}
-		}
-		while (++index_b < stacks[1].length)
+		while (++index_b <= stacks[1].length && (index_b <= abs(temp.a) || index_b < abs(temp.b)))
 			if (check_item_out(stacks[1].stack[stacks[1].length - index_b], stacks[0].length - index, stacks[0]) == TRUE)
 			{
 				bigger = index;
 				if (index_b > index)
 					bigger = index_b ;
-				if (abs(temp.a) > bigger && abs(temp.b) > bigger)
+				if (abs(temp.a) > bigger || abs(temp.b) > bigger)
 				{
 					temp.a = -index;
 					temp.b = -index_b;
@@ -200,8 +189,9 @@ int	empty_b(t_stack *stacks, t_functions f)
 	}
 	moves.a = get_index(stacks[0], get_smallest(stacks[0]));
 	moves.b = 0;
+	// print_stack(stacks);
 	if (moves.a > stacks[0].length / 2)
-		moves.a = -stacks[0].length + moves.a - 1; 
+		moves.a = -stacks[0].length + moves.a; 
 	steps += move_to(moves, stacks, f);
 	return (steps);
 }
@@ -215,21 +205,18 @@ int	sort(t_stack *stacks, t_functions f)
 	stacks[0].lim.last = stacks[0].stack[stacks[0].length - 1];
 	while (!is_sorted(stacks[0]))
 	{
-		// steps += move_to(get_next_change(stacks), stacks, f);
-		// if (check_item_out(stacks[1].stack[0], 0, stacks[0]) && stacks[1].length != 0)
-		// {
-		// 	steps += push(stacks, 0);
-		// }
-		// if (stacks[0].stack[0] > stacks[0].stack[1])
-		// {	
-		// 	swap(stacks, 0);
-		// 	if (check_item_in(0, stacks[0]) == 0 && !is_sorted(stacks[0]))
-		// 		swap(stacks, 0);
-		// 	else if (f.rotate == &print_rotate)
-		// 	{
-		// 		ft_printf("sa\n");
-		// 	}
-		// }
+		if (stacks[0].stack[0] > stacks[0].stack[1])
+		{	
+			swap(stacks, 0);
+			if (check_item_in(0, stacks[0]) == 0 && !is_sorted(stacks[0]))
+				swap(stacks, 0);
+			else
+			{
+				steps ++;
+				if (f.rotate == &print_rotate)
+					ft_printf("sa\n");
+			}
+		}
 		while (check_item_in(0, stacks[0]) == 0 && \
 		!is_sorted(stacks[0]))
 		{
@@ -241,7 +228,7 @@ int	sort(t_stack *stacks, t_functions f)
 				steps += f.rotate(stacks, 0);
 		}
 	}
-	print_stack(stacks);
+	// print_stack(stacks);
 	steps += empty_b(stacks, f);
 	return (steps);
 }
@@ -256,50 +243,43 @@ int	find_best(t_stack *stacks)
 	t_functions	f;
 	int			index;
 
-	f.push = &push;
-	f.rotate = &rotate;
-	f.rev_rotate = &rev_rotate;
-	f.rotate_both = &rotate_both;
-	offset = 0;
-	n_stacks = copy_stack(stacks);
+	f = get_functions(0);
+	offset = -1;
+
+	n_stacks = copy_stacks(stacks);
 	number = sort(n_stacks, f);
 	// ft_printf("%d\n", number);
 	answer = 0;
-	while (++offset != stacks[0].length / 2)
+	while (++offset != stacks->length / 4)
 	{
-		free(n_stacks[0].stack);
-		free(n_stacks[1].stack);
-		free(n_stacks);
-		n_stacks = copy_stack(stacks);
-		index = 0;
-		while (++index < offset)
+		copy_stack(n_stacks->stack, stacks->stack, stacks->length);
+		index = -1;
+		while (++index <= offset)
 			rev_rotate(n_stacks, 0);
 		// print_stack(n_stacks);
 		temp = sort(n_stacks, f);
-		// ft_printf("%d\n", temp);
-		if (temp + offset < number)
+		// ft_printf("%d\n", temp + offset);
+		if (temp + offset + 1 < number)
 		{
-			// ft_printf("%d\n", temp + offset);
-			number = temp + offset;
-			answer = -offset;
+			number = temp + offset + 1;
+			// ft_printf("best : %d\n", number);
+			answer = -offset - 1;
 		}
 	}
-	offset = 0;
-	while (++offset != stacks[0].length / 2)
+	offset = -1;
+	while (++offset != stacks->length / 4)
 	{
-		free(n_stacks[0].stack);
-		free(n_stacks[1].stack);
-		free(n_stacks);
-		n_stacks = copy_stack(stacks);
-		index = 0;
+		copy_stack(n_stacks->stack, stacks->stack, stacks->length);
+		index = -1;
 		while (++index < offset)
 			rotate(n_stacks, 0);
 		// print_stack(n_stacks);
 		temp = sort(n_stacks, f);
-		if (temp + offset < number)
+		// ft_printf("%d\n", temp + offset);
+		if (temp + offset + 1 < number)
 		{
-			// ft_printf("%d\n", temp +offset);
-			number = temp + offset;
+			number = temp + offset + 1;
+			// ft_printf("best : %d\n", number);
 			answer = offset;
 		}
 	}

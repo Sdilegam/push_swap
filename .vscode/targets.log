@@ -1,6 +1,7 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 Makefile:147: target 'libraries/ft_printf/libftprintf.a' given more than once in the same rule
 Makefile:147: target 'libraries/ft_printf/libftprintf.a' given more than once in the same rule
+
 Makefile:182: target 'clean_ft_printf/' given more than once in the same rule
 Makefile:182: target 'clean_ft_printf/' given more than once in the same rule
 
@@ -11,7 +12,7 @@ Makefile:182: target 'clean_ft_printf/' given more than once in the same rule
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue May 31 06:47:20 2022
+# Make data base, printed on Thu Jun  2 12:40:16 2022
 
 # Variables
 
@@ -22,7 +23,7 @@ COMN_INCLUDE = -Iincludes -I${COMN_DIR}headers/ ${addprefix -I, ${addprefix ${LI
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
 # default
 .SHELLFLAGS := -c
 # environment
@@ -49,8 +50,8 @@ _ = /usr/bin/sh
 ALL_LIBS = ${COMN_LIBS} ${MANDA_LIBS} ${BONUS_LIBS}
 # makefile (from 'Makefile', line 99)
 BONUS_INCLUDE = -I${BONUS_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},${dir ${BONUS_LIBS}}}}
-# makefile (from 'sources/common/objects/ps_is_sorted.d', line 1)
-MAKEFILE_LIST :=  Makefile sources/mandatory/objects/ps_manda_utils.d sources/mandatory/objects/ps_print_push.d sources/mandatory/objects/ps_print_rotate.d sources/mandatory/objects/ps_print_swap.d sources/mandatory/objects/ps_sort_algorithm.d sources/mandatory/objects/ps_sorting_utils.d sources/mandatory/objects/push_swap.d sources/bonus/objects/push_swap_bonus.d sources/bonus/objects/ps_bonus_utils.d sources/bonus/objects/get_next_line.d sources/bonus/objects/get_next_line_utils.d sources/common/objects/ps_errors.d sources/common/objects/ps_handle_parameters.d sources/common/objects/ps_push.d sources/common/objects/ps_rotate.d sources/common/objects/ps_stacks_init.d sources/common/objects/ps_swap.d sources/common/objects/ps_utils.d sources/common/objects/ps_is_sorted.d
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
 # makefile (from 'Makefile', line 41)
 LIB_DIR = libraries/
 # 'override' directive
@@ -74,9 +75,7 @@ COMN_SRCS = ps_errors.c ps_handle_parameters.c ps_push.c ps_rotate.c ps_stacks_i
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-bd062a77-4677-40fc-8c8b-abee4859d706.sock
-# environment
-VSCODE_SERVER_TAR = /mnt/c/Users/DLSal/AppData/Local/Temp/vscode-remote-wsl/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/vscode-server-stable-linux-x64.tar.gz
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-48839980-37e8-44eb-bac2-90f13e16918c.sock
 # makefile (from 'Makefile', line 33)
 MANDA_DIR = sources/mandatory/
 # default
@@ -98,7 +97,7 @@ PWD = /home/sdi-lega/Documents/push_swap
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/13_interop
+WSL_INTEROP = /run/WSL/12_interop
 # makefile (from 'Makefile', line 74)
 MANDA_OBJS = ${addprefix ${MANDA_OBJ_DIR}, ${MANDA_SRCS:.c=.o}}
 # environment
@@ -110,7 +109,7 @@ COMN_OBJS = ${addprefix ${COMN_OBJ_DIR}, ${COMN_SRCS:.c=.o}}
 # environment
 LOGNAME = sdi-lega
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # makefile (from 'Makefile', line 98)
 MANDA_INCLUDE = -I${MANDA_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}}
 # makefile (from 'Makefile', line 87)
@@ -198,7 +197,7 @@ BONUS_LIBS = ${COMN_LIBS}
 # environment
 WSL_DISTRO_NAME = Ubuntu
 # variable set hash-table stats:
-# Load=91/1024=9%, Rehash=0, Collisions=16/244=7%
+# Load=90/1024=9%, Rehash=0, Collisions=16/190=8%
 
 # Pattern-specific Variable Values
 
@@ -206,12 +205,12 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Directories
 
-# . (device 2064, inode 10739): 18 files, no impossibilities.
+# . (device 2064, inode 10739): 19 files, no impossibilities.
 # sources/bonus (device 2064, inode 20118): No files, no impossibilities so far.
 # sources/mandatory (device 2064, inode 41815): No files, no impossibilities so far.
 # sources/common (device 2064, inode 29290): No files, no impossibilities so far.
 
-# 18 files, no impossibilities in 4 directories.
+# 19 files, no impossibilities in 4 directories.
 
 # Implicit Rules
 
@@ -240,7 +239,8 @@ sources/bonus/objects/%.o: sources/bonus/%.c
 
 # Files
 
-sources/bonus/objects/get_next_line.o: sources/bonus/get_next_line.c sources/bonus/headers/get_next_line.h
+# Not a target:
+sources/bonus/objects/get_next_line.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -248,48 +248,16 @@ sources/bonus/objects/get_next_line.o: sources/bonus/get_next_line.c sources/bon
 # Not a target:
 sources/mandatory/objects/ps_print_push.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:55:24.846503523
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/bonus/get_next_line_utils.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Failed to be updated.
 
 # Not a target:
 sources/common/objects/ps_push.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:55:23.256503535
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/bonus/headers/typedef_bonus.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-sources/bonus/push_swap_bonus.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-sources/common/ps_utils.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
- 
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/bonus/headers/bonus_index.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Failed to be updated.
 
 all: mandatory bonus
 #  Command line target.
@@ -298,23 +266,10 @@ all: mandatory bonus
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/20=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
 
 # Not a target:
-libraries/ft_printf/ft_printf.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/mandatory/headers/ps_sort_algorithm.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:55:22.016503544
-#  File has been updated.
-#  Successfully updated.
-
-sources/mandatory/objects/ps_sorting_utils.o: sources/mandatory/ps_sorting_utils.c sources/mandatory/headers/manda_index.h sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h sources/mandatory/headers/ps_sorting_utils.h sources/mandatory/headers/manda_index.h sources/mandatory/headers/ps_sort_algorithm.h sources/mandatory/headers/manda_ps_print_moves.h sources/mandatory/headers/ps_manda_utils.h
+sources/mandatory/objects/ps_sorting_utils.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -324,102 +279,75 @@ sources/mandatory/objects/ps_sorting_utils.o: sources/mandatory/ps_sorting_utils
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-sources/mandatory/headers/ps_manda_utils.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
 mandatory: push_swap
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
+ 
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/20=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
 
 # Not a target:
-sources/common/headers/ps_stacks_init.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-sources/common/objects/ps_errors.o: sources/common/ps_errors.c sources/common/ps_errors.c sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ps_errors'
-#  Last modified 2022-05-31 04:55:22.796503539
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 132):
-			@ echo  "\rCreating common \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${COMN_INCLUDE} -c $< -o ${COMN_OBJ_DIR}${@F:.c=.o} -g
-			@ sleep ${SLEEP_TIME}
-			
+sources/common/objects/ps_errors.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 sources/mandatory/objects/ps_sort_algorithm.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 06:47:16.57645308
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/mandatory/headers/manda_index.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
 sources/mandatory/objects/ps_print_rotate.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 06:33:04.166459486
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
 sources/mandatory/objects/push_swap.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 06:38:52.20645687
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
 sources/common/objects/ps_swap.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:55:23.93650353
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
-sources/mandatory/headers/manda_ps_print_moves.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 sources/common/objects/ps_rotate.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:55:23.486503533
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
 sources/mandatory/objects/ps_manda_utils.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:55:24.616503525
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
 sources/common/objects/ps_is_sorted.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:55:24.386503527
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
 Makefile:
@@ -431,9 +359,9 @@ Makefile:
 # Not a target:
 sources/common/objects/ps_stacks_init.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:55:23.706503532
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 start:
 #  Implicit rule search has not been done.
@@ -449,65 +377,59 @@ start:
 			${SILENT} mkdir -p libraries
 
 # Not a target:
-sources/common/ps_handle_parameters.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-sources/mandatory/objects/ps_print_push.o: sources/mandatory/ps_print_push.c sources/mandatory/ps_print_push.c sources/mandatory/headers/manda_index.h sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h sources/mandatory/headers/ps_sorting_utils.h sources/mandatory/headers/manda_index.h sources/mandatory/headers/ps_sort_algorithm.h sources/mandatory/headers/manda_ps_print_moves.h sources/mandatory/headers/ps_manda_utils.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ps_print_push'
-#  Last modified 2022-05-31 04:55:24.846503523
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 137):
-			@ echo  "\rCreating mandatory \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${MANDA_INCLUDE} -c $< -o ${MANDA_OBJ_DIR}${@F:.c=.o} -g
-			@ sleep ${SLEEP_TIME}
-			
+sources/mandatory/objects/ps_print_push.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 sources/bonus/objects/ps_bonus_utils.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:56:17.996503124
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 libraries/ft_printf/libftprintf.a:
 #  Implicit rule search has not been done.
-#  Last modified 2022-05-31 03:29:04.646542456
+#  Implicit/static pattern stem: ''
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := libraries/ft_printf/libftprintf.a
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/16=6%
 #  recipe to execute (from 'Makefile', line 148):
 			@ echo  "\rCreating \"${notdir $@}\".\033[K\c"
 			${SILENT} make -sC $(@D)
 			@ echo "\rLibrary \"${notdir $@}\" created\033[K"
 
-sources/common/objects/ps_push.o: sources/common/ps_push.c sources/common/ps_push.c sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ps_push'
-#  Last modified 2022-05-31 04:55:23.256503535
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 132):
-			@ echo  "\rCreating common \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${COMN_INCLUDE} -c $< -o ${COMN_OBJ_DIR}${@F:.c=.o} -g
-			@ sleep ${SLEEP_TIME}
-			
+# Not a target:
+sources/common/objects/ps_push.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 sources/bonus/objects/get_next_line_utils.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:29:09.046542423
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/bonus/get_next_line.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Failed to be updated.
 
 clean_bonus:
 #  Implicit rule search has not been done.
@@ -521,35 +443,21 @@ clean_bonus:
 # Not a target:
 sources/bonus/objects/push_swap_bonus.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:56:17.766503125
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
 sources/common/objects/ps_utils.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:55:24.166503528
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 bonus: schecker
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-# Not a target:
-includes/lib_includes.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-includes/preprocessor_macros.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
 
 fclean: clean clean_ft_printf/ clean_ft_printf/ clean_ft_printf/ clean_exe clean_bonus
 #  Implicit rule search has not been done.
@@ -559,90 +467,35 @@ fclean: clean clean_ft_printf/ clean_ft_printf/ clean_ft_printf/ clean_exe clean
 			@ echo "\rEverything removed.\033[K"
 				
 
-sources/mandatory/objects/ps_print_swap.o: sources/mandatory/ps_print_swap.c sources/mandatory/ps_print_swap.c sources/mandatory/headers/manda_index.h sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h sources/mandatory/headers/ps_sorting_utils.h sources/mandatory/headers/manda_index.h sources/mandatory/headers/ps_sort_algorithm.h sources/mandatory/headers/manda_ps_print_moves.h sources/mandatory/headers/ps_manda_utils.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ps_print_swap'
- 
-#  Last modified 2022-05-31 04:55:25.30650352
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 137):
-			@ echo  "\rCreating mandatory \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${MANDA_INCLUDE} -c $< -o ${MANDA_OBJ_DIR}${@F:.c=.o} -g
-			@ sleep ${SLEEP_TIME}
-			
-
 # Not a target:
-includes/type_definition.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:52:19.196504918
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/mandatory/ps_sorting_utils.c:
+sources/mandatory/objects/ps_print_swap.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-sources/mandatory/objects/ps_sort_algorithm.o: sources/mandatory/ps_sort_algorithm.c sources/mandatory/ps_sort_algorithm.c sources/mandatory/headers/manda_index.h sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h sources/mandatory/headers/ps_sorting_utils.h sources/mandatory/headers/manda_index.h sources/mandatory/headers/ps_sort_algorithm.h sources/mandatory/headers/manda_ps_print_moves.h sources/mandatory/headers/ps_manda_utils.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ps_sort_algorithm'
-#  Last modified 2022-05-31 06:43:10.896454926
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := sources/mandatory/objects/ps_sort_algorithm.o
-# automatic
-# % := 
-# automatic
-# * := ps_sort_algorithm
-# automatic
-# + := sources/mandatory/ps_sort_algorithm.c sources/mandatory/ps_sort_algorithm.c sources/mandatory/headers/manda_index.h sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h sources/mandatory/headers/ps_sorting_utils.h sources/mandatory/headers/manda_index.h sources/mandatory/headers/ps_sort_algorithm.h sources/mandatory/headers/manda_ps_print_moves.h sources/mandatory/headers/ps_manda_utils.h
-# automatic
-# | := 
-# automatic
-# < := sources/mandatory/ps_sort_algorithm.c
-# automatic
-# ^ := sources/mandatory/ps_sort_algorithm.c sources/mandatory/headers/manda_index.h sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h sources/mandatory/headers/ps_sorting_utils.h sources/mandatory/headers/ps_sort_algorithm.h sources/mandatory/headers/manda_ps_print_moves.h sources/mandatory/headers/ps_manda_utils.h
-# automatic
-# ? := sources/mandatory/ps_sort_algorithm.c
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=4/31=13%
-#  recipe to execute (from 'Makefile', line 137):
-			@ echo  "\rCreating mandatory \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${MANDA_INCLUDE} -c $< -o ${MANDA_OBJ_DIR}${@F:.c=.o} -g
-			@ sleep ${SLEEP_TIME}
-			
-
-sources/mandatory/objects/ps_print_rotate.o: sources/mandatory/ps_print_rotate.c sources/mandatory/ps_print_rotate.c sources/mandatory/headers/manda_index.h sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h sources/mandatory/headers/ps_sorting_utils.h sources/mandatory/headers/manda_index.h sources/mandatory/headers/ps_sort_algorithm.h sources/mandatory/headers/manda_ps_print_moves.h sources/mandatory/headers/ps_manda_utils.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ps_print_rotate'
-#  Last modified 2022-05-31 06:33:04.166459486
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 137):
-			@ echo  "\rCreating mandatory \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${MANDA_INCLUDE} -c $< -o ${MANDA_OBJ_DIR}${@F:.c=.o} -g
-			@ sleep ${SLEEP_TIME}
-			
-
-sources/mandatory/objects/push_swap.o: sources/mandatory/push_swap.c sources/mandatory/headers/manda_index.h sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h sources/mandatory/headers/ps_sorting_utils.h sources/mandatory/headers/manda_index.h sources/mandatory/headers/ps_sort_algorithm.h sources/mandatory/headers/manda_ps_print_moves.h sources/mandatory/headers/ps_manda_utils.h
+# Not a target:
+sources/mandatory/objects/ps_sort_algorithm.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-sources/common/objects/ps_swap.o: sources/common/ps_swap.c sources/common/ps_swap.c sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ps_swap'
-#  Last modified 2022-05-31 04:55:23.93650353
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 132):
-			@ echo  "\rCreating common \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${COMN_INCLUDE} -c $< -o ${COMN_OBJ_DIR}${@F:.c=.o} -g
-			@ sleep ${SLEEP_TIME}
-			
+# Not a target:
+sources/mandatory/objects/ps_print_rotate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+sources/mandatory/objects/push_swap.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+sources/common/objects/ps_swap.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 schecker: libraries/ft_printf/libftprintf.a sources/common/objects/ps_errors.o sources/common/objects/ps_handle_parameters.o sources/common/objects/ps_push.o sources/common/objects/ps_rotate.o sources/common/objects/ps_stacks_init.o sources/common/objects/ps_swap.o sources/common/objects/ps_utils.o sources/common/objects/ps_is_sorted.o sources/bonus/objects/push_swap_bonus.o sources/bonus/objects/ps_bonus_utils.o sources/bonus/objects/get_next_line.o sources/bonus/objects/get_next_line_utils.o
 #  Implicit rule search has not been done.
@@ -655,73 +508,28 @@ schecker: libraries/ft_printf/libftprintf.a sources/common/objects/ps_errors.o s
 			
 
 # Not a target:
-sources/common/headers/comn_ps_moves.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-sources/common/objects/ps_rotate.o: sources/common/ps_rotate.c sources/common/ps_rotate.c sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ps_rotate'
-#  Last modified 2022-05-31 04:55:23.486503533
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 132):
-			@ echo  "\rCreating common \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${COMN_INCLUDE} -c $< -o ${COMN_OBJ_DIR}${@F:.c=.o} -g
-			@ sleep ${SLEEP_TIME}
-			
-
-sources/mandatory/objects/ps_manda_utils.o: sources/mandatory/ps_manda_utils.c sources/mandatory/ps_manda_utils.c sources/mandatory/headers/manda_index.h sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h sources/mandatory/headers/ps_sorting_utils.h sources/mandatory/headers/manda_index.h sources/mandatory/headers/ps_sort_algorithm.h sources/mandatory/headers/manda_ps_print_moves.h sources/mandatory/headers/ps_manda_utils.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ps_manda_utils'
-#  Last modified 2022-05-31 04:55:24.626503525
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 137):
-			@ echo  "\rCreating mandatory \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${MANDA_INCLUDE} -c $< -o ${MANDA_OBJ_DIR}${@F:.c=.o} -g
-			@ sleep ${SLEEP_TIME}
-			
-
-sources/common/objects/ps_is_sorted.o: sources/common/ps_is_sorted.c sources/common/ps_is_sorted.c sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ps_is_sorted'
-#  Last modified 2022-05-31 04:55:24.396503526
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 132):
-			@ echo  "\rCreating common \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${COMN_INCLUDE} -c $< -o ${COMN_OBJ_DIR}${@F:.c=.o} -g
-			@ sleep ${SLEEP_TIME}
-			
+sources/common/objects/ps_rotate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-sources/common/headers/ps_handle_parameters.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
+sources/mandatory/objects/ps_manda_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-sources/common/ps_errors.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
+sources/common/objects/ps_is_sorted.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-sources/common/objects/ps_stacks_init.o: sources/common/ps_stacks_init.c sources/common/ps_stacks_init.c sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ps_stacks_init'
-#  Last modified 2022-05-31 04:55:23.716503532
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 132):
-			@ echo  "\rCreating common \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${COMN_INCLUDE} -c $< -o ${COMN_OBJ_DIR}${@F:.c=.o} -g
-			@ sleep ${SLEEP_TIME}
-			
+# Not a target:
+sources/common/objects/ps_stacks_init.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 .DEFAULT:
@@ -729,13 +537,8 @@ sources/common/objects/ps_stacks_init.o: sources/common/ps_stacks_init.c sources
 #  Modification time never checked.
 #  File has not been updated.
 
-sources/bonus/objects/ps_bonus_utils.o: sources/bonus/ps_bonus_utils.c sources/bonus/headers/bonus_index.h sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h sources/bonus/headers/typedef_bonus.h
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
 # Not a target:
-sources/bonus/headers/get_next_line.h:
+sources/bonus/objects/ps_bonus_utils.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -749,7 +552,8 @@ clean_exe:
 			${SILENT} ${RM} ${EXECUTABLES}
 			@ sleep ${SLEEP_TIME}
 
-sources/bonus/objects/get_next_line_utils.o: sources/bonus/get_next_line_utils.c sources/bonus/headers/get_next_line.h
+# Not a target:
+sources/bonus/objects/get_next_line_utils.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -757,23 +561,19 @@ sources/bonus/objects/get_next_line_utils.o: sources/bonus/get_next_line_utils.c
 # Not a target:
 sources/common/objects/ps_handle_parameters.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:55:23.016503537
+#  File does not exist.
+ 
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
-# Not a target:
-includes/includes_index.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/mandatory/ps_print_push.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
+clean_ft_printf/:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 183):
+			@ echo "\rRemoving libraries (${patsubst clean_%,%, $@}).\033[K\c"
+			${SILENT} make fclean -sC ${patsubst clean_%, libraries/%, $@}
+			@ sleep ${SLEEP_TIME}
 
 re: fclean all
 #  Implicit rule search has not been done.
@@ -789,23 +589,8 @@ clean:
 			${SILENT} ${RM} ${OBJECTS} ${COMN_OBJS} ${MANDA_OBJS} ${DEPENDS}
 			@ sleep ${SLEEP_TIME}
 
-clean_ft_printf/:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 183):
-			@ echo "\rRemoving libraries (${patsubst clean_%,%, $@}).\033[K\c"
-			${SILENT} make fclean -sC ${patsubst clean_%, libraries/%, $@}
-			@ sleep ${SLEEP_TIME}
-
 # Not a target:
-sources/common/ps_push.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-sources/bonus/objects/push_swap_bonus.o: sources/bonus/push_swap_bonus.c sources/bonus/headers/bonus_index.h sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h sources/bonus/headers/typedef_bonus.h
+sources/bonus/objects/push_swap_bonus.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -813,83 +598,42 @@ sources/bonus/objects/push_swap_bonus.o: sources/bonus/push_swap_bonus.c sources
 # Not a target:
 sources/bonus/objects/get_next_line.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:29:08.826542425
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 push_swap: libraries/ft_printf/libftprintf.a sources/common/objects/ps_errors.o sources/common/objects/ps_handle_parameters.o sources/common/objects/ps_push.o sources/common/objects/ps_rotate.o sources/common/objects/ps_stacks_init.o sources/common/objects/ps_swap.o sources/common/objects/ps_utils.o sources/common/objects/ps_is_sorted.o sources/mandatory/objects/ps_manda_utils.o sources/mandatory/objects/ps_print_push.o sources/mandatory/objects/ps_print_rotate.o sources/mandatory/objects/ps_print_swap.o sources/mandatory/objects/ps_sort_algorithm.o sources/mandatory/objects/ps_sorting_utils.o sources/mandatory/objects/push_swap.o
 #  Implicit rule search has not been done.
-#  Last modified 2022-05-31 06:45:15.856453987
+#  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/20=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
 #  recipe to execute (from 'Makefile', line 154):
 			@ echo "\r\"$@\" executable created\033[K"
 			${SILENT} ${CC} ${COMN_OBJS} ${MANDA_OBJS} -o $@ ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${MANDA_LIBS}}}} -g
 			@ sleep ${SLEEP_TIME}
 			
 
-sources/common/objects/ps_utils.o: sources/common/ps_utils.c sources/common/ps_utils.c sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ps_utils'
-#  Last modified 2022-05-31 04:55:24.166503528
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 132):
-			@ echo  "\rCreating common \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${COMN_INCLUDE} -c $< -o ${COMN_OBJ_DIR}${@F:.c=.o} -g
-			@ sleep ${SLEEP_TIME}
-			
-
 # Not a target:
-sources/common/headers/comn_index.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/common/headers/comn_ps_utils.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/mandatory/headers/ps_sorting_utils.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
+sources/common/objects/ps_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 sources/mandatory/objects/ps_print_swap.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:55:25.29650352
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/common/headers/ps_errors.h:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/mandatory/ps_print_swap.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
 sources/mandatory/objects/ps_sorting_utils.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:55:55.396503293
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 
 # Not a target:
 clean_libs:
@@ -898,100 +642,32 @@ clean_libs:
 #  File has not been updated.
 
 # Not a target:
-sources/mandatory/ps_sort_algorithm.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 06:47:00.436453201
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/mandatory/ps_print_rotate.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 06:33:02.3364595
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/mandatory/push_swap.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-sources/common/ps_swap.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/common/ps_rotate.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/mandatory/ps_manda_utils.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/common/ps_is_sorted.c:
-#  Implicit rule search has been done.
- 
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
 sources/common/objects/ps_errors.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-31 04:55:22.786503539
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
-
-sources/common/objects/ps_handle_parameters.o: sources/common/ps_handle_parameters.c sources/common/ps_handle_parameters.c sources/common/headers/comn_index.h includes/includes_index.h includes/lib_includes.h libraries/ft_printf/ft_printf.h includes/preprocessor_macros.h includes/type_definition.h sources/common/headers/comn_ps_moves.h sources/common/headers/comn_index.h sources/common/headers/comn_ps_utils.h sources/common/headers/ps_errors.h sources/common/headers/ps_stacks_init.h sources/common/headers/ps_handle_parameters.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'ps_handle_parameters'
-#  Last modified 2022-05-31 04:55:23.026503537
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 132):
-			@ echo  "\rCreating common \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${COMN_INCLUDE} -c $< -o ${COMN_OBJ_DIR}${@F:.c=.o} -g
-			@ sleep ${SLEEP_TIME}
-			
+#  Failed to be updated.
 
 # Not a target:
-sources/common/ps_stacks_init.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-31 03:21:05.666546056
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-sources/bonus/ps_bonus_utils.c:
+sources/common/objects/ps_handle_parameters.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=94/1024=9%, Rehash=0, Collisions=15/500=3%
+# Load=56/1024=5%, Rehash=0, Collisions=2/147=1%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 133 / storage = 3556 B / avg = 26 B
-# current buf: size = 8162 B / used = 3556 B / count = 133 / avg = 26 B
+# strcache buffers: 1 (0) / strings = 84 / storage = 2100 B / avg = 25 B
+# current buf: size = 8162 B / used = 2100 B / count = 84 / avg = 25 B
 
-# strcache performance: lookups = 509 / hit rate = 73%
+# strcache performance: lookups = 163 / hit rate = 48%
 # hash-table stats:
-# Load=133/8192=2%, Rehash=0, Collisions=1/509=0%
-# Finished Make data base on Tue May 31 06:47:20 2022
+# Load=84/8192=1%, Rehash=0, Collisions=1/163=1%
+# Finished Make data base on Thu Jun  2 12:40:16 2022
 
  

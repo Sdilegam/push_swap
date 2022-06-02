@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/05/31 06:47:15 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/06/02 16:16:21 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -115,7 +115,7 @@ SILENT				=
 #									#
 #####################################
 
-all:				mandatory bonus
+all:				mandatory #bonus
 re:					fclean all
 
 mandatory:			${NAME}
