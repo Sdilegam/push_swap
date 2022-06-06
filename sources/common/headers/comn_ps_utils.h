@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/28 10:20:40 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/29 19:36:48 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/06 22:37:09 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,5 @@ t_bool	is_in_stack(int element, t_stack stack);
 t_bool	get_index(t_stack stack, int item);
 int		get_smallest(t_stack stack);
 int		get_biggest(t_stack stack);
-int	is_sorted(t_stack stack);
+int		is_sorted(t_stack stack);
 #endif

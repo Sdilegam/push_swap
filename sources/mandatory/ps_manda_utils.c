@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 08:18:19 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/02 16:00:24 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/06 22:51:10 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,10 @@ void	copy_stack(int *stack_to, int *stack_from, int length)
 		stack_to[index] = stack_from[index];
 }
 
-
 t_stack	*copy_stacks(t_stack *stack_from)
 {
 	t_stack	*new_stack;
-	
+
 	new_stack = malloc(sizeof(t_stack) * 2);
 	if (!new_stack)
 		return (NULL);

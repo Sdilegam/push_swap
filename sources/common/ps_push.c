@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 10:08:45 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/06 17:38:45 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/06 22:36:53 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ void	set_limits(t_stack *stacks, int id)
 			stacks[0].lim.first = stacks[1].stack[0];
 	}
 }
-
 
 int	push(t_stack *stacks, int id)
 {

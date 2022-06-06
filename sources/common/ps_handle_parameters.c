@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/26 14:58:59 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/06 18:19:11 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/06 22:34:17 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,8 @@ void	are_parameters_ok(int argc, char *argv[])
 		{
 			if (is_digit(argv[number][digit]) == FALSE)
 			{
-				if (digit != 0 || argv[number][digit] != '-' || !argv[number][digit + 1])
+				if (digit != 0 || argv[number][digit] != '-' || \
+				!argv[number][digit + 1])
 					error();
 			}
 		}
