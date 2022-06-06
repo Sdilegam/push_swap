@@ -117,7 +117,6 @@ int	empty_b(t_stack *stacks, t_functions f)
 	}
 	moves.a = get_index(stacks[0], get_smallest(stacks[0]));
 	moves.b = 0;
-	// print_stack(stacks);
 	if (moves.a > stacks[0].length / 2)
 		moves.a = -stacks[0].length + moves.a; 
 	steps += move_to(moves, stacks, f);
@@ -153,7 +152,6 @@ int	sort(t_stack *stacks, t_functions f)
 				steps += f.rotate(stacks, 0);
 		}
 	}
-	// print_stack(stacks);
 	steps += empty_b(stacks, f);
 	return (steps);
 }
@@ -173,7 +171,6 @@ int	find_best(t_stack *stacks)
 
 	n_stacks = copy_stacks(stacks);
 	number = sort(n_stacks, f);
-	// ft_printf("%d\n", number);
 	answer = 0;
 	while (++offset != stacks->length / 4)
 	{
