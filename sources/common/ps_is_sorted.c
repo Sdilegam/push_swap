@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   is_sorted.c                                        :+:      :+:    :+:   */
+/*   ps_is_sorted.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/29 19:35:01 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/29 19:35:56 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/06 17:12:48 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,7 @@ int	is_sorted(t_stack stack)
 	}
 	return (1);
 }
+
 t_bool	get_index(t_stack stack, int item)
 {
 	int	index;
@@ -73,4 +74,3 @@ int	get_biggest(t_stack stack)
 			biggest = stack.stack[index];
 	return (biggest);
 }
-

@@ -171,7 +171,6 @@ for ((stack_size = $startRange; stack_size <= $endRange; stack_size++)); do
 		ARG=`$FOLDER_TESTER/genstack.pl $stack_size -1000 1000`
 		echo "${ARG}" >> push_swap_run_args.log
 	fi
-	printf "\t arguments are: ${CYAN}$ARG${NOCOLOR}\n"
 	printf "${DARKGRAY} TEST $testNB: ${NOCOLOR}"
 	"./$1/push_swap" $ARG > push_swap_result.log; exitCode=$?
 	RESULT_CHECKER=`"./$1/checker" $ARG < push_swap_result.log`

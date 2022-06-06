@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 09:58:50 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/02 14:43:44 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/06 17:23:35 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,34 +39,28 @@ int	print_rev_rotate_both(t_stack *stacks, int id)
 int	move_to(t_moves steps, t_stack *stack, t_functions f)
 {
 	int	index;
+	int	(*rotate)(t_stack *, int);
+	int	(*rotate_both)(t_stack *, int);
 
-	if (steps.a >= 0 && steps.b >= 0 )
+	index = -1;
+	if (steps.a >= 0 && steps.b >= 0)
 	{
-		index = -1;
-		while (++index < steps.a || index < steps.b)
-		{
-			if (index < steps.a && index < steps.b)
-				f.rotate_both(stack, 0);
-			else if (index < steps.a)
-				f.rotate(stack, 0);
-			else if (index < steps.b)
-				f.rotate(stack, 1);
-		}
-		return (index);
+		rotate_both = f.rotate_both;
+		rotate = f.rotate;
 	}
-	else if (steps.a <= 0 && steps.b <= 0 )
+	else
 	{
-		index = -1;
-		while (++index < -steps.a || index < -steps.b)
-		{
-			if (index < -steps.a && index < -steps.b)
-				f.rev_rotate_both(stack, 0);
-			else if (index < -steps.a)
-				f.rev_rotate(stack, 0);
-			else if (index < -steps.b)
-				f.rev_rotate(stack, 1);
-		}
-		return (index);
+		rotate_both = f.rev_rotate_both;
+		rotate = f.rev_rotate;
 	}
-	return (0);
+	while (++index < abs(steps.a) || index < abs(steps.b))
+	{
+		if (index < abs(steps.a) && index < abs(steps.b))
+			rotate_both(stack, 0);
+		else if (index < abs(steps.a))
+			rotate(stack, 0);
+		else if (index < abs(steps.b))
+			rotate(stack, 1);
+	}
+	return (index);
 }
