@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/06 22:38:27 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/06 22:48:35 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/07 12:57:22 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -221,5 +221,6 @@ int	find_best(t_stack *stacks)
 			answer = offset;
 		}
 	}
+	free_stacks(&n_stacks);
 	return (answer);
 }
