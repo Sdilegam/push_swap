@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 08:18:19 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/06 22:51:10 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/08 06:21:18 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,15 +25,18 @@ t_stack	*copy_stacks(t_stack *stack_from)
 {
 	t_stack	*new_stack;
 
+	// new_stack = 0;
 	new_stack = malloc(sizeof(t_stack) * 2);
-	if (!new_stack)
-		return (NULL);
-	new_stack[0].stack = malloc(sizeof(int) * stack_from[0].length);
-	if (!new_stack[0].stack)
-		return (NULL);
-	new_stack[1].stack = malloc(sizeof(int) * stack_from[1].length);
-	if (!new_stack[1].stack)
-		return (NULL);
+	if (new_stack)
+	{
+		new_stack[0].stack = malloc(sizeof(int) * stack_from[0].length);
+		new_stack[1].stack = malloc(sizeof(int) * stack_from[1].length);
+	}
+	if (!new_stack || !new_stack[0].stack || !new_stack[1].stack)
+	{
+		free_stacks(&new_stack);
+		safe_exit(&stack_from);
+	}
 	new_stack[0].length = stack_from[0].length;
 	new_stack[1].length = stack_from[1].length;
 	copy_stack(new_stack[0].stack, stack_from[0].stack, stack_from[0].length);

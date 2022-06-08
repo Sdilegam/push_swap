@@ -1,2512 +1,10002 @@
-[0;35m Generating random numbers for stack_size 1...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-
-Mean: 0 for stack of size 1 
-
-[0;35m Generating random numbers for stack_size 2...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-
-Mean: 0 for stack of size 2 
-
-[0;35m Generating random numbers for stack_size 3...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 2 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 2 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 2 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 2 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 0 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 2 [0m instructions
-
-Mean: 1 for stack of size 3 
-
-[0;35m Generating random numbers for stack_size 4...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[0;32m 9 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 6 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 4 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 4 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 4 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 2 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1 [0m instructions
-
-Mean: 3 for stack of size 4 
-
-[0;35m Generating random numbers for stack_size 5...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 6 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 7 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[0;32m 10 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[0;34m 8 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 7 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 6 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 7 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 6 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 7 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 5 [0m instructions
-
-Mean: 6 for stack of size 5 
-
-[0;35m Generating random numbers for stack_size 6...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 15 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 11 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 11 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 8 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 5 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 11 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 13 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 13 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 11 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 3 [0m instructions
-
-Mean: 10 for stack of size 6 
-
-[0;35m Generating random numbers for stack_size 7...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 16 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 16 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 17 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 15 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 18 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 16 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 15 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 17 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 15 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 13 [0m instructions
-
-Mean: 15 for stack of size 7 
-
-[0;35m Generating random numbers for stack_size 8...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 17 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 16 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 16 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 17 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 21 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 18 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 18 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 15 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 16 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 20 [0m instructions
-
-Mean: 17 for stack of size 8 
-
-[0;35m Generating random numbers for stack_size 9...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 22 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 19 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 21 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 16 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 21 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 22 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 19 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 14 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 25 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 22 [0m instructions
-
-Mean: 20 for stack of size 9 
-
-[0;35m Generating random numbers for stack_size 10...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 23 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 23 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 27 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 21 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 26 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 24 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 20 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 30 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 25 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 26 [0m instructions
-
-Mean: 24 for stack of size 10 
-
-[0;35m Generating random numbers for stack_size 11...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 25 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 24 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 25 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 33 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 29 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 26 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 31 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 32 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 28 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 32 [0m instructions
-
-Mean: 28 for stack of size 11 
-
-[0;35m Generating random numbers for stack_size 12...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 30 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 32 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 30 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 30 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 35 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 28 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 29 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 31 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 37 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 30 [0m instructions
-
-Mean: 31 for stack of size 12 
-
-[0;35m Generating random numbers for stack_size 13...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 34 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 34 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 36 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 36 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 32 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 37 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 32 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 34 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 39 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 38 [0m instructions
-
-Mean: 35 for stack of size 13 
-
-[0;35m Generating random numbers for stack_size 14...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 34 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 28 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 38 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 40 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 38 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 37 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 42 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 36 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 36 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 37 [0m instructions
-
-Mean: 36 for stack of size 14 
-
-[0;35m Generating random numbers for stack_size 15...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 41 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 41 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 44 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 46 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 41 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 48 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 45 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 36 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 44 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 47 [0m instructions
-
-Mean: 43 for stack of size 15 
-
-[0;35m Generating random numbers for stack_size 16...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 50 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 51 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 44 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 47 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 46 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 47 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 44 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 46 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 44 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 45 [0m instructions
-
-Mean: 46 for stack of size 16 
-
-[0;35m Generating random numbers for stack_size 17...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 52 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 51 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 46 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 49 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 47 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 58 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 51 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 54 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 51 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 41 [0m instructions
-
-Mean: 50 for stack of size 17 
-
-[0;35m Generating random numbers for stack_size 18...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 58 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 54 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 59 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 61 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 55 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 56 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 55 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 58 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 54 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 53 [0m instructions
-
-Mean: 56 for stack of size 18 
-
-[0;35m Generating random numbers for stack_size 19...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 58 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 59 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 63 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 67 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 59 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 60 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 59 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 62 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 61 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 67 [0m instructions
-
-Mean: 61 for stack of size 19 
-
-[0;35m Generating random numbers for stack_size 20...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 66 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 65 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 64 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 66 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 61 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 59 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 67 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 63 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 65 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 57 [0m instructions
-
-Mean: 63 for stack of size 20 
-
-[0;35m Generating random numbers for stack_size 21...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 63 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 68 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 69 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 72 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 75 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 71 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 68 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 69 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 67 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 53 [0m instructions
-
-Mean: 67 for stack of size 21 
-
-[0;35m Generating random numbers for stack_size 22...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 66 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 79 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 82 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 75 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 73 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 76 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 68 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 71 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 76 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 75 [0m instructions
-
-Mean: 74 for stack of size 22 
-
-[0;35m Generating random numbers for stack_size 23...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 78 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 77 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 83 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 77 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 74 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 82 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 84 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 82 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 68 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 74 [0m instructions
-
-Mean: 77 for stack of size 23 
-
-[0;35m Generating random numbers for stack_size 24...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 84 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 73 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 89 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 80 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 77 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 83 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 85 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 87 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 77 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 92 [0m instructions
-
-Mean: 82 for stack of size 24 
-
-[0;35m Generating random numbers for stack_size 25...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 86 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 86 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 92 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 90 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 86 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 81 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 88 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 92 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 84 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 85 [0m instructions
-
-Mean: 87 for stack of size 25 
-
-[0;35m Generating random numbers for stack_size 26...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 84 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 96 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 90 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 89 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 98 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 90 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 87 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 91 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 88 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 99 [0m instructions
-
-Mean: 91 for stack of size 26 
-
-[0;35m Generating random numbers for stack_size 27...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 93 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 95 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 95 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 96 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 101 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 91 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 93 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 99 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 95 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 91 [0m instructions
-
-Mean: 94 for stack of size 27 
-
-[0;35m Generating random numbers for stack_size 28...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 96 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 99 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 99 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 91 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 108 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 90 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 105 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 101 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 105 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 99 [0m instructions
-
-Mean: 99 for stack of size 28 
-
-[0;35m Generating random numbers for stack_size 29...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 112 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 96 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 95 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 109 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 108 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 111 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 109 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 111 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 108 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 104 [0m instructions
-
-Mean: 106 for stack of size 29 
-
-[0;35m Generating random numbers for stack_size 30...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 121 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 113 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 111 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 111 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 106 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 121 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 116 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 114 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 110 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 105 [0m instructions
-
-Mean: 112 for stack of size 30 
-
-[0;35m Generating random numbers for stack_size 31...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 106 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 114 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 114 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 105 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 109 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 110 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 116 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 106 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 117 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 126 [0m instructions
-
-Mean: 112 for stack of size 31 
-
-[0;35m Generating random numbers for stack_size 32...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 122 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 115 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 119 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 107 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 125 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 125 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 120 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 135 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 121 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 120 [0m instructions
-
-Mean: 120 for stack of size 32 
-
-[0;35m Generating random numbers for stack_size 33...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 124 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 116 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 126 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 123 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 127 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 131 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 131 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 126 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 124 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 113 [0m instructions
-
-Mean: 124 for stack of size 33 
-
-[0;35m Generating random numbers for stack_size 34...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 143 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 132 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 128 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 122 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 130 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 140 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 128 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 132 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 118 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 133 [0m instructions
-
-Mean: 130 for stack of size 34 
-
-[0;35m Generating random numbers for stack_size 35...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 126 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 125 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 144 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 136 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 137 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 148 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 133 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 133 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 147 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 138 [0m instructions
-
-Mean: 136 for stack of size 35 
-
-[0;35m Generating random numbers for stack_size 36...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 138 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 136 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 146 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 144 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 138 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 140 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 144 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 146 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 137 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 133 [0m instructions
-
-Mean: 140 for stack of size 36 
-
-[0;35m Generating random numbers for stack_size 37...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 154 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 160 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 148 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 155 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 134 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 148 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 154 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 152 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 147 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 157 [0m instructions
-
-Mean: 150 for stack of size 37 
-
-[0;35m Generating random numbers for stack_size 38...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 145 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 155 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 154 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 151 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 159 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 153 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 155 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 157 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 158 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 156 [0m instructions
-
-Mean: 154 for stack of size 38 
-
-[0;35m Generating random numbers for stack_size 39...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 159 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 165 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 163 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 157 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 157 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 164 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 141 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 158 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 167 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 164 [0m instructions
-
-Mean: 159 for stack of size 39 
-
-[0;35m Generating random numbers for stack_size 40...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 156 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 166 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 165 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 175 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 160 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 155 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 179 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 170 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 167 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 161 [0m instructions
-
-Mean: 165 for stack of size 40 
-
-[0;35m Generating random numbers for stack_size 41...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 151 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 174 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 176 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 175 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 177 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 155 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 167 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 176 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 167 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 175 [0m instructions
-
-Mean: 169 for stack of size 41 
-
-[0;35m Generating random numbers for stack_size 42...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 181 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 181 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 172 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 177 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 177 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 173 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 185 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 167 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 172 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 181 [0m instructions
-
-Mean: 176 for stack of size 42 
-
-[0;35m Generating random numbers for stack_size 43...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 188 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 187 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 190 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 205 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 168 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 179 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 185 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 193 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 192 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 188 [0m instructions
-
-Mean: 187 for stack of size 43 
-
-[0;35m Generating random numbers for stack_size 44...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 190 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 186 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 191 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 194 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 180 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 188 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 191 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 193 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 175 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 193 [0m instructions
-
-Mean: 188 for stack of size 44 
-
-[0;35m Generating random numbers for stack_size 45...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 199 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 187 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 202 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 193 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 203 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 201 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 195 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 200 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 187 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 204 [0m instructions
-
-Mean: 197 for stack of size 45 
-
-[0;35m Generating random numbers for stack_size 46...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 196 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 204 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 207 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 182 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 200 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 204 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 200 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 197 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 203 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 214 [0m instructions
-
-Mean: 200 for stack of size 46 
-
-[0;35m Generating random numbers for stack_size 47...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 216 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 205 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 191 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 205 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 222 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 219 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 211 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 188 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 193 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 203 [0m instructions
-
-Mean: 205 for stack of size 47 
-
-[0;35m Generating random numbers for stack_size 48...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 215 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 204 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 214 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 208 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 219 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 209 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 215 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 208 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 218 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 221 [0m instructions
-
-Mean: 213 for stack of size 48 
-
-[0;35m Generating random numbers for stack_size 49...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 213 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 226 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 222 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 209 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 217 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 209 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 223 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 196 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 218 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 216 [0m instructions
-
-Mean: 214 for stack of size 49 
-
-[0;35m Generating random numbers for stack_size 50...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 227 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 221 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 218 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 234 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 220 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 229 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 223 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 220 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 230 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 220 [0m instructions
-
-Mean: 224 for stack of size 50 
-
-[0;35m Generating random numbers for stack_size 51...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 229 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 231 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 235 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 243 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 239 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 228 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 242 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 225 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 234 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 235 [0m instructions
-
-Mean: 234 for stack of size 51 
-
-[0;35m Generating random numbers for stack_size 52...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 221 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 239 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 243 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 220 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 246 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 238 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 226 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 249 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 242 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 227 [0m instructions
-
-Mean: 235 for stack of size 52 
-
-[0;35m Generating random numbers for stack_size 53...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 239 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 234 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 248 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 245 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 251 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 248 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 244 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 234 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 235 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 227 [0m instructions
-
-Mean: 240 for stack of size 53 
-
-[0;35m Generating random numbers for stack_size 54...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 251 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 238 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 256 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 263 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 250 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 256 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 240 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 257 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 242 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 257 [0m instructions
-
-Mean: 251 for stack of size 54 
-
-[0;35m Generating random numbers for stack_size 55...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 240 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 259 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 266 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 256 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 256 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 260 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 254 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 252 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 249 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 259 [0m instructions
-
-Mean: 255 for stack of size 55 
-
-[0;35m Generating random numbers for stack_size 56...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 249 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 262 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 255 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 262 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 262 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 269 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 272 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 261 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 268 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 267 [0m instructions
-
-Mean: 262 for stack of size 56 
-
-[0;35m Generating random numbers for stack_size 57...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 266 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 249 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 285 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 262 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 267 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 271 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 281 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 255 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 290 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 283 [0m instructions
-
-Mean: 270 for stack of size 57 
-
-[0;35m Generating random numbers for stack_size 58...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 292 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 295 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 284 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 268 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 284 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 278 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 277 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 277 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 274 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 281 [0m instructions
-
-Mean: 281 for stack of size 58 
-
-[0;35m Generating random numbers for stack_size 59...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 301 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 284 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 295 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 293 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 282 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 295 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 289 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 291 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 287 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 280 [0m instructions
-
-Mean: 289 for stack of size 59 
-
-[0;35m Generating random numbers for stack_size 60...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 301 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 278 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 299 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 298 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 287 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 281 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 279 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 296 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 302 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 285 [0m instructions
-
-Mean: 290 for stack of size 60 
-
-[0;35m Generating random numbers for stack_size 61...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 303 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 310 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 310 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 283 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 294 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 280 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 290 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 309 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 296 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 299 [0m instructions
-
-Mean: 297 for stack of size 61 
-
-[0;35m Generating random numbers for stack_size 62...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 311 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 303 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 303 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 280 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 305 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 292 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 320 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 298 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 315 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 281 [0m instructions
-
-Mean: 300 for stack of size 62 
-
-[0;35m Generating random numbers for stack_size 63...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 308 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 308 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 301 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 317 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 328 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 319 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 322 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 326 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 318 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 300 [0m instructions
-
-Mean: 314 for stack of size 63 
-
-[0;35m Generating random numbers for stack_size 64...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 337 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 334 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 330 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 316 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 325 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 315 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 302 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 323 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 328 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 320 [0m instructions
-
-Mean: 323 for stack of size 64 
-
-[0;35m Generating random numbers for stack_size 65...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 336 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 323 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 331 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 318 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 304 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 328 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 333 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 323 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 345 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 335 [0m instructions
-
-Mean: 327 for stack of size 65 
-
-[0;35m Generating random numbers for stack_size 66...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 320 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 330 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 329 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 331 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 328 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 330 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 343 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 332 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 319 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 331 [0m instructions
-
-Mean: 329 for stack of size 66 
-
-[0;35m Generating random numbers for stack_size 67...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 323 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 341 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 341 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 335 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 341 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 339 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 336 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 319 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 342 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 351 [0m instructions
-
-Mean: 336 for stack of size 67 
-
-[0;35m Generating random numbers for stack_size 68...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 344 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 344 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 348 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 338 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 352 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 334 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 342 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 353 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 348 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 342 [0m instructions
-
-Mean: 344 for stack of size 68 
-
-[0;35m Generating random numbers for stack_size 69...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 368 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 348 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 368 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 352 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 341 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 356 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 339 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 357 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 353 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 346 [0m instructions
-
-Mean: 352 for stack of size 69 
-
-[0;35m Generating random numbers for stack_size 70...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 360 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 371 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 353 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 343 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 343 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 371 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 365 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 357 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 370 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 364 [0m instructions
-
-Mean: 359 for stack of size 70 
-
-[0;35m Generating random numbers for stack_size 71...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 362 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 372 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 374 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 368 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 356 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 346 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 358 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 372 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 387 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 366 [0m instructions
-
-Mean: 366 for stack of size 71 
-
-[0;35m Generating random numbers for stack_size 72...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 366 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 384 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 389 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 381 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 375 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 372 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 390 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 385 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 367 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 375 [0m instructions
-
-Mean: 378 for stack of size 72 
-
-[0;35m Generating random numbers for stack_size 73...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 377 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 398 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 379 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 370 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 384 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 377 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 387 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 388 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 365 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 373 [0m instructions
-
-Mean: 379 for stack of size 73 
-
-[0;35m Generating random numbers for stack_size 74...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 397 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 379 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 376 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 397 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 359 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 376 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 367 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 383 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 390 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 384 [0m instructions
-
-Mean: 380 for stack of size 74 
-
-[0;35m Generating random numbers for stack_size 75...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 388 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 370 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 404 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 397 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 414 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 392 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 383 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 392 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 394 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 411 [0m instructions
-
-Mean: 394 for stack of size 75 
-
-[0;35m Generating random numbers for stack_size 76...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 420 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 400 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 393 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 402 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 407 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 395 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 409 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 402 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 417 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 421 [0m instructions
-
-Mean: 406 for stack of size 76 
-
-[0;35m Generating random numbers for stack_size 77...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 403 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 409 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 412 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 400 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 401 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 400 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 423 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 420 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 406 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 396 [0m instructions
-
-Mean: 407 for stack of size 77 
-
-[0;35m Generating random numbers for stack_size 78...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 415 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 410 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 414 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 424 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 406 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 411 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 426 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 424 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 422 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 392 [0m instructions
-
-Mean: 414 for stack of size 78 
-
-[0;35m Generating random numbers for stack_size 79...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 449 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 399 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 425 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 400 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 435 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 417 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 427 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 441 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 416 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 409 [0m instructions
-
-Mean: 421 for stack of size 79 
-
-[0;35m Generating random numbers for stack_size 80...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 424 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 413 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 424 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 440 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 452 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 416 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 443 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 435 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 437 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 400 [0m instructions
-
-Mean: 428 for stack of size 80 
-
-[0;35m Generating random numbers for stack_size 81...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 420 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 438 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 437 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 432 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 459 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 451 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 419 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 452 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 436 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 441 [0m instructions
-
-Mean: 438 for stack of size 81 
-
-[0;35m Generating random numbers for stack_size 82...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 453 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 449 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 455 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 422 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 428 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 446 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 459 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 443 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 458 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 438 [0m instructions
-
-Mean: 445 for stack of size 82 
-
-[0;35m Generating random numbers for stack_size 83...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 449 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 457 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 469 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 456 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 449 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 450 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 455 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 461 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 450 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 453 [0m instructions
-
-Mean: 454 for stack of size 83 
-
-[0;35m Generating random numbers for stack_size 84...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 451 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 472 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 434 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 455 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 465 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 479 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 475 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 453 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 441 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 456 [0m instructions
-
-Mean: 458 for stack of size 84 
-
-[0;35m Generating random numbers for stack_size 85...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 458 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 479 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 477 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 435 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 488 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 482 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 468 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 477 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 470 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 467 [0m instructions
-
-Mean: 470 for stack of size 85 
-
-[0;35m Generating random numbers for stack_size 86...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 483 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 498 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 483 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 474 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 492 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 475 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 486 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 470 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 473 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 454 [0m instructions
-
-Mean: 478 for stack of size 86 
-
-[0;35m Generating random numbers for stack_size 87...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 438 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 501 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 484 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 468 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 503 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 493 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 507 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 494 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 499 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 495 [0m instructions
-
-Mean: 488 for stack of size 87 
-
-[0;35m Generating random numbers for stack_size 88...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 509 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 493 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 463 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 499 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 499 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 486 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 506 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 514 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 486 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 521 [0m instructions
-
-Mean: 497 for stack of size 88 
-
-[0;35m Generating random numbers for stack_size 89...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 480 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 492 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 519 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 487 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 496 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 521 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 475 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 493 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 492 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 492 [0m instructions
-
-Mean: 494 for stack of size 89 
-
-[0;35m Generating random numbers for stack_size 90...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 503 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 500 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 521 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 509 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 510 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 525 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 497 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 519 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 513 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 517 [0m instructions
-
-Mean: 511 for stack of size 90 
-
-[0;35m Generating random numbers for stack_size 91...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 523 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 515 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 518 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 525 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 521 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 532 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 520 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 519 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 514 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 517 [0m instructions
-
-Mean: 520 for stack of size 91 
-
-[0;35m Generating random numbers for stack_size 92...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 526 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 529 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 500 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 520 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 497 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 519 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 538 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 504 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 526 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 513 [0m instructions
-
-Mean: 517 for stack of size 92 
-
-[0;35m Generating random numbers for stack_size 93...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 540 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 552 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 528 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 539 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 494 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 528 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 524 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 549 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 526 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 506 [0m instructions
-
-Mean: 528 for stack of size 93 
-
-[0;35m Generating random numbers for stack_size 94...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 539 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 583 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 529 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 524 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 544 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 522 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 546 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 552 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 549 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 525 [0m instructions
-
-Mean: 541 for stack of size 94 
-
-[0;35m Generating random numbers for stack_size 95...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 549 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 552 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 557 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 530 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 554 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 548 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 542 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 571 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 549 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 545 [0m instructions
-
-Mean: 549 for stack of size 95 
-
-[0;35m Generating random numbers for stack_size 96...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 552 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 533 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 540 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 574 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 555 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 554 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 547 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 561 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 560 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 551 [0m instructions
-
-Mean: 552 for stack of size 96 
-
-[0;35m Generating random numbers for stack_size 97...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 565 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 549 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 591 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 541 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 562 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 573 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 572 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 576 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 571 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 567 [0m instructions
-
-Mean: 566 for stack of size 97 
-
-[0;35m Generating random numbers for stack_size 98...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 573 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 583 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 565 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 545 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 576 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 573 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 549 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 600 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 565 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 555 [0m instructions
-
-Mean: 568 for stack of size 98 
-
-[0;35m Generating random numbers for stack_size 99...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 576 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 594 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 581 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 590 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 577 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 578 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 591 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 584 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 562 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 573 [0m instructions
-
-Mean: 580 for stack of size 99 
-
-[0;35m Generating random numbers for stack_size 100...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 593 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 589 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 584 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 589 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 580 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 591 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 606 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 599 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 586 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 598 [0m instructions
-
-Mean: 591 for stack of size 100 
-
-[0;35m Generating random numbers for stack_size 101...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 605 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 588 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 577 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 594 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 591 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 585 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 582 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 605 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 602 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 614 [0m instructions
-
-Mean: 594 for stack of size 101 
-
-[0;35m Generating random numbers for stack_size 102...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 617 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 606 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 615 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 623 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 603 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 602 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 636 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 607 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 599 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 612 [0m instructions
-
-Mean: 612 for stack of size 102 
-
-[0;35m Generating random numbers for stack_size 103...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 621 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 609 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 575 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 608 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 619 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 596 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 616 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 607 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 624 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 612 [0m instructions
-
-Mean: 608 for stack of size 103 
-
-[0;35m Generating random numbers for stack_size 104...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 633 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 594 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 606 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 582 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 635 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 651 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 635 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 610 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 618 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 616 [0m instructions
-
-Mean: 618 for stack of size 104 
-
-[0;35m Generating random numbers for stack_size 105...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 658 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 641 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 643 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 629 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 651 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 619 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 636 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 665 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 604 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 643 [0m instructions
-
-Mean: 638 for stack of size 105 
-
-[0;35m Generating random numbers for stack_size 106...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 665 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 651 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 644 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 617 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 661 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 661 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 636 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 632 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 647 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 646 [0m instructions
-
-Mean: 646 for stack of size 106 
-
-[0;35m Generating random numbers for stack_size 107...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 638 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 628 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 662 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 606 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 647 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 634 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 650 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 636 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 678 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 668 [0m instructions
-
-Mean: 644 for stack of size 107 
-
-[0;35m Generating random numbers for stack_size 108...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 673 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 653 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 650 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 645 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 670 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 659 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 669 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 639 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 661 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 595 [0m instructions
-
-Mean: 651 for stack of size 108 
-
-[0;35m Generating random numbers for stack_size 109...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 661 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 708 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 669 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 683 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 675 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 664 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 638 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 645 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 649 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 648 [0m instructions
-
-Mean: 664 for stack of size 109 
-
-[0;35m Generating random numbers for stack_size 110...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 676 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 681 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 705 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 671 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 683 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 677 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 672 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 694 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 665 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 652 [0m instructions
-
-Mean: 677 for stack of size 110 
-
-[0;35m Generating random numbers for stack_size 111...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 666 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 651 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 685 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 708 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 662 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 671 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 702 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 687 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 669 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 666 [0m instructions
-
-Mean: 676 for stack of size 111 
-
-[0;35m Generating random numbers for stack_size 112...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 717 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 688 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 706 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 694 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 703 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 705 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 701 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 704 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 716 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 679 [0m instructions
-
-Mean: 701 for stack of size 112 
-
-[0;35m Generating random numbers for stack_size 113...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 718 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 698 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 712 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 661 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 705 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 683 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 701 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 704 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 690 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 703 [0m instructions
-
-Mean: 697 for stack of size 113 
-
-[0;35m Generating random numbers for stack_size 114...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 734 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 702 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 710 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 707 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 704 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 713 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 735 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 705 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 702 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 677 [0m instructions
-
-Mean: 708 for stack of size 114 
-
-[0;35m Generating random numbers for stack_size 115...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 719 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 735 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 741 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 728 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 725 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 706 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 703 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 710 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 713 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 715 [0m instructions
-
-Mean: 719 for stack of size 115 
-
-[0;35m Generating random numbers for stack_size 116...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 718 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 707 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 736 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 745 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 732 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 739 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 741 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 752 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 728 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 746 [0m instructions
-
-Mean: 734 for stack of size 116 
-
-[0;35m Generating random numbers for stack_size 117...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 723 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 741 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 749 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 749 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 773 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 746 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 746 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 759 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 734 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 712 [0m instructions
-
-Mean: 743 for stack of size 117 
-
-[0;35m Generating random numbers for stack_size 118...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 744 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 746 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 760 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 736 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 747 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 766 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 729 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 735 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 743 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 742 [0m instructions
-
-Mean: 744 for stack of size 118 
-
-[0;35m Generating random numbers for stack_size 119...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 770 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 747 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 774 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 756 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 737 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 751 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 761 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 754 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 775 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 769 [0m instructions
-
-Mean: 759 for stack of size 119 
-
-[0;35m Generating random numbers for stack_size 120...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 724 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 766 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 750 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 774 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 760 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 769 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 778 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 739 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 731 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 776 [0m instructions
-
-Mean: 756 for stack of size 120 
-
-[0;35m Generating random numbers for stack_size 121...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 801 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 793 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 782 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 785 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 777 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 753 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 778 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 756 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 775 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 775 [0m instructions
-
-Mean: 777 for stack of size 121 
-
-[0;35m Generating random numbers for stack_size 122...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 780 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 765 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 769 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 756 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 784 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 750 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 780 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 776 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 802 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 773 [0m instructions
-
-Mean: 773 for stack of size 122 
-
-[0;35m Generating random numbers for stack_size 123...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 762 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 786 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 753 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 783 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 806 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 788 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 779 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 802 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 761 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 764 [0m instructions
-
-Mean: 778 for stack of size 123 
-
-[0;35m Generating random numbers for stack_size 124...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 807 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 790 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 807 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 813 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 768 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 803 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 807 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 806 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 806 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 838 [0m instructions
-
-Mean: 804 for stack of size 124 
-
-[0;35m Generating random numbers for stack_size 125...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 823 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 808 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 801 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 787 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 810 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 812 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 813 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 794 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 816 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 805 [0m instructions
-
-Mean: 806 for stack of size 125 
-
-[0;35m Generating random numbers for stack_size 126...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 835 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 801 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 812 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 833 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 808 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 832 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 821 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 790 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 775 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 807 [0m instructions
-
-Mean: 811 for stack of size 126 
-
-[0;35m Generating random numbers for stack_size 127...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 825 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 802 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 798 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 842 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 816 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 862 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 803 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 770 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 831 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 815 [0m instructions
-
-Mean: 816 for stack of size 127 
-
-[0;35m Generating random numbers for stack_size 128...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 877 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 821 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 854 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 859 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 837 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 851 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 796 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 837 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 808 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 843 [0m instructions
-
-Mean: 838 for stack of size 128 
-
-[0;35m Generating random numbers for stack_size 129...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 866 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 837 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 817 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 857 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 866 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 849 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 851 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 855 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 825 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 876 [0m instructions
-
-Mean: 849 for stack of size 129 
-
-[0;35m Generating random numbers for stack_size 130...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 864 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 871 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 827 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 861 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 818 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 868 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 897 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 870 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 847 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 890 [0m instructions
-
-Mean: 861 for stack of size 130 
-
-[0;35m Generating random numbers for stack_size 131...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 869 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 850 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 875 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 833 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 866 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 886 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 845 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 892 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 868 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 844 [0m instructions
-
-Mean: 862 for stack of size 131 
-
-[0;35m Generating random numbers for stack_size 132...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 886 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 883 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 868 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 864 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 888 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 862 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 864 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 814 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 864 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 863 [0m instructions
-
-Mean: 865 for stack of size 132 
-
-[0;35m Generating random numbers for stack_size 133...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 904 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 890 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 860 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 855 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 882 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 892 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 900 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 888 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 854 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 932 [0m instructions
-
-Mean: 885 for stack of size 133 
-
-[0;35m Generating random numbers for stack_size 134...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 885 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 903 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 863 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 857 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 936 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 873 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 867 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 916 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 864 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 878 [0m instructions
-
-Mean: 884 for stack of size 134 
-
-[0;35m Generating random numbers for stack_size 135...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 911 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 887 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 900 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 918 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 888 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 882 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 912 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 907 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 862 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 854 [0m instructions
-
-Mean: 892 for stack of size 135 
-
-[0;35m Generating random numbers for stack_size 136...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 966 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 884 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 920 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 930 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 898 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 856 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 921 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 918 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 898 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 905 [0m instructions
-
-Mean: 909 for stack of size 136 
-
-[0;35m Generating random numbers for stack_size 137...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 928 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 897 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 907 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 898 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 857 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 938 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 918 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 955 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 922 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 875 [0m instructions
-
-Mean: 909 for stack of size 137 
-
-[0;35m Generating random numbers for stack_size 138...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 937 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 912 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 948 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 916 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 929 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 892 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 922 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 923 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 931 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 926 [0m instructions
-
-Mean: 923 for stack of size 138 
-
-[0;35m Generating random numbers for stack_size 139...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 949 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 905 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 932 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 937 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 929 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 945 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 935 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 936 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 967 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 895 [0m instructions
-
-Mean: 933 for stack of size 139 
-
-[0;35m Generating random numbers for stack_size 140...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 987 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 914 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 939 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 918 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 944 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 979 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 928 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 957 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 987 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 940 [0m instructions
-
-Mean: 949 for stack of size 140 
-
-[0;35m Generating random numbers for stack_size 141...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 983 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 972 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1014 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 947 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 900 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 939 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 980 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 937 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 975 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 959 [0m instructions
-
-Mean: 960 for stack of size 141 
-
-[0;35m Generating random numbers for stack_size 142...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 961 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 979 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 971 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 946 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 974 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 937 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 964 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 932 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 988 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 965 [0m instructions
-
-Mean: 961 for stack of size 142 
-
-[0;35m Generating random numbers for stack_size 143...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 955 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 967 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 978 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 974 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 964 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 971 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 978 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 972 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 971 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 977 [0m instructions
-
-Mean: 970 for stack of size 143 
-
-[0;35m Generating random numbers for stack_size 144...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 969 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 978 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 987 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1008 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 983 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 999 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 944 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 971 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 996 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 979 [0m instructions
-
-Mean: 981 for stack of size 144 
-
-[0;35m Generating random numbers for stack_size 145...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 984 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 997 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 952 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1019 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 996 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 993 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 953 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1013 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1045 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 990 [0m instructions
-
-Mean: 994 for stack of size 145 
-
-[0;35m Generating random numbers for stack_size 146...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1010 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1044 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1013 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 968 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1038 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 991 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 999 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 965 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1006 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1012 [0m instructions
-
-Mean: 1004 for stack of size 146 
-
-[0;35m Generating random numbers for stack_size 147...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1001 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 972 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1020 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1016 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1006 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1007 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1014 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1059 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 959 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1036 [0m instructions
-
-Mean: 1009 for stack of size 147 
-
-[0;35m Generating random numbers for stack_size 148...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1027 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1043 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 982 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1020 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1042 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1026 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1047 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 987 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1010 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1070 [0m instructions
-
-Mean: 1025 for stack of size 148 
-
-[0;35m Generating random numbers for stack_size 149...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1007 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1029 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1072 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1042 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1061 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1047 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 978 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1027 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1041 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1037 [0m instructions
-
-Mean: 1034 for stack of size 149 
-
-[0;35m Generating random numbers for stack_size 150...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1005 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1094 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1038 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1046 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1074 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1029 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1030 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1052 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1062 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1010 [0m instructions
-
-Mean: 1044 for stack of size 150 
-
-[0;35m Generating random numbers for stack_size 151...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1035 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1100 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1078 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1040 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1068 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1072 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1035 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1042 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1041 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1099 [0m instructions
-
-Mean: 1061 for stack of size 151 
-
-[0;35m Generating random numbers for stack_size 152...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1081 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1054 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1028 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1057 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1047 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1013 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1092 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1023 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1063 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1120 [0m instructions
-
-Mean: 1057 for stack of size 152 
-
-[0;35m Generating random numbers for stack_size 153...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1074 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1036 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1034 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1107 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1057 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1045 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1029 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1061 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1116 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1059 [0m instructions
-
-Mean: 1061 for stack of size 153 
-
-[0;35m Generating random numbers for stack_size 154...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1064 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1116 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1089 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1064 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1133 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1082 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1111 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1042 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1086 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1072 [0m instructions
-
-Mean: 1085 for stack of size 154 
-
-[0;35m Generating random numbers for stack_size 155...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1096 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1072 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1070 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1123 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1102 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1147 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1093 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1074 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1107 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1086 [0m instructions
-
-Mean: 1097 for stack of size 155 
-
-[0;35m Generating random numbers for stack_size 156...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1106 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1133 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1123 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1079 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1121 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1121 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1105 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1132 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1090 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1083 [0m instructions
-
-Mean: 1109 for stack of size 156 
-
-[0;35m Generating random numbers for stack_size 157...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1092 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1131 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1105 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1130 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1095 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1134 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1099 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1134 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1120 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1103 [0m instructions
-
-Mean: 1114 for stack of size 157 
-
-[0;35m Generating random numbers for stack_size 158...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1093 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1127 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1072 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1116 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1152 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1107 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1160 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1095 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1103 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1142 [0m instructions
-
-Mean: 1116 for stack of size 158 
-
-[0;35m Generating random numbers for stack_size 159...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1157 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1105 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1140 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1117 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1165 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1117 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1126 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1154 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1133 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1127 [0m instructions
-
-Mean: 1134 for stack of size 159 
-
-[0;35m Generating random numbers for stack_size 160...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1127 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1177 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1186 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1155 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1097 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1131 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1117 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1142 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1147 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1119 [0m instructions
-
-Mean: 1139 for stack of size 160 
-
-[0;35m Generating random numbers for stack_size 161...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1127 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1186 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1159 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1142 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1130 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1186 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1179 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1143 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1157 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1151 [0m instructions
-
-Mean: 1156 for stack of size 161 
-
-[0;35m Generating random numbers for stack_size 162...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1197 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1190 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1177 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1184 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1172 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1181 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1165 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1160 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1176 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1166 [0m instructions
-
-Mean: 1176 for stack of size 162 
-
-[0;35m Generating random numbers for stack_size 163...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1147 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1195 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1158 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1184 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1188 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1175 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1171 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1173 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1179 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1163 [0m instructions
-
-Mean: 1173 for stack of size 163 
-
-[0;35m Generating random numbers for stack_size 164...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1235 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1193 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1190 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1246 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1215 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1165 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1191 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1198 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1210 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1106 [0m instructions
-
-Mean: 1194 for stack of size 164 
-
-[0;35m Generating random numbers for stack_size 165...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1188 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1196 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1189 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1169 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1228 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1215 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1194 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1211 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1217 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1146 [0m instructions
-
-Mean: 1195 for stack of size 165 
-
-[0;35m Generating random numbers for stack_size 166...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1202 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1218 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1208 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1224 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1215 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1185 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1225 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1214 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1219 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1232 [0m instructions
-
-Mean: 1214 for stack of size 166 
-
-[0;35m Generating random numbers for stack_size 167...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1237 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1190 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1186 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1175 [0m instructions
-[1;30m TEST 4: [0m[0;32mOK [0m[1;37m 1219 [0m instructions
-[1;30m TEST 5: [0m[0;32mOK [0m[1;37m 1211 [0m instructions
-[1;30m TEST 6: [0m[0;32mOK [0m[1;37m 1218 [0m instructions
-[1;30m TEST 7: [0m[0;32mOK [0m[1;37m 1206 [0m instructions
-[1;30m TEST 8: [0m[0;32mOK [0m[1;37m 1220 [0m instructions
-[1;30m TEST 9: [0m[0;32mOK [0m[1;37m 1222 [0m instructions
-
-Mean: 1208 for stack of size 167 
-
-[0;35m Generating random numbers for stack_size 168...
-
-[0m[1;30m TEST 0: [0m[0;32mOK [0m[1;37m 1222 [0m instructions
-[1;30m TEST 1: [0m[0;32mOK [0m[1;37m 1252 [0m instructions
-[1;30m TEST 2: [0m[0;32mOK [0m[1;37m 1211 [0m instructions
-[1;30m TEST 3: [0m[0;32mOK [0m[1;37m 1204 [0m instructions
-[1;30m TEST 4: [0m
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+sorted_a: []
+sorted_b: [5, 6, 4, 3, 2, 1]

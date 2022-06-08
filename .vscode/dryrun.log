@@ -63,8 +63,8 @@ sleep 0.2
 echo  "\rCreating bonus \"get_next_line_utils.o\" object file.\033[K\c"
 gcc -Iincludes -Isources/common/headers/ -Ilibraries/ft_printf/ -MMD -Wall -Werror -Wextra -Isources/bonus/headers/ -Ilibraries/ft_printf/ -c sources/bonus/get_next_line_utils.c -o sources/bonus/objects/get_next_line_utils.o -g
 sleep 0.2
-echo "\r\"schecker\" executable created\033[K"
-gcc sources/common/objects/ps_errors.o sources/common/objects/ps_handle_parameters.o sources/common/objects/ps_push.o sources/common/objects/ps_rotate.o sources/common/objects/ps_stacks_init.o sources/common/objects/ps_swap.o sources/common/objects/ps_utils.o sources/common/objects/ps_is_sorted.o sources/bonus/objects/push_swap_bonus.o sources/bonus/objects/ps_bonus_utils.o sources/bonus/objects/get_next_line.o sources/bonus/objects/get_next_line_utils.o -o schecker -Llibraries/ft_printf/ -lftprintf
+echo "\r\"checker\" executable created\033[K"
+gcc sources/common/objects/ps_errors.o sources/common/objects/ps_handle_parameters.o sources/common/objects/ps_push.o sources/common/objects/ps_rotate.o sources/common/objects/ps_stacks_init.o sources/common/objects/ps_swap.o sources/common/objects/ps_utils.o sources/common/objects/ps_is_sorted.o sources/bonus/objects/push_swap_bonus.o sources/bonus/objects/ps_bonus_utils.o sources/bonus/objects/get_next_line.o sources/bonus/objects/get_next_line_utils.o -o checker -Llibraries/ft_printf/ -lftprintf
 sleep 0.2
 make: Leaving directory '/home/sdi-lega/Documents/push_swap'
  

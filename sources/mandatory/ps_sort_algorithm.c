@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/06 22:38:27 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/07 12:57:22 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/08 07:10:23 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -186,21 +186,19 @@ int	find_best(t_stack *stacks)
 	int			number;
 	int			temp;
 	t_stack		*n_stacks;
-	t_functions	f;
 	int			index;
 
-	f = get_functions(0);
 	offset = -1;
 	n_stacks = copy_stacks(stacks);
-	number = sort(n_stacks, f);
+	number = sort(n_stacks, get_functions(0));
 	answer = 0;
-	while (++offset != stacks->length / 4)
+	while (++offset != stacks->length / 2)
 	{
 		copy_stack(n_stacks->stack, stacks->stack, stacks->length);
 		index = -1;
 		while (++index <= offset)
 			rev_rotate(n_stacks, 0);
-		temp = sort(n_stacks, f);
+		temp = sort(n_stacks, get_functions(0));
 		if (temp + offset + 1 < number)
 		{
 			number = temp + offset + 1;
@@ -208,13 +206,13 @@ int	find_best(t_stack *stacks)
 		}
 	}
 	offset = -1;
-	while (++offset != stacks->length / 4)
+	while (++offset != stacks->length / 2)
 	{
 		copy_stack(n_stacks->stack, stacks->stack, stacks->length);
 		index = -1;
 		while (++index < offset)
 			rotate(n_stacks, 0);
-		temp = sort(n_stacks, f);
+		temp = sort(n_stacks, get_functions(0));
 		if (temp + offset + 1 < number)
 		{
 			number = temp + offset + 1;

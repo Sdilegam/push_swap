@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/26 14:58:59 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/06 22:34:17 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/08 06:00:34 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	are_parameters_ok(int argc, char *argv[])
 	digit = -1;
 	number = 0;
 	if (argc < 2)
-		error();
+		exit (0);
 	while (argv[++number])
 	{	
 		while (argv[number][++digit])

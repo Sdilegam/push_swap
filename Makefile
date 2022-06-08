@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/06/02 16:16:21 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/06/08 06:54:54 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -85,7 +85,7 @@ BONUS_LIBS			=	${COMN_LIBS}#Libs for bonus sources
 
 ALL_LIBS			=	${COMN_LIBS} ${MANDA_LIBS} ${BONUS_LIBS}
 DEPENDS				=	${MANDA_OBJS:.o=.d} ${BONUS_OBJS:.o=.d} ${COMN_OBJS:.o=.d}
-EXECUTABLES			=	${NAME} ${NAME}_bonus #Modify if other executables needed#
+EXECUTABLES			=	${NAME} checker #Modify if other executables needed#
 
 #####################################
 #									#
@@ -115,11 +115,11 @@ SILENT				=
 #									#
 #####################################
 
-all:				mandatory #bonus
+all:				mandatory bonus
 re:					fclean all
 
 mandatory:			${NAME}
-bonus:				schecker
+bonus:				checker
 
 #####################################
 #									#
@@ -155,7 +155,7 @@ ${NAME}:				${OBJECTS_DIR} ${addprefix ${LIB_DIR}, ${MANDA_LIBS}} ${COMN_OBJS} $
 			${SILENT} ${CC} ${COMN_OBJS} ${MANDA_OBJS} -o $@ ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${MANDA_LIBS}}}} -g
 			@ sleep ${SLEEP_TIME}
 			
-schecker:			${BONUS_OBJECTS_DIR} ${addprefix ${LIB_DIR}, ${BONUS_LIBS}} ${COMN_OBJS} ${BONUS_OBJS}
+checker:			${BONUS_OBJECTS_DIR} ${addprefix ${LIB_DIR}, ${BONUS_LIBS}} ${COMN_OBJS} ${BONUS_OBJS}
 			@ echo "\r\"$@\" executable created\033[K"
 			${SILENT} ${CC} ${COMN_OBJS} ${BONUS_OBJS} -o $@ ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${BONUS_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${BONUS_LIBS}}}}
 			@ sleep ${SLEEP_TIME}
