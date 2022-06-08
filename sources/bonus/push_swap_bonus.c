@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/29 17:07:37 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/08 10:16:07 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/08 10:21:19 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,7 +77,7 @@ t_l_list	*read_input(void)
 		ft_free_ptr((void **)&buf);
 		buf = get_next_line(0);
 		(*cursor)->next = function_name(buf);
-		if (!(*cursor)->next)
+		if (!(*cursor)->next->move)
 		{
 			ft_free_ptr((void **)&buf);
 			free_list(instructions);
