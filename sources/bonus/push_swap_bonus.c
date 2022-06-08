@@ -6,11 +6,29 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/29 17:07:37 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/29 19:38:35 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/08 07:33:41 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "bonus_index.h"
+
+t_bool checker(t_stack *stacks)
+{
+	int index;
+
+	if (stacks[1].length != 0)
+		return (FALSE);
+	index = -1;
+	if (stacks[0].length > 1)
+	{
+		while (++index < stacks[0].length - 1)
+		{
+			if (stacks[0].stack[index] > stacks[0].stack[index + 1])
+				return(FALSE);
+		}
+	}
+	return (TRUE);
+}
 
 t_l_list	*function_name(char *string)
 {
@@ -37,7 +55,6 @@ t_l_list	*function_name(char *string)
 	return (instructions);
 }
 
-
 t_l_list	*read_input(void)
 {
 	t_l_list	*instructions;
@@ -49,18 +66,18 @@ t_l_list	*read_input(void)
 	cursor = &instructions;
 	if (!cursor)
 		return (0);
-	while (buf)
+	while (buf && ft_strcmp(buf, "\n") && ft_strcmp(buf, ""))
 	{
-		free(buf);
+		ft_free_ptr((void **)&buf);
 		buf = get_next_line(0);
 		(*cursor)->next = function_name(buf);
 		cursor = &((*cursor)->next);
 	}
-	free(buf);
+	ft_free_ptr((void **)&buf);
 	*cursor = 0;
 	return (instructions);
 }
-
+ 
 
 int	main(int argc, char *argv[])
 {
@@ -68,17 +85,26 @@ int	main(int argc, char *argv[])
 	t_l_list	*moves;
 
 	
-	are_parameters_ok(3, argv);
+	are_parameters_ok(argc, argv);
 	stacks = stacks_init(argc - 1, argv);
 	// print_stack(stacks);
 	moves = read_input();
 	while (moves)
 	{
 			moves->move(stacks, moves->id);
-			// print_stack(stacks);
 			moves = moves->next;
 	}
-	if (is_sorted(stacks[0]))
-		return(ft_printf("OK\n"));
-	return(ft_printf("KO\n"));
+	if (checker(stacks) == TRUE)
+	{
+		ft_printf("OK\n");
+		// free list
+		free_stacks(&stacks);
+		return(0);
+	}
+	else
+	{
+		ft_printf("KO\n");
+		free_stacks(&stacks);
+		return(1);
+	}
 }
