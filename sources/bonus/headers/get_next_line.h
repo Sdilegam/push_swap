@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/22 09:45:13 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/29 18:59:46 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/08 10:55:27 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 42
+#  define BUFFER_SIZE 1
 # endif
 char	*get_next_line(int file_des);
 char	*ft_return(char **string);

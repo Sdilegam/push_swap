@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/06/08 06:54:54 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/06/08 10:38:04 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -98,7 +98,7 @@ COMN_INCLUDE		=	-Iincludes -I${COMN_DIR}headers/ ${addprefix -I, ${addprefix ${L
 MANDA_INCLUDE		=	-I${MANDA_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}}
 BONUS_INCLUDE		=	-I${BONUS_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},${dir ${BONUS_LIBS}}}}
 
-CC_FLAGS			=	${COMN_INCLUDE} -MMD -Wall -Werror -Wextra
+CC_FLAGS			=	${COMN_INCLUDE} -MMD #-Wall -Werror -Wextra
 RM					=	rm -f
 SLEEP_TIME			=	0.2
 SILENT				=	

@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/29 17:52:54 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/08 09:58:36 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/08 10:59:42 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,6 @@ void	free_list(t_l_list *list)
 {
 	t_l_list	*temp;
 
-	temp = list;
 	while (list)
 	{
 		temp = list->next;
