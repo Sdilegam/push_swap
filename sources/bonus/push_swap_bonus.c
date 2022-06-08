@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/29 17:07:37 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/08 10:00:09 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/08 10:10:07 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,6 +98,8 @@ int	main(int argc, char *argv[])
 	are_parameters_ok(argc, argv);
 	stacks = stacks_init(argc - 1, argv);
 	moves = read_input();
+	stacks->lim.first = stacks->stack[0];
+	stacks->lim.last = stacks->stack[stacks->length - 1];
 	while (moves)
 	{
 		moves->move(stacks, moves->id);
