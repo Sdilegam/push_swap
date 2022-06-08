@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/29 17:52:54 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/29 17:53:33 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/08 09:58:36 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,23 @@ int	ft_strcmp(char *s1, char *s2)
 	}
 	return (s1[i] - s2[i]);
 }
+
+void	free_and_exit(void **ptr)
+{
+	ft_free_ptr(ptr);
+	error();
+}
+
+void	free_list(t_l_list *list)
+{
+	t_l_list	*temp;
+
+	temp = list;
+	while (list)
+	{
+		temp = list->next;
+		ft_free_ptr((void **)&list);
+		list = temp;
+	}
+}
+
