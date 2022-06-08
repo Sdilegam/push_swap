@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/29 17:07:37 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/08 10:10:07 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/08 10:16:07 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,16 +94,18 @@ int	main(int argc, char *argv[])
 {
 	t_stack		*stacks;
 	t_l_list	*moves;
+	t_l_list	*cursor;
 
 	are_parameters_ok(argc, argv);
 	stacks = stacks_init(argc - 1, argv);
 	moves = read_input();
 	stacks->lim.first = stacks->stack[0];
 	stacks->lim.last = stacks->stack[stacks->length - 1];
-	while (moves)
+	cursor = moves;
+	while (cursor)
 	{
-		moves->move(stacks, moves->id);
-		moves = moves->next;
+		cursor->move(stacks, cursor->id);
+		cursor = cursor->next;
 	}
 	free_list(moves);
 	if (checker(stacks) == TRUE)

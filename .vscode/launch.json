@@ -13,7 +13,7 @@
 		"linux": {"MIMode": "gdb"},
 		"osx": {"MIMode": "lldb",},
 		"preLaunchTask": "Build",
-		"internalConsoleOptions": "openOnSessionStart",
+		"externalConsole": true
 		}
 	]
 }
