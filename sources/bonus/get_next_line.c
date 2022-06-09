@@ -77,6 +77,7 @@ char	*ft_return(char **string)
 		index ++;
 	}
 	string[0][index - len] = '\0';
+	ft_free(string);
 	return (answer);
 }
 

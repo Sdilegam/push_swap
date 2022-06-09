@@ -1,23 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   typedef_bonus.h                                    :+:      :+:    :+:   */
+/*   ps_best_start.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/05/29 17:45:19 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/09 16:34:55 by sdi-lega         ###   ########.fr       */
+/*   Created: 2022/06/09 19:35:02 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/06/09 19:35:18 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef TYPEDEF_BONUS_H
-# define TYPEDEF_BONUS_H
+#ifndef PS_BEST_START_H
+# define PS_BEST_START_H
+# include "manda_index.h"
 
-typedef struct s_linked_list
-{
-	int						(*move)(t_stack *, int);
-	int						id;
-	struct s_linked_list	*next;
-}	t_l_list;
-
-#endif /* TYPEDEF_BONUS_H */
+int	find_best(t_stack *stacks);
+#endif /* PS_BEST_START_H */

@@ -1,9 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/user42/Documents/19/get_next_line'
-gcc  -c get_next_line.c main.c get_next_line_utils.c
-gcc  -c get_next_line.c main.c get_next_line_utils.c
-gcc  -c get_next_line.c main.c get_next_line_utils.c
-gcc get_next_line.o main.o get_next_line_utils.o -o GNL_output
-./GNL_output
-make: Leaving directory '/home/user42/Documents/19/get_next_line'
- 

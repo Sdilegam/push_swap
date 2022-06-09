@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 10:08:45 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/08 06:35:46 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/09 18:52:04 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,31 +30,28 @@ void	set_limits(t_stack *stacks, int id)
 int	push(t_stack *stacks, int id)
 {
 	int	index;
-	int	*new1;
-	int	*new2;
+	int	*a;
+	int	*b;
 
 	if (stacks[1 - id].length != 0)
 	{
 		set_limits(stacks, id);
-		index = (stacks[id].length) + 1;
-		stacks[id].length = index;
-		new1 = malloc((index + 1) * sizeof(int));
-		if (!new1)
-			safe_exit(&stacks);
-		new1[0] = stacks[1 - id].stack[0];
+		index = ++(stacks[id].length);
+		if (!mem_alloc((void **)&a, (index + 1) * sizeof(int)))
+			return (0);
+		a[0] = stacks[1 - id].stack[0];
 		while (--index > 0)
-			new1[index] = stacks[id].stack[index - 1];
+			a[index] = stacks[id].stack[index - 1];
 		ft_free_ptr((void **)&stacks[id].stack);
-		stacks[id].stack = new1;
+		stacks[id].stack = a;
 		stacks[1 - id].length -= 1;
-		new2 = malloc((stacks[1 - id].length + 1) * sizeof(int));
-		if (!new2)
-			safe_exit(&stacks);
+		if (!mem_alloc((void **)&b, (stacks[1 - id].length + 1) * sizeof(int)))
+			return (0);
 		index = -1;
 		while (++index < stacks[1 - id].length)
-			new2[index] = stacks[1 - id].stack[index + 1];
+			b[index] = stacks[1 - id].stack[index + 1];
 		ft_free_ptr((void **)&stacks[1 - id].stack);
-		stacks[1 - id].stack = new2;
+		stacks[1 - id].stack = b;
 	}
 	return (1);
 }

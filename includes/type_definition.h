@@ -6,13 +6,12 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/28 09:55:27 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/31 04:52:19 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/09 19:51:00 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef TYPE_DEFINITION_H
 # define TYPE_DEFINITION_H
-
 
 typedef struct s_lim
 {
@@ -44,7 +43,7 @@ typedef struct s_functions
 	int	(*rev_rotate_both)(t_stack *, int);
 }	t_functions;
 
-typedef int (*t_move)(t_stack*, int);
+typedef int	(*t_move)(t_stack*, int);
 
 typedef int	t_bool;
 

@@ -1,23 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   typedef_bonus.h                                    :+:      :+:    :+:   */
+/*   ps_get_next_change.h                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/05/29 17:45:19 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/09 16:34:55 by sdi-lega         ###   ########.fr       */
+/*   Created: 2022/06/09 19:13:29 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/06/09 19:15:10 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef TYPEDEF_BONUS_H
-# define TYPEDEF_BONUS_H
+#ifndef PS_GET_NEXT_CHANGE_H
+# define PS_GET_NEXT_CHANGE_H
+# include "manda_index.h"
 
-typedef struct s_linked_list
-{
-	int						(*move)(t_stack *, int);
-	int						id;
-	struct s_linked_list	*next;
-}	t_l_list;
+t_moves	get_next_change(t_stack *s);
 
-#endif /* TYPEDEF_BONUS_H */
+#endif /* PS_GET_NEXT_CHANGE_H */

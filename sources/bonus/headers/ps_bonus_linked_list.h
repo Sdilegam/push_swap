@@ -1,23 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   typedef_bonus.h                                    :+:      :+:    :+:   */
+/*   ps_bonus_linked_list.h                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/05/29 17:45:19 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/09 16:34:55 by sdi-lega         ###   ########.fr       */
+/*   Created: 2022/06/09 17:49:49 by sdi-lega          #+#    #+#             */
+/*   Updated: 2022/06/09 17:50:42 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef TYPEDEF_BONUS_H
-# define TYPEDEF_BONUS_H
+#ifndef PS_BONUS_LINKED_LIST_H
+# define PS_BONUS_LINKED_LIST_H
+# include "bonus_index.h"
 
-typedef struct s_linked_list
-{
-	int						(*move)(t_stack *, int);
-	int						id;
-	struct s_linked_list	*next;
-}	t_l_list;
+int		create_link(t_l_list **list);
+void	free_list(t_l_list *list);
 
-#endif /* TYPEDEF_BONUS_H */
+#endif /* PS_BONUS_LINKED_LIST_H */

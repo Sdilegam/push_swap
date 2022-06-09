@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 10:34:14 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/05/24 13:56:54 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/09 19:35:42 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,7 @@
 # include "ps_sort_algorithm.h"
 # include "manda_ps_print_moves.h"
 # include "ps_manda_utils.h"
+# include "ps_get_next_change.h"
+# include "ps_best_start.h"
 
 #endif /* MANDA_INDEX_H */

@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/06/08 10:38:04 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/06/09 19:36:11 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -70,6 +70,8 @@ MANDA_SRCS			=	ps_manda_utils.c\
 						ps_sort_algorithm.c\
 						ps_sorting_utils.c\
 						push_swap.c\
+						ps_get_next_change.c\
+						ps_best_start.c
 
 MANDA_OBJS			=	${addprefix ${MANDA_OBJ_DIR}, ${MANDA_SRCS:.c=.o}}
 MANDA_LIBS			=	${COMN_LIBS}#Libs for mandatory sources
@@ -77,6 +79,8 @@ MANDA_LIBS			=	${COMN_LIBS}#Libs for mandatory sources
 #Bonus#
 BONUS_SRCS			=	push_swap_bonus.c\
 						ps_bonus_utils.c\
+						ps_bonus_parse_input.c\
+						ps_bonus_linked_list.c\
 						get_next_line.c\
 						get_next_line_utils.c
 
