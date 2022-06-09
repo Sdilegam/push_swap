@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 19:17:09 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/09 19:48:55 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/09 20:17:14 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,8 @@ int	find_best(t_stack *stacks)
 	int		answer[1][2];
 	t_stack	*t_stacks;
 
+	if (stacks[0].length < 2)
+		return (0);
 	t_stacks = copy_stacks(stacks);
 	answer[0][1] = sort(t_stacks, get_functions(0));
 	answer[0][0] = 0;
