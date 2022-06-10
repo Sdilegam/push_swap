@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/06/10 14:24:36 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/06/10 14:35:25 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -180,7 +180,7 @@ clean:
 
 clean_bonus:
 			@ echo "\rRemoving bonnus objects files (${notdir ${BONUS_OBJS}}).\033[K\c"
-			${SILENT} ${RM} ${BONUS_OBJS} ${DEPENDS}
+			${SILENT} ${RM} ${BONUS_OBJS} #${DEPENDS}
 			@ sleep ${SLEEP_TIME}
 
 ${addprefix clean_,${dir ${COMN_LIBS}}}:
@@ -194,6 +194,7 @@ clean_exe:
 			@ sleep ${SLEEP_TIME}
 
 fclean:			clean ${addprefix clean_,${dir ${ALL_LIBS}}} clean_exe clean_bonus
+			${SILENT} rmdir ${MANDA_OBJ_DIR} ${BONUS_OBJ_DIR} ${COMN_OBJ_DIR}
 			@ echo "\rEverything removed.\033[K"
 				
 #####################################
@@ -203,11 +204,11 @@ fclean:			clean ${addprefix clean_,${dir ${ALL_LIBS}}} clean_exe clean_bonus
 #####################################
 
 ${COMN_OBJ_DIR}:
-			mkdir ${COMN_OBJ_DIR}
+			${SILENT} mkdir ${COMN_OBJ_DIR}
 ${BONUS_OBJ_DIR}:
-			mkdir ${BONUS_OBJ_DIR}
+			${SILENT} mkdir ${BONUS_OBJ_DIR}
 ${MANDA_OBJ_DIR}:
-			mkdir ${MANDA_OBJ_DIR}
+			${SILENT} mkdir ${MANDA_OBJ_DIR}
 
 start:				
 			${SILENT} mkdir -p sources/common/objects
