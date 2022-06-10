@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/06/09 19:36:11 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/06/10 14:24:36 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -104,8 +104,8 @@ BONUS_INCLUDE		=	-I${BONUS_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},$
 
 CC_FLAGS			=	${COMN_INCLUDE} -MMD #-Wall -Werror -Wextra
 RM					=	rm -f
-SLEEP_TIME			=	0.2
-SILENT				=	
+SLEEP_TIME			=	0.1
+SILENT				=	@
 
 ################################################################################
 #																			   #
@@ -122,8 +122,8 @@ SILENT				=
 all:				mandatory bonus
 re:					fclean all
 
-mandatory:			${NAME}
-bonus:				checker
+mandatory:			${COMN_OBJ_DIR} ${MANDA_OBJ_DIR} ${NAME}
+bonus:				${COMN_OBJ_DIR} ${BONUS_OBJ_DIR} checker
 
 #####################################
 #									#
@@ -148,7 +148,7 @@ ${BONUS_OBJ_DIR}%.o:	${addprefix ${BONUS_DIR}, %.c}
 			@ sleep ${SLEEP_TIME}
 			
 #LIBS#
-${addprefix ${LIB_DIR}, ${ALL_LIBS}}:
+${addprefix ${LIB_DIR}, ${COMN_LIBS}}:
 			@ echo  "\rCreating \"${notdir $@}\".\033[K\c"
 			${SILENT} make -sC $(@D)
 			@ echo "\rLibrary \"${notdir $@}\" created\033[K"
@@ -183,7 +183,7 @@ clean_bonus:
 			${SILENT} ${RM} ${BONUS_OBJS} ${DEPENDS}
 			@ sleep ${SLEEP_TIME}
 
-${addprefix clean_,${dir ${ALL_LIBS}}}:
+${addprefix clean_,${dir ${COMN_LIBS}}}:
 			@ echo "\rRemoving libraries (${patsubst clean_%,%, $@}).\033[K\c"
 			${SILENT} make fclean -sC ${patsubst clean_%, libraries/%, $@}
 			@ sleep ${SLEEP_TIME}
@@ -202,10 +202,12 @@ fclean:			clean ${addprefix clean_,${dir ${ALL_LIBS}}} clean_exe clean_bonus
 #									#
 #####################################
 
-${OBJECTS_DIR}:
-			mkdir ${OBJECTS_DIR}
-${BONUS_OBJECTS_DIR}:
-			mkdir ${BONUS_OBJECTS_DIR}
+${COMN_OBJ_DIR}:
+			mkdir ${COMN_OBJ_DIR}
+${BONUS_OBJ_DIR}:
+			mkdir ${BONUS_OBJ_DIR}
+${MANDA_OBJ_DIR}:
+			mkdir ${MANDA_OBJ_DIR}
 
 start:				
 			${SILENT} mkdir -p sources/common/objects
