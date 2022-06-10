@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 17:49:45 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/11 01:49:38 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/11 01:54:41 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,6 @@ void		set_id(char *string, t_l_list *node);
 void		set_move(char *string, t_l_list *node);
 t_l_list	*read_input(t_stack *stacks);
 t_l_list	*chose_move(char *string, t_l_list *list, t_stack *stacks);
-int		ft_find_chara(char *string, int chara);
+int			ft_find_chara(char *string, int chara);
 
 #endif /* PS_BONUS_PARSE_INPUT_H */
