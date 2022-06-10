@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/29 17:52:54 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/09 17:40:23 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/11 01:48:13 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,4 @@ t_bool	ft_strcmp(char *s1, char *s2)
 		return (TRUE);
 	else
 		return (FALSE);
-}
-
-void	free_and_exit(void **ptr)
-{
-	ft_free_ptr(ptr);
-	error();
 }

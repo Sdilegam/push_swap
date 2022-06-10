@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/06 22:38:27 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/09 19:35:54 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/11 01:38:18 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,8 @@ t_bool	check_item_in(int index, t_stack stack)
 	int	i;
 	int	*list;
 	int	start;
-	int	number;
 
 	list = stack.stack;
-	number = -1;
 	i = -1;
 	start = get_index(stack, stack.lim.first);
 	while (start + ++i != index)

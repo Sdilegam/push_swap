@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/06/10 14:35:25 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/06/11 01:50:26 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -68,7 +68,6 @@ MANDA_SRCS			=	ps_manda_utils.c\
 						ps_print_rotate.c\
 						ps_print_swap.c\
 						ps_sort_algorithm.c\
-						ps_sorting_utils.c\
 						push_swap.c\
 						ps_get_next_change.c\
 						ps_best_start.c
@@ -97,13 +96,13 @@ EXECUTABLES			=	${NAME} checker #Modify if other executables needed#
 #									#
 #####################################
 
-CC					=	gcc
+CC					=	cc
 COMN_INCLUDE		=	-Iincludes -I${COMN_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},${dir ${COMN_LIBS}}}}
 MANDA_INCLUDE		=	-I${MANDA_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}}
 BONUS_INCLUDE		=	-I${BONUS_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},${dir ${BONUS_LIBS}}}}
 
-CC_FLAGS			=	${COMN_INCLUDE} -MMD #-Wall -Werror -Wextra
-RM					=	rm -f
+CC_FLAGS			=	${COMN_INCLUDE} -MMD -Wall -Werror -Wextra
+RM					=	rm -rf
 SLEEP_TIME			=	0.1
 SILENT				=	@
 
@@ -134,17 +133,17 @@ bonus:				${COMN_OBJ_DIR} ${BONUS_OBJ_DIR} checker
 #OBJECTS#
 ${COMN_OBJ_DIR}%.o:	${addprefix ${COMN_DIR}, %.c} 
 			@ echo  "\rCreating common \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${COMN_INCLUDE} -c $< -o ${COMN_OBJ_DIR}${@F:.c=.o} -g
+			${SILENT} ${CC} ${CC_FLAGS} ${COMN_INCLUDE} -c $< -o ${COMN_OBJ_DIR}${@F:.c=.o}
 			@ sleep ${SLEEP_TIME}
 			
 ${MANDA_OBJ_DIR}%.o:	${addprefix ${MANDA_DIR}, %.c}
 			@ echo  "\rCreating mandatory \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${MANDA_INCLUDE} -c $< -o ${MANDA_OBJ_DIR}${@F:.c=.o} -g
+			${SILENT} ${CC} ${CC_FLAGS} ${MANDA_INCLUDE} -c $< -o ${MANDA_OBJ_DIR}${@F:.c=.o}
 			@ sleep ${SLEEP_TIME}
 			
 ${BONUS_OBJ_DIR}%.o:	${addprefix ${BONUS_DIR}, %.c}
 			@ echo  "\rCreating bonus \"${@F:.c=.o}\" object file.\033[K\c"
-			${SILENT} ${CC} ${CC_FLAGS} ${BONUS_INCLUDE} -c $< -o ${BONUS_OBJ_DIR}${@F:.c=.o} -g
+			${SILENT} ${CC} ${CC_FLAGS} ${BONUS_INCLUDE} -c $< -o ${BONUS_OBJ_DIR}${@F:.c=.o}
 			@ sleep ${SLEEP_TIME}
 			
 #LIBS#
@@ -156,7 +155,7 @@ ${addprefix ${LIB_DIR}, ${COMN_LIBS}}:
 #EXECUTABLES#
 ${NAME}:				${OBJECTS_DIR} ${addprefix ${LIB_DIR}, ${MANDA_LIBS}} ${COMN_OBJS} ${MANDA_OBJS}
 			@ echo "\r\"$@\" executable created\033[K"
-			${SILENT} ${CC} ${COMN_OBJS} ${MANDA_OBJS} -o $@ ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${MANDA_LIBS}}}} -g
+			${SILENT} ${CC} ${COMN_OBJS} ${MANDA_OBJS} -o $@ ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${MANDA_LIBS}}}}
 			@ sleep ${SLEEP_TIME}
 			
 checker:			${BONUS_OBJECTS_DIR} ${addprefix ${LIB_DIR}, ${BONUS_LIBS}} ${COMN_OBJS} ${BONUS_OBJS}
@@ -194,7 +193,7 @@ clean_exe:
 			@ sleep ${SLEEP_TIME}
 
 fclean:			clean ${addprefix clean_,${dir ${ALL_LIBS}}} clean_exe clean_bonus
-			${SILENT} rmdir ${MANDA_OBJ_DIR} ${BONUS_OBJ_DIR} ${COMN_OBJ_DIR}
+			${SILENT} ${RM} ${MANDA_OBJ_DIR} ${BONUS_OBJ_DIR} ${COMN_OBJ_DIR}
 			@ echo "\rEverything removed.\033[K"
 				
 #####################################
