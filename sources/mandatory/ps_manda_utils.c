@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 08:18:19 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/09 19:01:33 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/11 02:04:57 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,18 +28,18 @@ t_stack	*copy_stacks(t_stack *stack_from)
 	new_stack = malloc(sizeof(t_stack) * 2);
 	if (new_stack)
 	{
-		new_stack[0].stack = malloc(sizeof(int) * stack_from[0].length);
-		new_stack[1].stack = malloc(sizeof(int) * stack_from[1].length);
+		new_stack[A].stack = malloc(sizeof(int) * stack_from[A].length);
+		new_stack[B].stack = malloc(sizeof(int) * stack_from[B].length);
 	}
-	if (!new_stack || !new_stack[0].stack || !new_stack[1].stack)
+	if (!new_stack || !new_stack[A].stack || !new_stack[B].stack)
 	{
 		free_stacks(&new_stack);
 		safe_exit(&stack_from);
 	}
-	new_stack[0].length = stack_from[0].length;
-	new_stack[1].length = stack_from[1].length;
-	copy_stack(new_stack[0].stack, stack_from[0].stack, stack_from[0].length);
-	copy_stack(new_stack[1].stack, stack_from[1].stack, stack_from[1].length);
+	new_stack[A].length = stack_from[A].length;
+	new_stack[B].length = stack_from[B].length;
+	copy_stack(new_stack[A].stack, stack_from[A].stack, stack_from[A].length);
+	copy_stack(new_stack[B].stack, stack_from[B].stack, stack_from[B].length);
 	return (new_stack);
 }
 

@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 09:58:50 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/06 17:23:35 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/11 02:04:09 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,9 +58,9 @@ int	move_to(t_moves steps, t_stack *stack, t_functions f)
 		if (index < abs(steps.a) && index < abs(steps.b))
 			rotate_both(stack, 0);
 		else if (index < abs(steps.a))
-			rotate(stack, 0);
+			rotate(stack, A);
 		else if (index < abs(steps.b))
-			rotate(stack, 1);
+			rotate(stack, B);
 	}
 	return (index);
 }

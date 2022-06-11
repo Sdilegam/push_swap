@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/29 17:07:37 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/10 14:03:14 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/11 02:10:07 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,14 +16,14 @@ t_bool	checker(t_stack *stacks)
 {
 	int	index;
 
-	if (stacks[1].length != 0)
+	if (stacks[B].length != 0)
 		return (FALSE);
 	index = -1;
-	if (stacks[0].length > 1)
+	if (stacks[A].length > 1)
 	{
-		while (++index < stacks[0].length - 1)
+		while (++index < stacks[A].length - 1)
 		{
-			if (stacks[0].stack[index] > stacks[0].stack[index + 1])
+			if (stacks[A].stack[index] > stacks[A].stack[index + 1])
 				return (FALSE);
 		}
 	}

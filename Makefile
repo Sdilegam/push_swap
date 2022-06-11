@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/06/11 01:50:26 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/06/11 02:07:19 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -103,7 +103,7 @@ BONUS_INCLUDE		=	-I${BONUS_DIR}headers/ ${addprefix -I, ${addprefix ${LIB_DIR},$
 
 CC_FLAGS			=	${COMN_INCLUDE} -MMD -Wall -Werror -Wextra
 RM					=	rm -rf
-SLEEP_TIME			=	0.1
+SLEEP_TIME			=	0.05
 SILENT				=	@
 
 ################################################################################

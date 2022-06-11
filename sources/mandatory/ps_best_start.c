@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 19:17:09 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/09 20:17:14 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/11 02:06:15 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	one_way(t_stack *stacks, t_stack *t_stacks, int answer[0][2])
 		copy_stack(t_stacks->stack, stacks->stack, stacks->length);
 		index = -1;
 		while (++index <= offset)
-			rev_rotate(t_stacks, 0);
+			rev_rotate(t_stacks, A);
 		temp = sort(t_stacks, get_functions(0));
 		if (temp + offset + 1 < answer[0][1])
 		{
@@ -46,7 +46,7 @@ void	or_another(t_stack *stacks, t_stack *t_stacks, int answer[0][2])
 		copy_stack(t_stacks->stack, stacks->stack, stacks->length);
 		index = -1;
 		while (++index < offset)
-			rotate(t_stacks, 0);
+			rotate(t_stacks, A);
 		temp = sort(t_stacks, get_functions(0));
 		if (temp + offset + 1 < answer[0][1])
 		{
