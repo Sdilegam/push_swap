@@ -6,7 +6,7 @@
 #    By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/25 11:25:36 by sdi-lega          #+#    #+#              #
-#    Updated: 2022/06/11 02:07:19 by sdi-lega         ###   ########.fr        #
+#    Updated: 2022/06/11 17:18:35 by sdi-lega         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -121,8 +121,8 @@ SILENT				=	@
 all:				mandatory bonus
 re:					fclean all
 
-mandatory:			${COMN_OBJ_DIR} ${MANDA_OBJ_DIR} ${NAME}
-bonus:				${COMN_OBJ_DIR} ${BONUS_OBJ_DIR} checker
+mandatory:			${NAME}
+bonus:				checker
 
 #####################################
 #									#
@@ -153,12 +153,12 @@ ${addprefix ${LIB_DIR}, ${COMN_LIBS}}:
 			@ echo "\rLibrary \"${notdir $@}\" created\033[K"
 
 #EXECUTABLES#
-${NAME}:				${OBJECTS_DIR} ${addprefix ${LIB_DIR}, ${MANDA_LIBS}} ${COMN_OBJS} ${MANDA_OBJS}
+${NAME}:				${OBJECTS_DIR} ${COMN_OBJ_DIR} ${MANDA_OBJ_DIR} ${addprefix ${LIB_DIR}, ${MANDA_LIBS}} ${COMN_OBJS} ${MANDA_OBJS}
 			@ echo "\r\"$@\" executable created\033[K"
 			${SILENT} ${CC} ${COMN_OBJS} ${MANDA_OBJS} -o $@ ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${MANDA_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${MANDA_LIBS}}}}
 			@ sleep ${SLEEP_TIME}
 			
-checker:			${BONUS_OBJECTS_DIR} ${addprefix ${LIB_DIR}, ${BONUS_LIBS}} ${COMN_OBJS} ${BONUS_OBJS}
+checker:			${BONUS_OBJECTS_DIR} ${COMN_OBJ_DIR} ${BONUS_OBJ_DIR} ${addprefix ${LIB_DIR}, ${BONUS_LIBS}} ${COMN_OBJS} ${BONUS_OBJS} ${COMN_OBJ_DIR} ${BONUS_OBJ_DIR}
 			@ echo "\r\"$@\" executable created\033[K"
 			${SILENT} ${CC} ${COMN_OBJS} ${BONUS_OBJS} -o $@ ${addprefix -L, ${addprefix ${LIB_DIR},${dir ${BONUS_LIBS}}}} ${addprefix -l, ${patsubst lib%.a, %, ${notdir ${BONUS_LIBS}}}}
 			@ sleep ${SLEEP_TIME}
@@ -208,6 +208,8 @@ ${BONUS_OBJ_DIR}:
 			${SILENT} mkdir ${BONUS_OBJ_DIR}
 ${MANDA_OBJ_DIR}:
 			${SILENT} mkdir ${MANDA_OBJ_DIR}
+${OBJECTS_DIR}:
+			${SILENT} mkdir ${OBJECTS_DIR}
 
 start:				
 			${SILENT} mkdir -p sources/common/objects

@@ -6,11 +6,37 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/06 22:38:27 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/11 02:02:38 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/11 17:14:36 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "manda_index.h"
+
+t_bool	check_item_2(int index, t_stack stack)
+{
+	int	i;
+	int	*list;
+	int	start;
+	int	number;
+
+	list = stack.stack;
+	i = -1;
+	number = -1;
+	start = get_index(stack, stack.lim.last);
+	while (start - ++i != index)
+	{
+		if (list[index] > list[start - i])
+			number ++;
+		if (start - i == 0)
+		{
+			start = stack.length;
+			i = 0;
+		}
+	}
+	if (number > 1)
+		return (FALSE);
+	return (TRUE);
+}
 
 t_bool	check_item_in(int index, t_stack stack)
 {
@@ -19,6 +45,8 @@ t_bool	check_item_in(int index, t_stack stack)
 	int	start;
 
 	list = stack.stack;
+	if (check_item_2(index, stack) == FALSE)
+		return (FALSE);
 	i = -1;
 	start = get_index(stack, stack.lim.first);
 	while (start + ++i != index)

@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 17:37:47 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/09 18:15:31 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/11 15:24:31 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,11 +69,6 @@ t_l_list	*chose_move(char *string, t_l_list *list, t_stack *stacks)
 		return (0);
 	set_id(string, instructions);
 	set_move(string, instructions);
-	if (string[0] == '\n')
-	{
-		ft_free_ptr((void **)&instructions);
-		return (0);
-	}
 	if (!instructions->move)
 	{
 		ft_free_ptr((void **)&string);

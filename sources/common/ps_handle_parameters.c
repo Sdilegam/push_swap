@@ -6,7 +6,7 @@
 /*   By: sdi-lega <sdi-lega@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/26 14:58:59 by sdi-lega          #+#    #+#             */
-/*   Updated: 2022/06/08 06:00:34 by sdi-lega         ###   ########.fr       */
+/*   Updated: 2022/06/11 15:18:18 by sdi-lega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,10 @@ void	are_parameters_ok(int argc, char *argv[])
 		exit (0);
 	while (argv[++number])
 	{	
+		if (!argv[number][0])
+			error();
 		while (argv[number][++digit])
-		{
+		{	
 			if (is_digit(argv[number][digit]) == FALSE)
 			{
 				if (digit != 0 || argv[number][digit] != '-' || \
@@ -57,10 +59,10 @@ int	parameters_handler(char *string)
 	{
 		number *= 10;
 		number += string[index] - '0';
+		if (number > MAX_INT || number < MIN_INT)
+			error ();
 	}
 	if (negative == TRUE)
 		number *= -1;
-	if (number > MAX_INT || number < MIN_INT)
-		error ();
 	return (number);
 }
